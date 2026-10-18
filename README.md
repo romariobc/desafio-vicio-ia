@@ -10,14 +10,6 @@ Este repositório registra o que executei para classificar as **359 questões** 
 
 > **Limite da reprodução:** o comando reconstrói o processamento e as avaliações a partir das decisões de inferência registradas. Ele não chama novamente o GPT. A interpretação das questões ocorreu na conversa do Codex Desktop; os registros dessa interpretação estão em arquivos PSV. O serviço de inferência para novos lotes é uma evolução proposta, não uma automação já executada.
 
-## Consulte pelo celular
-
-- [Relatório para leitura no GitHub](RELATORIO.md) — cópia textual da versão editável.
-- [Relatório em Word](RELATORIO.docx) — cinco páginas; ainda sujeito à revisão do autor antes da conversão final para PDF.
-- [publicacao.csv](publicacao.csv) — as 359 decisões no contrato solicitado.
-- [previsao.txt](previsao.txt) — previsão original e seus intervalos, preservados.
-- [Consolidação da adjudicação](execucao/experimentos/avaliacao-cega-30/adjudicacao_83086937fc69/CONSOLIDACAO.md) — resultado e limitações.
-
 ## Requisitos
 
 - Python **3.10 ou superior**, com biblioteca padrão. Python 3.12 é a versão usada na integração contínua.
