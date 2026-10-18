@@ -1,0 +1,335 @@
+{
+  "calibracao": {
+    "r1": {
+      "total_lote": 359,
+      "decisoes": {
+        "revisar": 108,
+        "publicar": 246,
+        "fora": 5
+      },
+      "cobertura": 0.6852367688022284,
+      "abstencao_total": 0.3147632311977716,
+      "fila_revisao": 0.3008356545961003,
+      "exclusao": 0.013927576601671309,
+      "referencia_toda": {
+        "referencias_recebidas": 42,
+        "referencias_completas": 39,
+        "referencias_inconclusivas": 3,
+        "acertos_ramo": 37,
+        "precisao_ramo": 0.9487179487179487,
+        "acertos_exatos": 30,
+        "acerto_exato": 0.7692307692307693,
+        "wilson_95_condicional": [
+          0.8311406095436208,
+          0.9858223423536004
+        ],
+        "repeticoes_de_rotulo_rejeitado": 2,
+        "n_avaliaveis_incluindo_rejeicoes": 41,
+        "precisao_incluindo_rejeicoes_conhecidas": 0.9024390243902439,
+        "desconhecidos_apos_rejeicoes": 1,
+        "brier_central_n": 36,
+        "brier_central": 0.054697222222222217,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "publicadas_na_referencia": {
+        "referencias_recebidas": 27,
+        "referencias_completas": 26,
+        "referencias_inconclusivas": 1,
+        "acertos_ramo": 24,
+        "precisao_ramo": 0.9230769230769231,
+        "acertos_exatos": 21,
+        "acerto_exato": 0.8076923076923077,
+        "wilson_95_condicional": [
+          0.7585805251948495,
+          0.9786453608166245
+        ],
+        "repeticoes_de_rotulo_rejeitado": 1,
+        "n_avaliaveis_incluindo_rejeicoes": 27,
+        "precisao_incluindo_rejeicoes_conhecidas": 0.8888888888888888,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 26,
+        "brier_central": 0.07218846153846153,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "observacao": "Precisão restrita à referência dirigida e ancorada; não estima sem viés o gabarito oficial."
+    },
+    "r3": {
+      "total_lote": 359,
+      "decisoes": {
+        "publicar": 316,
+        "fora": 4,
+        "revisar": 39
+      },
+      "cobertura": 0.8802228412256268,
+      "abstencao_total": 0.11977715877437325,
+      "fila_revisao": 0.10863509749303621,
+      "exclusao": 0.011142061281337047,
+      "referencia_toda": {
+        "referencias_recebidas": 42,
+        "referencias_completas": 39,
+        "referencias_inconclusivas": 3,
+        "acertos_ramo": 39,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 32,
+        "acerto_exato": 0.8205128205128205,
+        "wilson_95_condicional": [
+          0.9103301463997611,
+          1
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 39,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 3,
+        "brier_central_n": 36,
+        "brier_central": 0.002850183988500001,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "publicadas_na_referencia": {
+        "referencias_recebidas": 36,
+        "referencias_completas": 36,
+        "referencias_inconclusivas": 0,
+        "acertos_ramo": 36,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 29,
+        "acerto_exato": 0.8055555555555556,
+        "wilson_95_condicional": [
+          0.9035781695514236,
+          1
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 36,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 36,
+        "brier_central": 0.002850183988500001,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "observacao": "Precisão restrita à referência dirigida e ancorada; não estima sem viés o gabarito oficial."
+    }
+  },
+  "avaliacao_reservada": {
+    "r1": {
+      "total_lote": 359,
+      "decisoes": {
+        "revisar": 108,
+        "publicar": 246,
+        "fora": 5
+      },
+      "cobertura": 0.6852367688022284,
+      "abstencao_total": 0.3147632311977716,
+      "fila_revisao": 0.3008356545961003,
+      "exclusao": 0.013927576601671309,
+      "referencia_toda": {
+        "referencias_recebidas": 18,
+        "referencias_completas": 18,
+        "referencias_inconclusivas": 0,
+        "acertos_ramo": 18,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 16,
+        "acerto_exato": 0.8888888888888888,
+        "wilson_95_condicional": [
+          0.8241154494176252,
+          1
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 18,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 17,
+        "brier_central": 0.01697058823529412,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "publicadas_na_referencia": {
+        "referencias_recebidas": 14,
+        "referencias_completas": 14,
+        "referencias_inconclusivas": 0,
+        "acertos_ramo": 14,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 14,
+        "acerto_exato": 1.0,
+        "wilson_95_condicional": [
+          0.7846829880728186,
+          1
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 14,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 14,
+        "brier_central": 0.00045714285714285795,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "observacao": "Precisão restrita à referência dirigida e ancorada; não estima sem viés o gabarito oficial."
+    },
+    "r3": {
+      "total_lote": 359,
+      "decisoes": {
+        "publicar": 316,
+        "fora": 4,
+        "revisar": 39
+      },
+      "cobertura": 0.8802228412256268,
+      "abstencao_total": 0.11977715877437325,
+      "fila_revisao": 0.10863509749303621,
+      "exclusao": 0.011142061281337047,
+      "referencia_toda": {
+        "referencias_recebidas": 18,
+        "referencias_completas": 18,
+        "referencias_inconclusivas": 0,
+        "acertos_ramo": 18,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 16,
+        "acerto_exato": 0.8888888888888888,
+        "wilson_95_condicional": [
+          0.8241154494176252,
+          1
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 18,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 17,
+        "brier_central": 0.016573272642470587,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "publicadas_na_referencia": {
+        "referencias_recebidas": 16,
+        "referencias_completas": 16,
+        "referencias_inconclusivas": 0,
+        "acertos_ramo": 16,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 15,
+        "acerto_exato": 0.9375,
+        "wilson_95_condicional": [
+          0.8063865817272802,
+          1
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 16,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 16,
+        "brier_central": 0.0019841021826250012,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "observacao": "Precisão restrita à referência dirigida e ancorada; não estima sem viés o gabarito oficial."
+    }
+  },
+  "referencia_completa_descritiva": {
+    "r1": {
+      "total_lote": 359,
+      "decisoes": {
+        "revisar": 108,
+        "publicar": 246,
+        "fora": 5
+      },
+      "cobertura": 0.6852367688022284,
+      "abstencao_total": 0.3147632311977716,
+      "fila_revisao": 0.3008356545961003,
+      "exclusao": 0.013927576601671309,
+      "referencia_toda": {
+        "referencias_recebidas": 60,
+        "referencias_completas": 57,
+        "referencias_inconclusivas": 3,
+        "acertos_ramo": 55,
+        "precisao_ramo": 0.9649122807017544,
+        "acertos_exatos": 46,
+        "acerto_exato": 0.8070175438596491,
+        "wilson_95_condicional": [
+          0.8807899619581051,
+          0.9903245386467442
+        ],
+        "repeticoes_de_rotulo_rejeitado": 2,
+        "n_avaliaveis_incluindo_rejeicoes": 59,
+        "precisao_incluindo_rejeicoes_conhecidas": 0.9322033898305084,
+        "desconhecidos_apos_rejeicoes": 1,
+        "brier_central_n": 53,
+        "brier_central": 0.04259622641509434,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "publicadas_na_referencia": {
+        "referencias_recebidas": 41,
+        "referencias_completas": 40,
+        "referencias_inconclusivas": 1,
+        "acertos_ramo": 38,
+        "precisao_ramo": 0.95,
+        "acertos_exatos": 35,
+        "acerto_exato": 0.875,
+        "wilson_95_condicional": [
+          0.834958291820748,
+          0.9861796228538989
+        ],
+        "repeticoes_de_rotulo_rejeitado": 1,
+        "n_avaliaveis_incluindo_rejeicoes": 41,
+        "precisao_incluindo_rejeicoes_conhecidas": 0.926829268292683,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 40,
+        "brier_central": 0.0470825,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "observacao": "Precisão restrita à referência dirigida e ancorada; não estima sem viés o gabarito oficial."
+    },
+    "r3": {
+      "total_lote": 359,
+      "decisoes": {
+        "publicar": 316,
+        "fora": 4,
+        "revisar": 39
+      },
+      "cobertura": 0.8802228412256268,
+      "abstencao_total": 0.11977715877437325,
+      "fila_revisao": 0.10863509749303621,
+      "exclusao": 0.011142061281337047,
+      "referencia_toda": {
+        "referencias_recebidas": 60,
+        "referencias_completas": 57,
+        "referencias_inconclusivas": 3,
+        "acertos_ramo": 57,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 48,
+        "acerto_exato": 0.8421052631578947,
+        "wilson_95_condicional": [
+          0.936858991216536,
+          0.9999999999999999
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 57,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 3,
+        "brier_central_n": 53,
+        "brier_central": 0.007251929405811321,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "publicadas_na_referencia": {
+        "referencias_recebidas": 52,
+        "referencias_completas": 52,
+        "referencias_inconclusivas": 0,
+        "acertos_ramo": 52,
+        "precisao_ramo": 1.0,
+        "acertos_exatos": 44,
+        "acerto_exato": 0.8461538461538461,
+        "wilson_95_condicional": [
+          0.9312054095871178,
+          1
+        ],
+        "repeticoes_de_rotulo_rejeitado": 0,
+        "n_avaliaveis_incluindo_rejeicoes": 52,
+        "precisao_incluindo_rejeicoes_conhecidas": 1.0,
+        "desconhecidos_apos_rejeicoes": 0,
+        "brier_central_n": 52,
+        "brier_central": 0.0025836972790000013,
+        "brier_exclui_predicoes_fora": "Sem tema central, a confiança do tema é zero por contrato; não é probabilidade de exclusão correta."
+      },
+      "observacao": "Precisão restrita à referência dirigida e ancorada; não estima sem viés o gabarito oficial."
+    }
+  },
+  "r1_e_r3_concordancia": 0.9637883008356546,
+  "alteracoes_semanticas": 15,
+  "r3_vs_r1_temas_alterados": 13,
+  "meta_oficial_comprovada": false,
+  "risco_ancoragem_aceito": true,
+  "selecao_referencia_probabilistica": false,
+  "avaliacao_correcoes_calibracao_nao_e_generalizacao": true,
+  "meta_pontual_referencia_reservada": true,
+  "limite_inferior_wilson_reservado_ge_95": false
+}

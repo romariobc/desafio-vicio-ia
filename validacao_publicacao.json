@@ -1,0 +1,27 @@
+{
+  "hashes_identicos": true,
+  "entrega_sha256": {
+    "publicacao.csv": "8fa02999992a217da3173f0af82f0616128e6a1d843ad86cdea476ca4a986ffc",
+    "previsao.txt": "5033d4bf175080910ab659139aadc570a75880556a962c9bb80713f2e315f5c7"
+  },
+  "questoes": 359,
+  "decisoes": {
+    "publicar": 316,
+    "fora": 4,
+    "revisar": 39
+  },
+  "cobertura": 0.8802228412256268,
+  "cega_publicadas": {
+    "acertos": 14,
+    "n": 26
+  },
+  "adjudicada_publicadas": {
+    "acertos": 25,
+    "n": 26
+  },
+  "testes_pipeline_aprovados": 13,
+  "segundos_sem_inferencia_gpt": 1.2734,
+  "nova_inferencia_executada": false,
+  "api_inferencia_chamada": false,
+  "entradas_congeladas_verificadas": 29
+}

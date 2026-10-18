@@ -1,0 +1,3 @@
+# Preparação, referência, pós-processamento, métricas e testes: apenas biblioteca padrão do Python >=3.10.
+# A extração inicial do PDF utilizou pypdf do runtime já disponível; o texto extraído está em fontes/.
+# Não existe dependência de SDK/API para reproduzir esta execução GPT registrada.

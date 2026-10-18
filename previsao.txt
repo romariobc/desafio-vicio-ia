@@ -1,0 +1,7 @@
+precisao_prevista: 0.9537
+precisao_intervalo: 0.9036-1.0000
+cobertura_prevista: 0.8802
+cobertura_intervalo: 0.8802-0.8802
+
+Previsão pontual = média das probabilidades obtidas com referência de calibração, bins fixos, prior Beta(1,1) e PAVA. Intervalo Wilson calculado sobre acertos das publicadas na CALIBRAÇÃO; é descritivo e otimista após seleção de corte, não intervalo válido de generalização. A seleção original é dirigida e a revisão ancorada, riscos aceitos pelo usuário. A referência não é o gabarito oficial. Se não há publicadas, precisão é indefinida e zero é sentinela do formato.
+Cobertura é exata neste lote de 359, não previsão para novos lotes. Abstenção = revisar + fora. Resultados da partição reservada estão separados em resultados/metricas.json; não foram usados para escolher o corte.

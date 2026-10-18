@@ -1,0 +1,201 @@
+
+Q0151 | No que diz respeito às prisões e medidas cautelares no processo penal, assinale a alternativa CORRETA: | COMANDO: Assinale a alternativa correta.
+A: O juiz poderá substituir a prisão preventiva pela domiciliar quando o suposto autor do fato delituoso for maior de 70 (setenta) anos de idade ou estiver extremamente debilitado por motivo de doença grave.
+B: Em respeito ao princípio da proporcionalidade das medidas cautelares, a fiança, segundo as regras do Código de Processo Penal, quando estabelecida em seu valor máximo, não poderá ser cumulada com outras medidas cautelares diversas da prisão preventiva.
+C: Se assim recomendar a situação econômica do preso, a fiança poderá ser aumentada em até 1.000 (mil) vezes.
+D: De acordo com o novo regramento destinado à prisão cautelar, o Código de Processo Penal passou a estabelecer a prisão temporária como uma das hipóteses das denominadas prisões cautelares estritamente processuais.
+E: É pacífico o entendimento da doutrina quanto à natureza jurídica precautelar da prisão em flagrante, o que tem sido confirmado pela jurisprudência do Superior Tribunal de Justiça.
+
+Q0152 | Nos crimes de ação privada, se comparecer mais de uma pessoa com direito de queixa, terá preferência, numa ordem legal estabelecida pelo artigo 31 do Código de Processo Penal, | COMANDO: Complete a frase ou explique a ordem de preferência estabelecida pelo artigo 31 do Código de Processo Penal.
+A: o parente mais próximo na ordem de vocação sucessória.
+B: o cônjuge, que poderá prosseguir na ação penal.
+C: a figura do ascendente, em face dos vínculos fraternos.
+D: a figura do descendente, com o direito de apenas prosseguir.
+E: o representante legalmente constituído para o fim.
+
+Q0153 | O agente que imagina já ter obtido o resultado pensado por ele, sem tê-lo alcançado, e, por isso, pratica outra conduta que efetivamente alcança o objetivo primário realiza a conduta em dolo | COMANDO: Assinale a alternativa correta.
+A: geral.
+B: de segundo grau.
+C: eventual.
+D: alternativo.
+E: cumulativo.
+
+Q0154 | A Lei no 9.029/95, que define práticas discriminatórias relativas à gravidez no trabalho, expressamente considera crime: | COMANDO: Complete a frase ou responda o que a lei considera crime em relação à gravidez no trabalho.
+A: discriminação salarial de grávida.
+B: exigência de teste relativo à esterilização ou a estado\nde gravidez.
+C: estabelecimento de jornada de trabalho superior a\n8h para grávida a partir da 20a \n semana de gestação.
+D: exposição da grávida a trabalhos braçais excessivos.
+E: vedação ao gozo da licença maternidade.
+
+Q0155 | Sobre o Regime Disciplinar Diferenciado, segundo a legislação aplicável, assinale a alternativa correta: | COMANDO: Assinale a alternativa correta.
+A: Tem duração de 2 anos, prorrogáveis uma única vez, por igual\nperíodo.
+B: É cabível para membro de associação criminosa,\nindependentemente de cometimento de falta grave.
+C: Todas as entrevistas são monitoradas.
+D: É cumprido sempre em estabelecimento penitenciário federal.
+E: Não é cabível em caso de prisão cautelar.
+
+Q0156 | De acordo com a Lei n° 9.605/98, que dispõe sobre sanções penais e administrativas derivadas de condutas e atividades lesivas ao meio ambiente, | COMANDO: Complete a questão conforme o enunciado.
+A: a suspensão condicional da pena pode ser aplicada nos casos de condenação a pena privativa de liberdade não superior a 2 (dois) anos.
+B: aplicável à pessoa jurídica a pena restritiva de direitos de suspensão parcial de atividades, vedada a suspensão total.
+C: o baixo grau de instrução ou escolaridade do agente é causa de isenção da pena.
+D: constitui pena de interdição temporária de direito a proibição de o condenado contratar com o Poder Público pelo prazo de 3 (três) anos, no caso de crimes culposos.
+E: não é crime o abate de animal em razão de seu caráter nocivo, a critério do Magistrado.
+
+Q0157 | A prisão temporária decretada no curso de inquérito policial instaurado para investigar crime de epidemia com resultado morte, artigo 267, § 1º, do Código Penal, tem prazo limite de | COMANDO: Complete a frase com o prazo limite correto da prisão temporária.
+A: cinco dias prorrogáveis por mais cinco.
+B: dez dias prorrogáveis por mais dez.
+C: quinze dias prorrogáveis por mais quinze.
+D: vinte dias prorrogáveis por mais vinte.
+E: trinta dias prorrogáveis por mais trinta.
+
+Q0158 | Considere a seguinte situação hipotética: João, agente público, foi processado e, ao final, condenado à pena de reclusão, por dezenove anos, iniciada em regime fechado, pela prática do crime de tortura, com resultado morte, contra Raimundo. Nos termos da Lei no 9.455, de 7 de abril de 1997, essa condenação acarretará a perda do cargo, função ou emprego público | COMANDO: Assinale a alternativa correta.
+A: e a interdição para seu exercício pelo dobro do prazo\nda pena aplicada.
+B: e a interdição para seu exercício pelo triplo do prazo\nda pena aplicada.
+C: e a interdição para seu exercício pelo tempo da pena\naplicada.
+D: desde que o juiz proceda à fundamentação específica.
+E: como efeito necessário, mas não automático.
+
+Q0159 | Caio, desejando matar Túlio, dispara projéteis de arma de fogo contra seu desafeto. Túlio, alvejado, cai e permanece inerte no chão enquanto Caio retira-se do local. Observando a cena, Lívio aproxima-se com intenção de despojar a vítima de seus bens e, ao retirar o relógio, nota que Túlio esboça reação quando, então, Lívio utiliza uma pedra para acertar-lhe a cabeça. Túlio vem a óbito e no exame cadavérico o legista atesta que a morte ocorreu por concussão cerebral. | COMANDO: No caso, responderão Caio e Lívio, respectivamente, por:
+A: homicídio consumado e roubo próprio.
+B: homicídio tentado e latrocínio.
+C: homicídio tentado e roubo impróprio.
+D: homicídio consumado e latrocínio.
+
+Q0160 | Julgue o item subsequente, acerca do instituto da pena. É inadmissível a substituição de pena privativa de liberdade por restritiva de direitos ao réu reincidente, ainda que a substituição seja socialmente recomendável e se trate de reincidência genérica. | COMANDO: Julgue o item subsequente, acerca do instituto da pena.
+C: Certo
+E: Errado
+
+Q0161 | Analise o caso hipotético a seguir. Durante patrulhamento ostensivo em uma região da cidade conhecida pelo intenso tráfico de drogas, policiais militares abordaram um indivíduo que se encontrava sozinho na rua. Após busca pessoal, na qual nada de suspeito foi encontrado, os policiais conduziram o indivíduo até a residência dele e, sem autorização judicial ou do morador do domicílio, entraram no local e realizaram busca domiciliar. Encontraram no local uma pequena quantidade de maconha. Deram, então, voz de prisão em flagrante delito ao indivíduo, única pessoa que se encontrava no local. A autoridade policial a quem foi apresentado o detido pelos policiais militares ratificou a voz de prisão em flagrante, promovendo a autuação da prisão em flagrante pela suposta prática do delito previsto no art. 33 da Lei de Drogas. Foram realizadas as devidas comunicações da prisão e cumpridas todas as formalidades legais e constitucionais. No interrogatório policial, o detido permaneceu em silêncio. Foram ouvidas como testemunhas no auto de prisão em flagrante dois policiais militares que compunham a guarnição que efetuou a detenção em flagrante juntamente com o terceiro que funcionou como condutor. Tanto o condutor quanto as testemunhas do auto de prisão em flagrante delito relataram que após a apreensão da droga no domicílio a pessoa detida teria confessado que tal substância se destinava ao comércio ilícito. O preso não registrava qualquer antecedente criminal, tendo endereço certo e trabalho honesto. Na audiência de custódia, a defesa técnica deverá requerer, como principal tese, | COMANDO: Na audiência de custódia, a defesa técnica deverá requerer, como principal tese,
+A: o relaxamento da prisão em flagrante diante\nda ilegalidade da busca domiciliar e da voz de\nprisão em flagrante delito.
+B: a concessão de liberdade provisória mediante\narbitramento de fiança, eis que satisfeitos os\nrequisitos legais.
+C: a conversão da prisão em flagrante em medida\ncautelar diversa da prisão, diante da adequação\ne suficiência.
+D: a conversão da prisão em flagrante em prisão\ndomiciliar, posto que preenchidos os requisitos\nlegais.
+
+Q0162 | A moderna criminologia se dedica, também, ao estudo do controle social do delito, tendo este objeto representado um giro metodológico de grande importância. | COMANDO: Assinale a alternativa correta:
+A: a família, a escola, a opinião pública, por exemplo, são instituições encarregadas de exercer o\ncontrole social primário.
+B: a polícia, o Judiciário, a administração penitenciária, por exemplo, são instituições\nencarregadas de exercer o controle social informal.
+C: a polícia, o Judiciário, a administração penitenciária, por exemplo, são instituições\nencarregadas de exercer o controle social formal.
+D: a família, a escola, a opinião pública, por exemplo, são instituições encarregadas de exercer o\ncontrole social terciário.
+E: a família, a escola, a opinião pública, por exemplo, são instituições encarregadas de exercer o\ncontrole social secundário.
+
+Q0163 | O Diretor de determinado presídio é informado, por bilhete anônimo, de que um preso estaria trocando informações por correspondência com membros do seu bando, a fim de viabilizar a entrada de substância entorpecente no estabelecimento prisional, visando ao tráfico de drogas. Diante disso, o Diretor intercepta uma carta fechada e destinada ao detento, e, após abri-la, lê o seu conteúdo, descobrindo quando e como se daria o ingresso da droga. No caso em tela, pode-se afirmar que o Diretor: | COMANDO: Assinale a alternativa correta.
+A: aparentemente praticou crimes previstos tanto no Código Penal, quanto na Lei nº 4.898/1965, devendo responder por esta última de acordo com o princípio da especialidade.
+B: praticou crime previsto na Lei nº 4.898/1965.
+C: praticou crimes previstos tanto no Código Penal, quanto na Lei nº 4.898/1965, devendo responder por ambos, em concurso formal.
+D: praticou crime previsto noCódigo Penal.
+E: não praticou crime.
+
+Q0164 | Conforme o que a LEP prevê relativamente ao preso e ao egresso, assinale a opção correta. | COMANDO: Assinale a opção correta.
+A: A concessão de alojamento e alimentação ao egresso pelo\nprazo de dois meses poderá ser prorrogada uma vez, desde\nque seja comprovado o empenho dele na obtenção de\nemprego.
+B: A assistência à saúde do preso e do internado de caráter\npreventivo e curativo compreenderá atendimento médico,\npsicológico e odontológico.
+C: O estudo será obrigatório, integrando-se ao sistema escolar\nmunicipal, mas mantido pela administração penitenciária.
+D: Consideram-se egressos o liberado definitivo e o liberado\ncondicional, desde sua saída até a sua reabilitação.
+E: A assistência material é dever da administração, sendo\nvedada a comercialização de produtos dentro do\nestabelecimento prisional.
+
+Q0165 | A Lei n° 12.850, de 2 de agosto de 2013, dentre outras disposições, definiu organização criminosa e dispôs sobre a investigação criminal, os meios de obtenção da prova, infrações penais correlatas e o procedimento criminal. A seu respeito, é correto afirmar que | COMANDO: Assinale a alternativa correta.
+A: tanto aquele que promove organização criminosa quanto o que, de qualquer forma,\nembaraça a investigação de infração penal que envolva organização criminosa serão\napenados com pena de reclusão, de 3 (três) a 8 (oito) anos, e multa, sem prejuízo das penas\ncorrespondentes às demais infrações penais praticadas.
+B: por expressa disposição legal, não existirá organização criminosa típica voltada a obter\nvantagem, de qualquer natureza, mediante a prática de contravenções penais.
+C: se houver participação de criança ou adolescente na organização ou na associação\ncriminosa, a pena será aumentada de 1/6 (um sexto) a 2/3 (dois terços).
+D: quando a medida se fizer necessária à investigação ou instrução processual, se houver indícios\nsuficientes de que o funcionário público integra organização criminosa, poderá o juiz\ndeterminar seu afastamento cautelar do cargo, emprego ou função, sem remuneração.
+E: ao tratar da colaboração premiada, em seu artigo 4°, a lei restringe expressamente a\nconcessão do perdão judicial à hipótese da localização de eventual vítima com a sua\nintegridade física preservada.
+
+Q0166 | O Defensor Público, na data de 15 de junho de 2010, ao atender os apenados da Casa do Albergado de um Município do interior do Estado do Rio Grande do Sul, deparouse com a situação de um preso que está recolhido no regime aberto e conta com 73 anos de idade, em bom estado de saúde física, mas apresentando quadro de senilidade leve. Após analisar os dados constantes da Guia de Recolhimento atualizada do reeducando, o Defensor Público apurou que o preso está condenado por crime de latrocínio (art. 157, § 3o , parte final, do Código Penal), praticado há mais de dez anos, enquadrando-se como reincidente, pois já havia sido condenado por outro latrocínio, anteriormente. Verificou, também, que computada a remição de pena deferida, o reeducando já teria cumprido mais de dois terços do apenamento total imposto. Considerando os referidos dados, a Defensoria Pública do Estado poderia postular ao Juízo da Execução Criminal | COMANDO: Considerando os dados apresentados, qual pedido a Defensoria Pública do Estado poderia formular ao Juízo da Execução Criminal?
+A: o livramento condicional.
+B: a progressão de regime.
+C: a comutação de pena, com fundamento nas disposições do Decreto no 7.046, de 22 de dezembro de 2009.
+D: o indulto de natal, com fundamento nas disposições do Decreto no 7.046, de 22 de dezembro de 2009.
+E: a prisão domiciliar.
+
+Q0167 | Acerca de desaforamento é incorreto afirmar: | COMANDO: 
+A: Pode ser decretado se o interesse da ordem pública o reclamar, ou acaso houver dúvida sobre a imparcialidade do júri ou, ainda, existir risco para a segurança pessoal do acusado;
+B: O querelante e o assistente do Ministério Público também são legitimados para intentarem a medida;
+C: Entre comarcas da mesma região, as mais próximas, desde que não subsistentes os mesmos motivos da comarca de origem, terão preferência para julgar o caso desaforado;
+D: Por se tratar de transferência de foro do julgamento popular, é cabível somente após a publicação da decisão de pronúncia;
+E: O desaforamento comporta representação do magistrado competente e, quando proposto pelas partes, a lei processual prescreve que juiz presidente deve ser ouvido.
+
+Q0168 | Mévio, técnico de futebol do X Sport Clube, recebeu de Tício, presidente do Y Sport Clube, a quantia de 10.000,00 (dez mil reais), para deixar de convocar o jogador Zeca, considerado o craque do time X, para o jogo realizado entre os dois times, com o objetivo de aumentar a chance de vitória do time Y. Mévio efetivamente deixou de convocar o jogador Zeca, entretanto, ainda assim, o time X logrou-se vencedor. | COMANDO: Diante da situação hipotética, assinale a alternativa correta.
+A: Mévio e Tício praticaram crimes contra a incerteza\ndo resultado esportivo, previstos, respectivamente,\nnos artigos 198 e 199, da Lei no \n 14.597/2023.
+B: Mévio e Tício praticaram o crime de corrupção privada no esporte (art. 165, da Lei no \n 14.597/2023).
+C: Mévio e Tício não praticaram qualquer crime, pois os\ncrimes de corrupção privada no esporte e contra a\nincerteza do resultado esportivo são materiais e exigem que o resultado almejado se realize.
+D: Mévio praticou o crime contra a incerteza do resultado esportivo (art. 198, da Lei no \n 14.597/2023), e Tício\npraticou o crime de corrupção privada no esporte\n(art. 165, da Lei no \n 14.597/2023).
+E: Mévio praticou o crime de corrupção privada no\nesporte (art. 165, da Lei no \n 14.597/2023), e Tício praticou o crime contra a incerteza do resultado esportivo (art. 199, da Lei no \n 14.597/2023).
+
+Q0169 | A respeito das causas de impedimento e suspeição do juiz, de acordo com o Código de Processo Penal, assinale a alternativa correta. | COMANDO: 
+A: Nos juízos coletivos, não poderão servir no mesmo processo os juízes que forem entre si parentes, consanguíneos ou afins, em linha reta ou colateral, até o quarto grau.
+B: O juiz será suspeito, podendo ser recusado por qualquer das partes, se já tiver funcionado como juiz de outra instância, pronunciando-se de fato ou de direito sobre a questão.
+C: Ainda que dissolvido o casamento, sem descendentes, que ensejava impedimento ou suspeição, não funcionará como juiz o sogro, o padrasto, o cunhado, o genro ou enteado de quem for parte no processo.
+D: O juiz será impedido se for credor ou devedor de qualquer das partes.
+E: A suspeição poderá ser reconhecida ou declarada ainda que a parte injurie, de propósito, o juiz.
+
+Q0170 | Em 2024, Guilherme, Américo, Lucas, Rogério e Vladimir praticaram um crime. De acordo com as informações de antecedentes criminais fornecidas a seguir, assinale a opção que indica qual deles é tecnicamente primário (não reincidente). | COMANDO: 
+A: Guilherme, enquanto policial militar, foi definitivamente condenado por corrupção passiva prevista no Código Penal Militar e terminou de cumprir a pena no ano de 2023.
+B: Américo, na condição de ocupante de cargo político, praticou crime de peculato, tendo sido definitivamente condenado em 2023, sendo que ainda não terminou de cumprir as penas restritivas de direito que lhe foram impostas.
+C: Lucas foi definitivamente condenado em 2015, tendo sua pena sido extinta em 2020, pela concessão de indulto pleno. Em 2022, Lucas obteve sua reabilitação.
+D: Rogério foi definitivamente condenado em 2023, mas, após o trânsito em julgado de sua condenação, o Juiz reconheceu a ocorrência da prescrição da pretensão punitiva, na modalidade retroativa.
+E: Vladimir foi definitivamente condenado na Espanha, por tráfico de drogas, a uma pena de 6 anos de reclusão, fato ocorrido em 2017 e transitado em julgado em 2018; porém, ainda não cumpriu a pena porque logrou se evadir para o Brasil.
+
+Q0171 | Sobre as alterações trazidas pela Lei nº 13.964/2019 (Pacote Anticrime), é correto afirmar que: | COMANDO: Assinale a alternativa correta.
+A: seguindo o anseio legislativo de maior recrudescimento\npenal, o limite de cumprimento das penas privativas de\nliberdade poderá alcançar o patamar de quarenta anos,\nindependentemente do momento da prática do delito;
+B: ainda que surtam efeitos na execução da pena e, portanto,\nno sistema carcerário, o crime de roubo circunstanciado pelo\nemprego de arma de fogo (Art. 157, §2º-A, I, do Código Penal)\npassou a ser considerado hediondo;
+C: o juiz não poderá receber a denúncia apenas com\nfundamento nas informações das declarações do réu que\nrealizou a colaboração premiada, mas poderá decretar\nmedidas cautelares reais;
+D: a exclusão dos perfis genéticos dos bancos de dados ocorrerá\napós dez anos do término do cumprimento da pena dos\ncrimes graves contra a pessoa;
+E: o cumprimento e/ou rescisão do acordo de não persecução\npenal é/são causa(s) interruptiva(s) da prescrição.
+
+Q0172 | Assinale a alternativa incorreta. | COMANDO: 
+A: O juízo de prelibação, na ação penal contra Promotor de Justiça do Distrito Federal, é feito por órgão jurisdicional colegiado.
+B: O aditamento à denúncia, para imputar infração penal conexa cuja prova surgiu no decorrer da instrução criminal exige a renovação da citação e do interrogatório do acusado, em relação a esse fato novo.
+C: A decisão que extingue a punibilidade, em face da prescrição da pretensão punitiva, faz coisa julgada material, mesmo na excepcional hipótese de ser descoberta qualificadora que, se admitida, possa elevar a pena abstrata do crime e, conseqüentemente, alterar o prazo prescricional.
+D: Para o recebimento da denúncia contra deputado distrital exige-se autorização da maioria dos membros da Câmara Legislativa, por iniciativa de partido político com representação naquela Casa
+E: A procedência, no tribunal, da exceção da verdade oposta pelo querelado interfere na ação penal privada, por crime de calúnia, em curso no juízo singular da causa.
+
+Q0173 | Com relação à regressão de regime prisional e às faltas disciplinares, assinale a opção correta com base no disposto na LEP e no entendimento dos tribunais superiores. | COMANDO: Assinale a opção correta com base no disposto na LEP e no entendimento dos tribunais superiores.
+A: A falta disciplinar de natureza grave cometida pelo executando acarreta o reinício do cômputo do interstício necessário ao preenchimento do requisito objetivo para a concessão do benefício da progressão de regime bem como a perda total do tempo remido.
+B: Segundo os princípios da estrita legalidade e da anterioridade, consideram-se faltas disciplinares, classificadas em leves, médias, graves e gravíssimas, apenas as que sejam previstas expressamente na LEP e que sejam anteriores à prática do fato.
+C: Admite-se a regressão de regime prisional, com a transferência para qualquer dos regimes mais rigorosos, quando o condenado frustrar os fins da execução ou não pagar a multa cumulativamente imposta.
+D: Considera-se falta média a inobservância, pelo condenado à pena privativa de liberdade, do dever de obediência ao servidor e do respeito a qualquer pessoa com quem se relacione no ambiente prisional, bem como do dever de cumprir as ordens recebidas.
+E: A autoridade administrativa é detentora do poder disciplinar exercido sobre o preso na execução das penas restritivas de direitos, podendo, em caso de falta grave do sentenciado, suspender-lhe automaticamente o direito às saídas temporárias e decidir pela regressão de regime, ouvido previamente o condenado.
+
+Q0174 | Sobre os crimes cibernéticos ou informáticos, é CORRETO afirmar: | COMANDO: Assinale a alternativa correta.
+A: A simples disponibilização de imagens ou vídeos com conteúdo pornográfico, envolvendo criança ou adolescente, na Internet, não é suficiente para\na caracterização do tipo penal do art. 241-A do ECA, sendo imprescindível\no efetivo acesso de pelo menos um usuário.
+B: Agente que se aproveita da ausência momentânea de colega de trabalho\npara, no computador alheio, ligado sem nenhum tipo de dispositivo de segurança, acessar fotos íntimas, copiando-as para si, pratica o crime de invasão de dispositivo informático do art. 154-A do Código Penal.
+C: É fraude eletrônica, figura qualificada do crime de estelionato, a utilização\nde informações fornecidas pela vítima induzida a erro presencialmente, se\no agente obtém a vantagem, em prejuízo da vítima, passando-se por ela em\numa compra em ambiente virtual.
+D: Em razão da necessária segurança coletiva e proteção de dados, os crimes\nde invasão de dispositivos informáticos, definidos no art. 154-A do Código\nPenal, são de ação penal pública incondicionada.
+
+Q0175 | João, agente público federal competente, deu ordem de parada a um veículo automotor que transitava em excesso de velocidade no interior do estado do Pará. Realizado o exame de alcoolemia (teste do bafômetro), constatou-se que o condutor havia ingerido grande quantidade de álcool, dando azo à caracterização de crime previsto no Código de Trânsito Brasileiro. Dessa forma, João solicitou ao condutor dez mil reais para liberá-lo, proposta aceita imediatamente e operacionalizada por meio de transferência bancária. Nesse cenário, considerando as disposições do Código Penal, João responderá pelo(s) crime(s) de: | COMANDO: 
+A: corrupção passiva e corrupção ativa, em concurso;
+B: concussão e corrupção passiva, em concurso;
+C: corrupção passiva;
+D: corrupção ativa;
+E: concussão.
+
+Q0176 | Sobre o crime de falso testemunho, é CORRETO afirmar que: | COMANDO: 
+A: o crime de falso testemunho é delito de mão própria, pois somente pode ser executado pela própria testemunha;
+B: comete crime de falso testemunho o irmão do reclamante, mesmo não estando compromissado pelo Juiz;
+C: mesmo não se observando a existência de potencial dano à administração da Justiça, comete crime de falso testemunho a testemunha que faltar com a verdade em seu depoimento;
+D: o dolo do crime não exige que a testemunha tenha consciência de estar cometendo uma falsidade;
+E: não cabe retratação de falso testemunho na Justiça do Trabalho;
+
+Q0177 | Assinale a afirmativa incorreta. | COMANDO: 
+A: O silêncio do réu não importará em confissão nem poderá ser valorado pelo juiz em prejuízo da defesa para efeito de condenação, mas poderá ser valorado na fixação da penabase no aspecto da personalidade do criminoso.
+B: O réu tem o direito de entrevistar-se reservadamente com seu advogado antes de seu interrogatório judicial.
+C: O réu tem o direito de permanecer calado, negar a verdade ou mentir durante seu interrogatório judicial.
+D: Além de permanecer calado, o réu tem o direito de recusar-se a fornecer material para exame grafotécnico.
+E: Se o réu não for previamente advertido de seu direito de permanecer em silêncio, tudo que disser em seu interrogatório poderá ser anulado posteriormente.
+
+Q0178 | A Resolução CNJ nº 467/2022 regulamentou o inciso XI do artigo 6º da Lei nº 10.826/2003 e prevê que o porte de arma de fogo de servidores dos quadros pessoais do Poder Judiciário é: | COMANDO: 
+A: defeso aos servidores do Poder Judiciário, enquadrados como agentes e inspetores da especialidade Polícia Judicial, ainda que efetivamente estejam no exercício do poder de polícia, em todo o território nacional, sendo permitido somente no Estado em que está lotado para o exercício de suas funções.
+B: autorizado aos servidores do Poder Judiciário, enquadrados como agentes e inspetores da especialidade Polícia Judicial, independentemente de estarem no exercício do poder de polícia, somente no Estado em que estejam lotados.
+C: defeso aos servidores do Poder Judiciário, enquadrados como agentes e inspetores da especialidade Polícia Judicial, ainda que efetivamente estejam no exercício do poder de polícia, em todo o território nacional.
+D: autorizado aos servidores do Poder Judiciário, enquadrados como agentes e inspetores da especialidade Polícia Judicial, e que efetivamente estejam no exercício do poder de polícia, em todo o território nacional.
+E: autorizado aos servidores do Poder Judiciário, enquadrados como agentes e inspetores da especialidade Polícia Judicial, e que efetivamente estejam no exercício do poder de polícia, somente no Estado em que estejam lotado para os exercícios de suas funções.
+
+Q0179 | Ações como controle dos meios de comunicação e ordenação urbana, orientadas a determinados grupos ou subgrupos sociais, estão inseridas no âmbito da chamada prevenção secundária do delito. | COMANDO: Explique o que caracteriza a prevenção secundária do delito.
+C: Certo
+E: Errado
+
+Q0180 | João é investigado pela prática de um crime de peculato. Durante a fase de inquérito policial, o Delegado de Polícia, sem autorização judicial, determina a entrada de agentes na residência de João durante a noite, sob o argumento de que o crime em questão causa grave dano ao erário e que a apreensão de documentos seria essencial para evitar a ocultação de provas. Os agentes apreendem diversos computadores que continham evidências do crime. Diante de tal situação hipotética, assinale a afirmativa correta. | COMANDO: 
+A: A prova é plenamente válida, uma vez que o princípio da busca da verdade real se sobrepõe à inviolabilidade do domicílio em crimes cometidos contra a Administração Pública.
+B: A prova é legítima se for demonstrado que a diligência foi pautada pelo princípio da eficiência, visando à celeridade processual e à proteção do patrimônio público.
+C: Pelo princípio da não culpabilidade, João não poderia ter seus bens apreendidos antes de uma sentença penal condenatória transitada em julgado.
+D: Em virtude do princípio do contraditório, o Delegado de Polícia é obrigado a intimar a defesa de João para acompanhar a diligência de busca e apreensão na residência, sob pena de nulidade absoluta.
+E: As provas obtidas são ilícitas, pois, embora a entrada em domicílio possa ocorrer sem mandado em caso de flagrante delito, a busca para apreensão de provas exige ordem judicial e deve respeitar o período diurno, salvo consentimento do morador.

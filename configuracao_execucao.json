@@ -1,0 +1,13 @@
+{
+  "modelo_informado_pelo_autor": "GPT-6.1 Sol",
+  "esforco_raciocinio_informado": "medium",
+  "ambiente": "Codex Desktop",
+  "origem_identificacao": "Declaração do autor na revisão editorial de 18/10/2026",
+  "backend_capturado_pelos_scripts": false,
+  "api_inferencia_chamada": false,
+  "custo_marginal_por_questao": null,
+  "tokens_inferencia": null,
+  "escopo_reproducao": "Tratamento, checkpoints de inferência, calibração, política e avaliações; sem nova inferência GPT",
+  "ajuste_portabilidade": "Previsão gravada explicitamente em CRLF para preservar o SHA-256 em outros sistemas.",
+  "originais_preservados": "PIPILINE-GPT original não alterado; manifesto histórico mantido em execucao/"
+}

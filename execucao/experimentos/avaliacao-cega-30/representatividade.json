@@ -1,0 +1,218 @@
+{
+  "escopo": "Representatividade e completude antes da comparação de rótulos",
+  "resultado": "Amostra probabilística válida para auditoria exploratória do lote; insuficiente para comprovar precisão >=95% ou qualidade por disciplina/tema.",
+  "registro_sorteio": {
+    "metodo": "Amostragem aleatória simples sem reposição; random.Random(int(semente_hex,16)).sample(questoes ordenadas por id,30), Python.",
+    "universo": 359,
+    "amostra": 30,
+    "semente_hex": "24a4a5ecf33db3e784ab2c026152a90a",
+    "ids_na_ordem_sorteada": [
+      "Q0239",
+      "Q0064",
+      "Q0077",
+      "Q0205",
+      "Q0100",
+      "Q0141",
+      "Q0186",
+      "Q0161",
+      "Q0063",
+      "Q0058",
+      "Q0102",
+      "Q0350",
+      "Q0252",
+      "Q0251",
+      "Q0203",
+      "Q0093",
+      "Q0050",
+      "Q0301",
+      "Q0312",
+      "Q0171",
+      "Q0277",
+      "Q0074",
+      "Q0048",
+      "Q0257",
+      "Q0270",
+      "Q0353",
+      "Q0092",
+      "Q0022",
+      "Q0041",
+      "Q0351"
+    ],
+    "filtro_por_modelo_ou_revisao_anterior": false
+  },
+  "sorteio_reproduzido": true,
+  "N": 359,
+  "n": 30,
+  "probabilidade_inclusao": 0.08356545961002786,
+  "publicadas_N": 316,
+  "publicadas_n": 26,
+  "decisoes": [
+    {
+      "grupo": "publicar",
+      "populacao_n": 316,
+      "populacao_pct": 88.02228412256268,
+      "amostra_n": 26,
+      "amostra_pct": 86.66666666666667
+    },
+    {
+      "grupo": "fora",
+      "populacao_n": 4,
+      "populacao_pct": 1.1142061281337048,
+      "amostra_n": 0,
+      "amostra_pct": 0.0
+    },
+    {
+      "grupo": "revisar",
+      "populacao_n": 39,
+      "populacao_pct": 10.86350974930362,
+      "amostra_n": 4,
+      "amostra_pct": 13.333333333333334
+    }
+  ],
+  "disciplinas_propostas": [
+    {
+      "grupo": "Processo Penal",
+      "populacao_n": 114,
+      "populacao_pct": 31.754874651810585,
+      "amostra_n": 5,
+      "amostra_pct": 16.666666666666668
+    },
+    {
+      "grupo": "Criminologia",
+      "populacao_n": 34,
+      "populacao_pct": 9.470752089136491,
+      "amostra_n": 3,
+      "amostra_pct": 10.0
+    },
+    {
+      "grupo": "Penal",
+      "populacao_n": 146,
+      "populacao_pct": 40.66852367688022,
+      "amostra_n": 17,
+      "amostra_pct": 56.666666666666664
+    },
+    {
+      "grupo": "Direito Penal - Legislação Especial",
+      "populacao_n": 61,
+      "populacao_pct": 16.991643454038996,
+      "amostra_n": 5,
+      "amostra_pct": 16.666666666666668
+    },
+    {
+      "grupo": "Sem tema (fora)",
+      "populacao_n": 4,
+      "populacao_pct": 1.1142061281337048,
+      "amostra_n": 0,
+      "amostra_pct": 0.0
+    }
+  ],
+  "disciplinas_propostas_entre_publicadas": [
+    {
+      "grupo": "Processo Penal",
+      "populacao_n": 106,
+      "populacao_pct": 33.54430379746835,
+      "amostra_n": 4,
+      "amostra_pct": 15.384615384615385
+    },
+    {
+      "grupo": "Criminologia",
+      "populacao_n": 33,
+      "populacao_pct": 10.443037974683545,
+      "amostra_n": 3,
+      "amostra_pct": 11.538461538461538
+    },
+    {
+      "grupo": "Penal",
+      "populacao_n": 121,
+      "populacao_pct": 38.29113924050633,
+      "amostra_n": 14,
+      "amostra_pct": 53.84615384615385
+    },
+    {
+      "grupo": "Direito Penal - Legislação Especial",
+      "populacao_n": 56,
+      "populacao_pct": 17.72151898734177,
+      "amostra_n": 5,
+      "amostra_pct": 19.23076923076923
+    }
+  ],
+  "niveis": [
+    {
+      "grupo": "1",
+      "populacao_n": 125,
+      "populacao_pct": 34.81894150417827,
+      "amostra_n": 14,
+      "amostra_pct": 46.666666666666664
+    },
+    {
+      "grupo": "2",
+      "populacao_n": 211,
+      "populacao_pct": 58.77437325905292,
+      "amostra_n": 15,
+      "amostra_pct": 50.0
+    },
+    {
+      "grupo": "fora",
+      "populacao_n": 4,
+      "populacao_pct": 1.1142061281337048,
+      "amostra_n": 0,
+      "amostra_pct": 0.0
+    },
+    {
+      "grupo": "0",
+      "populacao_n": 19,
+      "populacao_pct": 5.2924791086350975,
+      "amostra_n": 1,
+      "amostra_pct": 3.3333333333333335
+    }
+  ],
+  "sobreposicao_calibracao": [
+    "Q0022",
+    "Q0041",
+    "Q0048"
+  ],
+  "sobreposicao_reservado_anterior": [],
+  "sobreposicao_ajustes_r3": [
+    "Q0141"
+  ],
+  "observacao_ajustes": "Receber ajuste sem acesso a rótulo humano não constitui, sozinho, vazamento; distinguir de reutilizar rótulos da calibração.",
+  "exportacoes": [
+    {
+      "arquivo": "avaliacao_cega_30_avaliacao-cega-30-f26080493407.json",
+      "sha256": "c991c9900bfc24affc9435ecfeece714a64f6e6801802bbd05d09146ff0606c0",
+      "respostas": 30,
+      "mesmos_ids_sorteados": true,
+      "registro_experimento_confere": true,
+      "concluidas_marcadas_no_arquivo": 1,
+      "classificadas_sem_id": 28,
+      "fora_sem_justificativa": 1,
+      "exposicao_previa": {
+        "nao_informado": 30
+      }
+    }
+  ],
+  "rotulos_humanos_comparados_com_modelo": false,
+  "cenario_hipotetico_zero_erros": {
+    "nao_e_resultado_observado": true,
+    "publicadas_n": 26,
+    "wilson_bilateral_95_inferior": 0.8712669561953783,
+    "clopper_pearson_unilateral_95_inferior": 0.8911696442392152,
+    "N_finito": 316,
+    "erros_minimos_para_violar_95": 16,
+    "probabilidade_nao_detectar_esses_erros": 0.24437856527682011,
+    "amostra_minima_zero_erros_teste_exato_finito_unilateral_95": 53,
+    "amostra_minima_zero_erros_cauda_025": 64,
+    "restricoes": "Política fixa, amostra aleatória de publicadas, referência adequada, plano fixado antes de ver acertos; números não são tamanho universal para qualquer resultado."
+  },
+  "margem_normal_aproximada_pior_caso_com_correcao_finita": 0.17152281040111172,
+  "fontes_sha256": {
+    "microsite_avaliacao_cega_30.html": "7927b00ade05693149b40bf61d90309ff59dbeb925ad84e2d7df528ff96f745a",
+    "publicacao.csv": "8fa02999992a217da3173f0af82f0616128e6a1d843ad86cdea476ca4a986ffc",
+    "dados/questoes.jsonl": "d962f749dbeba01b0be901a94a8ec1ec73f38b920cc9280848c3b24b34cdb50c",
+    "dados/temas_ativos.csv": "7e646eec91d3fb0b3027f71c240d1733d7d5c45bec65db4a40dffa7cf187222a"
+  },
+  "referencias": [
+    "https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch13/prob/5214899-eng.htm",
+    "https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbici.htm"
+  ]
+}

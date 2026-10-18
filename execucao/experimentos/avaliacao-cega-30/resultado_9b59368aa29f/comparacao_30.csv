@@ -1,0 +1,31 @@
+﻿id,decisao_modelo,tema_modelo,caminho_modelo,tema_humano,caminho_humano,acerto_ramo,acerto_exato,confianca_modelo,observacao_revisor,exposicao_previa
+Q0239,revisar,5199,Penal > Teoria da Pena,4387,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias de Nível Sociológico,False,False,0.5,,nao_informado
+Q0064,publicar,5165,Penal > Dos Crimes Contra o Patrimônio > Apropriação indébita,fora,fora,False,False,0.916667,direito  administrativo,nao_informado
+Q0077,revisar,5171,Penal > Introdução ao Estudo do Direito Penal > Conceito e Fontes do Direito Penal,6727,Penal > Teoria da Pena (Parte 2),False,False,0.5,,nao_informado
+Q0205,publicar,5512,Processo Penal > Parte Geral dos Recursos,5567,Processo Penal > Recursos em Espécies > Carta Testemunhavel,False,False,0.916667,,nao_informado
+Q0100,publicar,5103,Penal > Dos Crimes Contra a Dignidade Sexual > Estupro e Estupro de Vulnerável,5123,Penal > Dos Crimes Contra a Honra > Difamação,False,False,0.916667,,nao_informado
+Q0141,publicar,4387,Criminologia > Teorias Sociológicas Explicativas da Criminalidade > Teorias de Nível Sociológico,4380,Criminologia > Teoria Geral da Criminologia,False,False,0.964286,,nao_informado
+Q0186,publicar,5202,Penal > Teoria da Pena > Primeira Fase da Dosimetria: Circunstâncias Judiciais,5199,Penal > Teoria da Pena,True,False,0.964286,,nao_informado
+Q0161,publicar,5588,Processo Penal > Teoria Geral das Prisões > Relaxamento da Prisão,5498,Processo Penal > Inquérito Policial,False,False,0.964286,,nao_informado
+Q0063,publicar,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,4704,Direito Penal - Legislação Especial > Lei Maria da Penha,True,True,0.964286,,nao_informado
+Q0058,publicar,4378,Criminologia > Processos de Criminalização e Cifras Criminais > Criminalização Primária e Secundária,4380,Criminologia > Teoria Geral da Criminologia,False,False,0.916667,,nao_informado
+Q0102,publicar,5572,Processo Penal > Sentença Penal,5572,Processo Penal > Sentença Penal,True,True,0.916667,,nao_informado
+Q0350,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,True,True,0.964286,,nao_informado
+Q0252,publicar,5199,Penal > Teoria da Pena,6738,Processo Penal > Sentença Penal (Parte 2),False,False,0.916667,,nao_informado
+Q0251,publicar,5191,Penal > Punibilidade,5191,Penal > Punibilidade,True,True,0.964286,,nao_informado
+Q0203,publicar,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,4702,Direito Penal - Legislação Especial > Lavagem de Dinheiro,True,True,0.964286,,nao_informado
+Q0093,publicar,5223,Penal > Teoria do Crime: Fato Típico > Crimes Omissivos e Comissivos,5149,Penal > Dos Crimes Contra a Vida,False,False,0.964286,,nao_informado
+Q0050,publicar,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,4708,Direito Penal - Legislação Especial > Tráfico de Drogas,True,True,0.964286,,nao_informado
+Q0301,publicar,5197,Penal > Punibilidade > Perdão Judicial,5197,Penal > Punibilidade > Perdão Judicial,True,True,0.964286,,nao_informado
+Q0312,publicar,4384,Criminologia > Teorias Legitimidoras da Pena,4384,Criminologia > Teorias Legitimidoras da Pena,True,True,0.964286,,nao_informado
+Q0171,revisar,5062,Penal,5222,Penal > Teoria do Crime: Fato Típico > Crime Doloso e Culposo,True,False,0.5,,nao_informado
+Q0277,publicar,4696,Direito Penal - Legislação Especial > Estaturo de Idoso - Crimes,4696,Direito Penal - Legislação Especial > Estaturo de Idoso - Crimes,True,True,0.964286,,nao_informado
+Q0074,publicar,5181,Penal > Lei Penal no Tempo e no Espaço > Lei penal no Tempo,5170,Penal > Introdução ao Estudo do Direito Penal,False,False,0.964286,,nao_informado
+Q0048,publicar,5193,"Penal > Punibilidade > Anistia, Graça e Indulto",6726,Penal > Teoria da Pena (Parte 1),False,False,0.964286,,nao_informado
+Q0257,publicar,5218,Penal > Teoria do Crime: Fato Típico,5218,Penal > Teoria do Crime: Fato Típico,True,True,0.916667,,nao_informado
+Q0270,publicar,5091,Penal > Dos Crimes Contra a Administração Pública > Concussão e Excesso de Exação,5087,Penal > Dos Crimes Contra a Administração Pública,True,False,0.964286,,nao_informado
+Q0353,revisar,5535,Processo Penal > Procedimento Ordinário > Audiência de Instrução e Julgamento,5490,Processo Penal > Das Questões e Processos Incidentes,False,False,0.5,,nao_informado
+Q0092,publicar,5511,Processo Penal > Nulidades > Nulidades em Espécie,5480,Processo Penal > Competência,False,False,0.964286,,nao_informado
+Q0022,publicar,5087,Penal > Dos Crimes Contra a Administração Pública,5087,Penal > Dos Crimes Contra a Administração Pública,True,True,0.916667,,nao_informado
+Q0041,publicar,5184,Penal > Medida de Segurança,6726,Penal > Teoria da Pena (Parte 1),False,False,0.964286,,nao_informado
+Q0351,publicar,5118,Penal > Dos Crimes Contra a Fé Pública e de Falsidade Documental > Da Falsidade Documental,5116,Penal > Dos Crimes Contra a Fé Pública e de Falsidade Documental,True,False,0.964286,,nao_informado

@@ -1,0 +1,16 @@
+id|tema_central_id|extras_ids|score_bruto|alertas|justificativa
+Q0024|4387||0.97||Escola de Chicago e associação diferencial são teorias de nível sociológico; calibração expôs confusão com o nó irmão genérico em espécie.
+Q0031|4387||0.98||Anomia explica estrutura social e metas; substituir o nó irmão em espécie pelo nível sociológico validado na calibração.
+Q0083|5222|5224;5150|0.88|fronteira|A sequência de atos ilustra dolo geral; alinhar ao nó de dolo e culpa como em Q0153, mantendo erro de tipo como conteúdo secundário.
+Q0087|4703|5521|0.96|fronteira|O comando delimita execução penal definitiva; preferir a LEP ao nó de prisão domiciliar cautelar do Processo Penal.
+Q0094|4387|4378|0.96||Etiquetamento social é abordagem sociológica; generalização do critério corrigido em Q0024 e Q0031.
+Q0105|4387||0.96||Criminologia cultural e paradigma do etiquetamento são teorias de nível sociológico; evitar o irmão genérico.
+Q0106|5157|5166|0.89|subtipo_sem_no|Tomar refeição sem recursos é outra fraude patrimonial; o nó pai preserva o ramo sem equiparar automaticamente ao estelionato estrito.
+Q0115|4387||0.97||Teoria da anomia no caso de frustração de metas; aplicar critério sociológico aprendido na calibração.
+Q0141|4387||0.98||Teoria ecológica da Escola de Chicago explica organização urbana; classificar no nível sociológico.
+Q0168|4683||0.55|generico;referencia_inconclusiva;lacuna_especifica|Revisor rejeitou fora sem corrigir o tema. Encaminhar com sugestão da disciplina de legislação especial; jamais publicar nem presumir rótulo validado.
+Q0196|4387|4378|0.97||Labelling approach é teoria sociológica; controle seletivo é conteúdo secundário de criminalização.
+Q0273|5087|5089;5096;5118;4695|0.73|mosaico|Alternativas incluem falsidade e crimes tributários além de crimes funcionais; não sustentar foco único pela provável resposta correta.
+Q0298|4683|4694|0.55|generico;lei_especial_sem_no|O nó 4694 diz especificamente CDC, mas a questão cobra Lei 8137. Sugestão na disciplina para curadoria sem declarar equivalência legal nem publicar.
+Q0053|5539|5541;5542|0.90|referencia_inconclusiva;multiplos_subtemas|O contraste expresso entre suspensão do processo e transação sustenta o pai Procedimento Sumaríssimo. Discordância antiga sem tema substituto permanece inconclusiva e bloqueia publicação.
+Q0028|5524|5526;5527|0.94|referencia_inconclusiva;multiplos_subtemas|O comando envolve resposta à acusação e alteração após pronúncia; pai já era a proposta da R1. A rejeição antiga de 5526 não prova que 5524 esteja validado; manter revisão.

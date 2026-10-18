@@ -1,0 +1,186 @@
+
+Q0091 | Em cada item que se segue, é apresentada uma situação hipotética seguida de uma assertiva a ser julgada com base na legislação de regência e na jurisprudência dos tribunais superiores a respeito de aplicação de pena, cominação de penas, regime de penas, medidas de segurança e livramento condicional. Flávio, maior e capaz, condenado a pena de doze anos pela prática de homicídio doloso qualificado, iniciou o cumprimento da pena em regime fechado. Durante a execução da pena, ele apresentou comportamento excelente e colaborativo, por isso, após o período mínimo para a progressão de regime, seu advogado requereu ao juiz a passagem de Flávio para o regime aberto. Nessa situação, o pedido não poderá ser atendido: a progressão do regime prisional de Flávio deverá ser para o regime semiaberto. | COMANDO: Julgue a assertiva apresentada na situação hipotética.
+C: Certo
+E: Errado
+
+Q0092 | A incompetência do juízo anula _________, devendo o processo, quando for declarada a nulidade, ser remetido ao juiz competente; a nulidade por ilegitimidade do representante da parte poderá ser _________, mediante ratificação dos atos processuais. Nos termos dos artigos 567 e 568 do CPP, assinale a alternativa que completa, correta e respectivamente, as lacunas do texto. | COMANDO: 
+A: todos os atos praticados ... sanada até a denúncia
+B: todos os atos praticados ... a todo tempo sanada
+C: todos os atos praticados ... sanada somente até o trânsito em julgado
+D: o curso do prazo prescricional ... sanada somente até o trânsito em julgado
+E: somente os atos decisórios ... a todo tempo sanada
+
+Q0093 | JOÃO e JOSÉ estão na praia e resolveram entrar no mar. Em determinado momento eles começam a se afogar. Havia naquele local um salva-vidas que, ao avistar apenas JOÃO, notou que ele era seu desafeto e se recusou a salvá-lo; próximo a eles havia também um surfista, este avistou apenas JOSÉ pedindo socorro, mas, por ser seu inimigo, não atendeu aos pedidos dele, resolvendo sair do local. As duas pessoas acabam se afogando e morrendo. | COMANDO: Em relação ao caso, qual das alternativas abaixo está CORRETA?
+A: O salva-vidas responde por homicídio\ndoloso por omissão.
+B: O salva-vidas responde por omissão de\nsocorro.
+C: O surfista responde por homicídio doloso\npor omissão.
+D: A conduta do surfista é atípica.
+E: O surfista responde por homicídio culposo.
+
+Q0094 | Recentemente, o Superior Tribunal de Justiça decidiu que: “A utilização de roupas sociais pelo réu durante seu julgamento pelo Tribunal do Júri é um direito e não traria qualquer insegurança ou perigo, tendo em vista a existência de ostensivo policiamento nos Fóruns do Estado”. A utilização de roupas do presídio por um acusado no Tribunal do Júri está associada a qual tema da Criminologia? | COMANDO: A utilização de roupas do presídio por um acusado no Tribunal do Júri está associada a qual tema da Criminologia?
+A: Escola Clássica da Criminologia e princípios do iluminismo.
+B: Escola Positiva de Criminologia e anomia.
+C: Neoliberalismo e política da lei e ordem.
+D: Vitimologia e marxismo.
+E: Labelling approach ou etiquetamento social e Criminologia crítica.
+
+Q0095 | Júpiter está arrumando a ligação elétrica de sua casa, com ajuda de Jano, seu amigo, que lhe segura a escada. Deixando de observar um dever objetivo de cuidado, Júpiter faz uma ligação equivocada e recebe uma alta descarga de energia, sofrendo inutilização permanente de membro. No mesmo incidente, Jano sofre uma lesão corporal leve. Em outro cenário, Saturno, pai dedicado e amoroso, está dando banho em seu filho, Nemestrino. Imprudentemente, Saturno deixa Nemestrino cair no chão, o que causa a morte imediata do bebê. | COMANDO: No que concerne à lesão corporal sofrida por Jano e ao homicídio praticado por Saturno, o perdão judicial, ao menos em tese:
+A: aplica-se ao primeiro caso e depende de concordância da mãe de Nemestrino para aplicação ao segundo.
+B: aplica-se ao segundo caso, mas não ao primeiro.
+C: não se aplica a nenhum dos casos.
+D: aplica-se a ambos os casos.
+E: aplica-se ao primeiro caso, mas não ao segundo.
+
+Q0096 | Ocorre a derrogação da competência territorial: | COMANDO: Complete a frase sobre a derrogação da competência territorial.
+A: nos casos de conexão.
+B: nos casos de continência.
+C: na hipótese de prevenção.
+D: quando o crime é praticado fora do território nacional, em embarcações e aeronaves.
+E: na hipótese de desaforamento.
+
+Q0097 | Inquérito policial revelou que um grupo de 16 pessoas, além de outras não identificadas, dedicava-se ao comércio ilícito de drogas e praticava extorsões contra comerciantes visando ao recolhimento de uma “taxa de segurança”. A investigação, que durou nove meses, contou com as medidas cautelares de interceptação telefônica e quebra do sigilo telemático, nas quais ficou claro que o grupo contava com uma liderança definida e que os demais integrantes se dedicavam à negociação para a aquisição das drogas e produtos químicos usados na mistura e preparo delas, ao abastecimento das “bocas de fumo” e ao recolhimento do dinheiro proveniente do comércio ilícito e das extorsões praticadas contra comerciantes. A investigação mostrou também que, com o dinheiro oriundo da atividade criminosa, o líder do grupo adquiriu cavalos e os mantinha em um haras registrado em seu nome. Ao longo da investigação, não houve apreensão de material entorpecente. O Ministério Público ofereceu denúncia contra os 16 investigados identificados e imputou os crimes de tráfico de drogas, associação para o tráfico de drogas, extorsão e organização criminosa. Imputou também ao líder do grupo o crime de lavagem de dinheiro (Art. 1º da Lei nº 9.613/1998). Ao longo da instrução probatória, os fatos foram confirmados e o Ministério Público requereu a condenação na forma da denúncia. As defesas manifestaram-se e o processo foi à conclusão para sentença. À luz da jurisprudência do Superior Tribunal de Justiça, o magistrado deve considerar que: | COMANDO: À luz da jurisprudência do Superior Tribunal de Justiça, o magistrado deve considerar que:
+A: a sentença deve acolher integralmente a pretensão\ncondenatória do Ministério Público;
+B: a ausência de apreensão de material entorpecente é\nobstáculo à condenação pelos crimes de tráfico de drogas e\nde associação para o tráfico de drogas;
+C: a sentença pode condenar os réus pela prática do crime de\ntráfico de drogas, a despeito da ausência de apreensão de\nmaterial entorpecente, desde que outros elementos dos\nautos revelem a prática de uma das condutas previstas no\ntipo penal;
+D: é cabível a condenação do líder do grupo criminoso pelo\ncrime de lavagem de dinheiro, porque, na hipótese, a\ndestinação dada ao produto do crime configura ocultação ou\ndissimulação da natureza, origem, localização, disposição,\nmovimentação ou propriedade de bens, direitos ou valores\nprovenientes, direta ou indiretamente, de crime;
+E: a condenação, em concurso material, pelos crimes de\nassociação para o tráfico de drogas e organização criminosa\nnão representa bis in idem, desde que demonstrado que o\ngrupo criminoso, estruturalmente ordenado e caracterizado\npela divisão de tarefas, dedicava-se à prática de outros\ncrimes, além do tráfico de drogas.
+
+Q0098 | A doutrina denomina “confissão qualificada” aquela em que o acusado | COMANDO: Complete a definição de "confissão qualificada" conforme a doutrina.
+A: admite a prática criminosa, mas alega, em sua defesa, alguma causa que o beneficia, como uma excludente de ilicitude.
+B: não só confessa os fatos cometidos por si, mas também aponta os demais coautores ou partícipes da\nempreitada criminosa.
+C: fica em silêncio; contudo, tal modalidade não fora\nrecepcionada pela Constituição de 1988, que garante\nnenhum prejuízo ao acusado nesses casos.
+D: colabora ativamente com a apuração do crime, inclusive interrompendo ou impedindo que os fatos se\nconsumem.
+E: se retrata da negativa dos fatos ocorrida perante a\nautoridade policial e admite-os espontaneamente\nperante o magistrado.
+
+Q0099 | Filomena, camelô Irregular, é flagrada por dois agentes da fiscalização municipal, ocasião em que estes anunciam que irão lavrar um auto de infração e apreender sua mercadoria, levando-a ao depósito público, de onde poderá vir a ser retirada posteriormente, mediante pagamentos devidos, tudo conforme o previsto na legislação. Inconformada com o fato, Filomena passa a agredir fisicamente os fiscais, no intuito de impedir que levem sua mercadoria, porém eles reagem, usando força corporal nos limites necessários para conter Filomena. Como resultado, Filomena e os fiscais ficam levemente feridos, sendo a mercadoria devidamente apreendida. Diante do caso narrado, é correto afirmar que: | COMANDO: Diante do caso narrado, é correto afirmar que:
+A: Filomena praticou o delito de resistência, ao passo que os fiscais cometeram o delito de lesão corporal leve;
+B: Filomena praticou o delito de resistência, na modalidade tentada, ao passo que os fiscais não cometeram crime algum, pois agiram amparados em excludente de ilicitude;
+C: Filomena praticou o delito de resistência qualificada, ao passo que os fiscais não cometeram crime algum, pois agiram amparados em excludente de ilicitude;
+D: Filomena praticou os delitos de resistência e lesões corporais leves, ao passo que os fiscais não cometeram crime algum, pois agiram amparados em excludente de ilicitude;
+E: Filomena praticou os delitos de resistências, na modalidade tentada, e lesões corporais leves, ao passo que os fiscais cometeram os crimes de lesão corporal leve e abuso de autoridade.
+
+Q0100 | Augusto levou sua filha, Ana, de treze anos de idade, a uma boate cuja entrada era permitida apenas para pessoas maiores de dezoito anos de idade, para que a menina se encontrasse com amigas que comemoravam o aniversário de uma delas. O segurança da boate não pediu documento de identificação à menina, que aparentava ser maior de idade. Após consumir algumas doses de tequila, Ana começou a flertar com Otávio, de vinte e oito anos de idade, e disse ao rapaz que tinha dezesseis anos de idade. Após breve conversa, Otávio convidou a adolescente a ir com ele a um motel. Lisonjeada, porém indecisa, Ana perguntou a opinião de suas amigas, que foram unânimes em incentivá-la a aceitar o convite, pois conheciam muito bem Otávio. Na manhã seguinte, após ter relações sexuais consentidas com Otávio, com quem perdera a virgindade, Ana retornou, sozinha, para casa. Desconfiado do que a filha poderia ter feito na noite anterior, Augusto começou a interrogá-la, e ela, por medo, afirmou ter sido obrigada a manter relações sexuais com Otávio. Ato contínuo, Augusto levou a filha até a delegacia de polícia, onde registrou ocorrência policial contra Otávio. | COMANDO: Com base nos fatos narrados na situação hipotética acima apresentada, assinale a opção correta.
+A: O crime de estupro de vulnerável impõe, em caráter absoluto, um dever geral de abstenção da conduta de manter conjunção carnal ou qualquer ato libidinoso com pessoa menor de quatorze anos de idade, podendo, entretanto, ser reconhecido o erro de tipo da parte de Otávio, o que engendraria a atipicidade de sua conduta.
+B: Caso Otávio seja absolvido da acusação, ficará configurado o crime de denunciação caluniosa cometido por Augusto.
+C: As amigas de Ana figuram como partícipes do crime do qual Otávio é acusado, pois incentivaram a vítima, menor de idade, a ir ao motel com pessoa maior de idade.
+D: Em razão de ter levado a filha a local exclusivo para pessoas maiores de dezoito anos de idade e de nada ter feito para impedir o fato, pode ser imputado a Augusto o crime de estupro de vulnerável praticado por omissão imprópria, visto que, na qualidade de pai e, portanto, de agente garantidor, deveria impedir a ocorrência do resultado.
+E: Otávio praticou o crime de corrupção sexual de menores, dado o consentimento das relações sexuais, figurando o segurança da boate como partícipe do referido delito, na medida em que sua negligência no trabalho foi determinante para a ocorrência do resultado.
+
+Q0101 | De acordo com a Lei Maria da Penha, a ação de divórcio ou dissolução de união estável de mulher vítima de violência doméstica e familiar | COMANDO: Complete a frase ou responda sobre a ação de divórcio ou dissolução de união estável segundo a Lei Maria da Penha.
+A: deverá ser ajuizada perante o Juizado de Violência Doméstica e Familiar, uma vez que não pode haver opção da ofendida\npor se tratar de competência em razão da pessoa.
+B: poderá ser ajuizada perante o Juizado de Violência Doméstica e Familiar contra a Mulher, excluindo-se a pretensão relacionada à partilha de bens.
+C: poderá ser ajuizada perante a Vara de Família, somente nos casos em que não houver Juizado de Violência Doméstica e\nFamiliar contra a Mulher instalado na Comarca de residência da mulher.
+D: poderá ser ajuizada perante o Juizado de Violência Doméstica e Familiar contra a Mulher, inclusive em relação à pretensão relacionada à partilha de bens.
+E: deverá ser ajuizada perante a Vara de Família, uma vez que o Juizado de Violência Doméstica e Familiar contra a Mulher\nestá restrito às medidas protetivas de urgência.
+
+Q0102 | Sobre a sentença e os seus efeitos, é correto afirmar: | COMANDO: Assinale a alternativa correta.
+A: A sentença condenatória, como gera o efeito de tornar certa a reparação do dano, deve, provisoriamente, fixar o valor do prejuízo causado pelo crime, para futura execução civil.
+B: A sentença que absolve por insuficiência de prova faz coisa julgada no cível, impedindo a propositura de ação civil para reparação do dano causado pelo crime.
+C: A sentença que absolve e aplica medida de segurança é denominada de "sentença absolutória imprópria".
+D: Um dos efeitos da condenação é a perda em favor da unidade federativa perante a qual o processo teve andamento do produto do crime.
+E: A perda de função pública, como efeito da condenação, pode ser aplicada em qualquer crime cuja pena privativa de liberdade seja superior a dois anos.
+
+Q0103 | A respeito da revisão criminal, julgue os próximos itens. A revisão criminal, que é um dos aspectos diferenciadores do mero direito à defesa e do direito à ampla defesa, este caracterizador do direito processual penal, tem por finalidade o reexame do processo já alcançado pela coisa julgada, de forma a possibilitar ao condenado a absolvição, a melhora de sua situação jurídica ou a anulação do processo. | COMANDO: Julgue os próximos itens sobre a revisão criminal.
+C: Certo
+E: Errado
+
+Q0104 | No que se refere à legislação processual e à jurisprudência pátrias, julgue o item subsequente. O fato de o inquérito policial ser instaurado por promotor de justiça não impede que o delegado dê prosseguimento ao procedimento e seja eventualmente apontado como autoridade coatora na hipótese de impetração de habeas corpus . | COMANDO: 
+C: Certo
+E: Errado
+
+Q0105 | Um homem branco, de 29 anos de idade, e um homem negro, de 21 anos de idade, foram presos por terem pichado, juntos, um prédio. Na posse deles, foram encontradas as tintas usadas no ato, além de um cigarro de maconha. O indivíduo branco assinou termo circunstanciado e foi liberado, enquanto o outro homem foi mantido preso. Considerando essa situação hipotética e as perspectivas da criminologia, julgue o item a seguir. A criminologia cultural analisa a pichação como ato de contracultura e de representação social de populações periféricas, resgatando e atualizando os estudos sobre o paradigma do etiquetamento social. | COMANDO: Julgue o item a seguir.
+C: Certo
+E: Errado
+
+Q0106 | Que delito praticam os estudantes de Direito com o chamado “pendura”, nas comemorações da instalação dos cursos jurídicos no País? | COMANDO: Responda qual é o delito praticado pelos estudantes de Direito com o chamado “pendura” nas comemorações da instalação dos cursos jurídicos no País.
+A: Nenhum crime foi praticado, por se tratar de fato atípico.
+B: Crime de dano qualificado, por motivo egoístico.
+C: Delito de fraude, consistente em tomar refeições em restaurante, sem dispor de recursos para pagar as despesas.
+D: Estelionato privilegiado, devido ao pequeno valor do prejuízo causado à vítima.
+
+Q0107 | À luz das disposições legais de direito penal e da jurisprudência correlata, julgue o próximo item. | COMANDO: A conduta do agente que, para não se incriminar, atribui a si a identidade de outrem, perante o delegado, é típica e configura o crime de falsa identidade.
+C: Certo
+E: Errado
+
+Q0108 | Durante a realização de audiência de instrução e julgamento, em que se apurava a prática, por Caio, do crime de roubo simples, a defesa técnica do acusado requereu o reconhecimento da prescrição da pretensão punitiva estatal, em observância aos prazos prescricionais estipulados em lei. Contudo, o Juízo indeferiu o pedido e, finda a instrução, determinou que as partes apresentassem memoriais. Irresignada, a Defensora Pública Maria pretende recorrer do provimento jurisdicional prolatado. Nesse cenário, considerando as disposições do Código de Processo Penal, Maria, na qualidade de Defensora Pública, deverá interpor um(a) | COMANDO: Indique qual recurso Maria deverá interpor.
+A: recurso em sentido estrito, fazendo jus ao efeito suspensivo\npor força de lei.
+B: recurso inominado, fazendo jus ao efeito suspensivo por força\nde lei.
+C: recurso em sentido estrito, sem efeito suspensivo por força de\nlei.
+D: recurso inominado, sem efeito suspensivo por força de lei.
+E: apelação, sem efeito suspensivo por força de lei.
+
+Q0109 | Aquele que oferece droga, eventualmente e sem objetivo de lucro, a pessoa de seu relacionamento, para juntos a consumirem, está sujeito à pena de | COMANDO: Complete a frase com a pena aplicável.
+A: medida educativa de comparecimento a programa e curso educativo e prestação de serviços à comunidade, apenas.
+B: advertência sobre os efeitos das drogas e prestação de serviços à comunidade, apenas.
+C: reclusão, de 5 (cinco) a 15 (quinze) anos, e pagamento de 500 (quinhentos) a 1.500 (mil e quinhentos) diasmulta.
+D: detenção, de 6 (seis) meses a 1 (um) ano, e pagamento de 700 (setecentos) a 1.500 (mil e quinhentos) dias-multa, sem prejuízo das sanções previstas no artigo 28 da Lei n.º 11.343/06.
+
+Q0110 | Sobre a competência em matéria processual penal é correto afirmar que: | COMANDO: Assinale a alternativa correta.
+A: compete ao juizo da infãncia e da juventude, em razão do principio da proteção integral, o processamento e julgamento de réu, maior de 18 (dezoito) anos, que pratique crime de estupro de vulnerável (art. 217-A, do Código Penal).
+B: no crime de peculato-desvio, compete ao foro do local para o qual foram destinados os recursos desviados, e não ao foro do local onde efetivamente ocorreu o desvio de recursos públicos, o processamento e julgamento da respectiva ação penal.
+C: tanto pelo Supremo Tribunal Federal, como também pelo Superior Tribunal de Justiça, constitui jurisprudência sumulada que o foro competente para o processo e o julgamento dos crimes de estelionato, sob a modalidade da emissão dolosa de cheque sem provisão de fundos, é o do local onde o agente aufere a vantagem indevida.
+D: nos processos por crime contra a honra, em que for querelante pessoa detentora de foro especial por prerrogativa de função, quando oposta e admitida a exceção da verdade, será esta última julgada pelo julzo especial, que teria competencia para julgar a suposta vítima do crime contra honra (querelante).
+
+Q0111 | Sobre a escola positivista da criminologia, é correto afirmar: | COMANDO: Assinale a alternativa correta.
+A: A escola positivista ainda não chega a considerar a concepção da pena como meio de defesa social, que é própria de\nescolas mais modernas da criminologia.
+B: Sua recepção no Brasil recebeu contornos racistas, notadamente no trabalho antropológico de Nina Rodrigues.
+C: É uma escola criminológica ultrapassada e que já influenciou a legislação penal brasileira, mas que após a Constituição\nFederal de 1988 não conta mais com institutos penais influenciados por esta corrente.
+D: Por ter enveredado pela sociologia criminal, Enrico Ferri não é considerado um autor da escola positivista, que possui viés\nmédico e antropológico.
+E: O método positivista negava a importância da pesquisa empírica, que possivelmente a levaria a resultados diversos\ndaqueles encontrados pelos seus autores.
+
+Q0112 | As penas do crime de promover, constituir, financiar ou integrar organização criminosa, do art. 2° da Lei n° 12.850/13, são aumentadas de 1/6 a 2/3, nos termos do parágrafo 4°, se | COMANDO: Assinale a alternativa correta.
+A: houver impedimento ou, de qualquer forma, embaraçar-se a investigação de infração penal cometida no\nseio da organização criminosa.
+B: na atuação da organização criminosa houver emprego\nde arma de fogo.
+C: houver concurso de funcionário público, valendo-se\na organização criminosa dessa condição para a prática de infração penal.
+D: o acusado exercer o comando, individual ou coletivo,\nda organização criminosa, ainda que não pratique\npessoalmente atos de execução.
+E: das ações diretas ou indiretas da organização criminosa resultar morte.
+
+Q0113 | José, Auditor Fiscal da Receita do Estado Beta, aceitou propina para deixar de constituir, mediante lançamento, determinado crédito tributário. Diante de tal fato, José está respondendo a processo administrativo disciplinar e sendo investigado por crime em inquérito policial. Sabe-se que o estatuto dos servidores públicos civis do Estado Beta dispõe que os prazos de prescrição previstos na lei penal se aplicam às infrações disciplinares capituladas também como crime. Sobre o caso em tela, de acordo com a jurisprudência do Superior Tribunal de Justiça, | COMANDO: assinale a afirmativa correta.
+A: Não deve ser aplicado, na esfera disciplinar, o prazo\nprescricional previsto na legislação penal, porque ainda não\nhouve oferecimento de denúncia criminal
+B: Deve ser aplicado, na esfera disciplinar, o prazo prescricional\nprevisto na legislação penal, apenas porque já houve\ninstauração de inquérito policial.
+C: Não deve ser aplicado, na esfera disciplinar, o prazo\nprescricional previsto na legislação penal, porque ainda não\nfoi proferida sentença criminal em primeiro grau de\njurisdição.
+D: Não deve ser aplicado, na esfera disciplinar, o prazo\nprescricional previsto na legislação penal, porque ainda não\nfoi proferida sentença criminal transitada em julgado.
+E: Deve ser aplicado, na esfera disciplinar, o prazo prescricional\nprevisto na legislação penal, independentemente de qualquer\noutra exigência.
+
+Q0114 | Um Delegado de Polícia, em 10/04/2012, ou seja, após o julgamento pelo STF da ADI 4424 (09/02/2012), que entendeu ser a ação penal por lesão corporal leve, no âmbito da violência doméstica contra a mulher, pública incondicionada, se depara com notícia de um crime de lesão corporal leve, no âmbito da violência doméstica contra a mulher, ocorrido em 04/01/2012, ou seja, antes do julgamento da referida ADI 4424, sem que a vítima tenha representado. Tendo em conta o controle de constitucionalidade na via abstrata pelo STF, em matéria penal, doutrinariamente é possível dizer que: | COMANDO: Assinale a alternativa correta.
+A: Nesse caso, por força do art. 5, LX, da CRF (princípio da retroatividade benéfica e irretroatividade in malan partem ), os efeitos do controle abstrato devem ser adstritos à técnica de declaração de inconstitucionalidade sem pronúncia de nulidade, ou seja, efeito ex tunc , devendo o Delegado instaurar o inquérito.
+B: O STF, no controle de constitucionalidade pela via abstrata, exerce função típica, jurisdicional, e, mesmo em tema de normas processuais mistas, sua decisão é erga omnes , com efeito vinculante inter partes . O Delegado deverá instaurar o inquérito.
+C: Quando a lei processual mista for declarada inconstitucional ou tiver interpretação fixada cujo efeito seja prejudicial ao réu, por força do princípio da irretroatividade da lei penal prejudicial (art. 5°, LX, CRF/88), seus efeitos deverão ser prospectivos, ou seja, ocorrerá declaração de inconstitucionalidade sem pronúncia de nulidade. O Delegado não poderia instaurar o inquérito.
+D: Nesse caso, indiscutivelmente, o Delegado de Polícia deverá instaurar o inquérito independentemente de representação da vítima, pois a decisão do STF é vinculante e , não encontrando qualquer outro limite, vez que a Corte atua como legislador positivo.
+E: Por se tratar de lei material, o caso reclama a técnica de controle de constitucionalidade com pronúncia de nulidade, atribuindo-se efeito ex nunc . Assim, não poderia o Delegado instaurar inquérito.
+
+Q0115 | Paulo, executivo do mercado financeiro, após um dia estressante de trabalho, foi demitido. O mundo desabara sobre sua cabeça. Pegou seu carro e o que mais queria era chegar em casa. Mas o horário era de rush e o trânsito estava caótico, ainda chovia. No interior de seu carro sentiu o trauma da demissão e só pensava nas dívidas que já estavam para vencer, quando fora acometido de uma sensação terrível: uma mistura de fracasso, com frustração, impotência, medo e etc. Neste instante, sem quê nem porque, apenas querendo chegar em casa, jogou seu carro para o acostamento, onde atropelou um ciclista que por ali trafegava, subiu no passeio onde atropelou um casal que ali se encontrava, andou por mais de 200 metros até bater num poste, desceu do carro meio tonto e não hesitou, agrediu um motoqueiro e subtraiu a motocicleta, evadindo-se em desabalada carreira, rumo à sua casa. Naquele dia, Paulo, um pacato cidadão, pagador de impostos, bom pai de família, representante da classe média-alta daquela metrópole, transformou-se num criminoso perigoso, uma fera que ocupara as notícias dos principais telejornais. Diante do caso narrado, identifique dentre as Teorias abaixo, a que melhor analisa (estuda/explica) o caso. | COMANDO: Diante do caso narrado, identifique dentre as Teorias abaixo, a que melhor analisa (estuda/explica) o caso.
+A: Escola de Chicago.
+B: Teoria da associação diferencial.
+C: Teoria da anomia.
+D: Teoria do labeling approach .
+E: Teoria crítica.
+
+Q0116 | Em relação à Lei Federal no 11.343/06, que estabelece o Sistema Nacional de Políticas Públicas sobre Drogas, é correto afirmar que | COMANDO: Assinale a alternativa correta.
+A: o comando legal que vedava a conversão da pena privativa de liberdade em restritiva de direitos no crime de tráfico teve sua execução suspensa por resolução do Senado Federal.
+B: a conduta de guardar, para consumo próprio, drogas em desacordo com determinação legal e regulamentar, configura mera infração administrativa.
+C: o informante que colabora com grupo que, sem autorização ou em desacordo com a legislação regulamentar, se dedica à venda de drogas, responde pelo mesmo tipo pena em que incorrerá o grupo vendedor, visto que sistema penal pátrio adota a teoria monista.
+D: por se tratar de norma penal em branco, a legislação delegou a órgão do Poder Executivo Federal a definição de critério quantitativo rígido para fins de distinção da conduta do usuário e do traficante.
+E: a lei em questão prevê pena privativa de liberdade para aquele que conduz veículo automotor, embarcação ou aeronave após o consumo de drogas, expondo a dano potencial a incolumidade de outrem.
+
+Q0117 | O estudo das teorias relaciona-se intimamente com as finalidades da pena. Nesse sentido, a teoria que sustenta que a única função efetivamente desempenhada pela pena seria a neutralização do condenado, especialmente quando a prisão acarreta seu afastamento da sociedade, é a teoria | COMANDO: Complete a frase com o nome da teoria correspondente.
+A: das janelas quebradas.
+B: relativa.
+C: unificadora.
+D: absoluta.
+E: agnóstica.
+
+Q0118 | Acerca de aspectos diversos do processo penal brasileiro, o próximo item apresenta uma situação hipotética, seguida de uma assertiva a ser julgada. Alberto e Adriano foram presos em flagrante delito. O juiz que analisou a prisão em flagrante concedeu a Alberto a liberdade provisória mediante o recolhimento de fiança arbitrada em um salário mínimo. Quanto a Adriano, foi-lhe decretada a prisão preventiva. Antes que o autuado Alberto recolhesse o valor da fiança e que a DP impetrasse habeas corpus em favor de Adriano, entrou em vigor lei processual penal nova mais gravosa, que tratou tanto da fiança quanto da prisão preventiva. Nessa situação, a lei processual penal nova que tratou da fiança aplicar-se-á desde logo, sem prejuízo da validade dos atos realizados sob a vigência da lei anterior. Entretanto, à prisão preventiva aplicar-se-ão os dispositivos que forem mais favoráveis ao interessado. | COMANDO: Julgue a assertiva apresentada na situação hipotética.
+C: Certo
+E: Errado
+
+Q0119 | Considere que um indivíduo está sendo processado por um determinado crime. Lei posterior ao fato criminoso deixa de considerá-lo crime. Para que a nova lei beneficie o acusado, | COMANDO: 
+A: é necessário que ela entre em vigor antes do\noferecimento da denúncia.
+B: basta que ela entre em vigor a qualquer tempo,\nmesmo após o trânsito em julgado da decisão\ncondenatória.
+C: é necessário que ela entre em vigor antes do\nrecebimento da denúncia.
+D: é necessário que ela entre em vigor antes de\nproferida a sentença de primeiro grau.
+E: é necessário que ela entre em vigor antes do\ntrânsito em julgado.
+
+Q0120 | Acerca das provas, das sentenças e dos princípios do direito processual penal, julgue o item a seguir. No processo penal, o momento adequado para a especificação de provas pelo réu é a apresentação da resposta à acusação. Entretanto, isso não impede que, por ocasião de seu interrogatório, o réu indique outros meios de prova que deseje produzir. | COMANDO: Julgue o item a seguir.
+C: Certo
+E: Errado

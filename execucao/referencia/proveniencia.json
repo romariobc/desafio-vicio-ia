@@ -1,0 +1,18 @@
+{
+  "origem_local": "E:\\Labdev\\Projetos\\desafio-vicio\\PIPILINE-GPT\\entrega_final\\PIPILINE\\dados\\revisao_humana.json",
+  "sha256": "d2c29154dbba3744a32a2fdde06c6b6c0a07ef86ac7a4f4f3de5440a7f78e6bb",
+  "numero_revisoes": 60,
+  "rotulos_positivos": 57,
+  "restricoes_negativas": [
+    "Q0028",
+    "Q0053",
+    "Q0168"
+  ],
+  "risco_ancoragem_aceito_por_usuario": true,
+  "motivo_aceitacao": "Prazo curto do desafio, otimização do tempo e experiência do revisor humano, conforme declaração do usuário.",
+  "autoria_revisao": "Informada pelo usuário como revisão humana; identidade, credenciais e duração não verificadas pelo arquivo.",
+  "selecao_original": "IDs dirigidos/fixos, probabilidades de inclusão desconhecidas",
+  "particao_semente": 20261018,
+  "exposicao_historica": "A sessão já teve acesso a resultados e parte dos pareceres; avaliação reservada não é cega.",
+  "precisao_oficial": "Não identificável sem os rótulos reservados da empresa."
+}

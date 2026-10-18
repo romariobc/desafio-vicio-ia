@@ -1,0 +1,190 @@
+
+Q0241 | Analise os itens abaixo sobre a teoria do erro. I. O erro de tipo essencial incide sobre elementar do tipo quando a falsa percepção de realidade faz com que o agente desconheça a natureza criminosa do fato. II. O erro sobre objeto é irrelevante para o Direito Penal, já que o agente, mesmo quando realiza a conduta que recai sobre coisa alheia, responderá criminalmente pelo crime cometido nos limites do tipo penal. III. O aberratio ictus é modalidade de erro acidental que não exclui a tipicidade, sopesando ao agente uma responsabilização em âmbito penal. IV. O aberratio criminis é o desvio na execução do delito e recai sobre o objeto jurídico do crime, sendo que sua verificação não exclui a tipicidade. | COMANDO: Assinale a alternativa correta.
+A: Apenas I e III estão corretos
+B: Apenas II e IV estão corretos
+C: Apenas II e III estão incorretos
+D: Apenas III e IV estão incorretos
+E: I, II, III e IV estão corretos
+
+Q0242 | Sobre os recursos em processo penal, assinale a alternativa CORRETA: | COMANDO: Assinale a alternativa correta.
+A: O recurso extraordinário e o recurso\nespecial serão processados e julgados no\nSupremo Tribunal Federal e no Superior\nTribunal de Justiça na forma estabelecida\npor leis especiais e pela lei processual\ncivil, que revogaram os regimentos\ninternos das Cortes Superiores no tocante\na ambos os recursos.
+B: Quando o acusado não tiver condições de\nnomear defensor, ser-lhe-á nomeado\ndefensor público ou dativo, sendo que, em\nqualquer hipótese, haverá prazo em dobro\npara recorrer.
+C: Em nome dos princípios da\nunirrecorribilidade e da preclusão lógica,\nquando houver a interposição de dois\nrecursos pela mesma parte contra a mesma\ndecisão, será conhecido o recurso\napresentado em segundo lugar.
+D: O recurso ordinário constitucional é\ninterposto no tribunal recorrido, mas o\nexame de sua admissibilidade ocorrerá\nsomente no tribunal que irá julgá-lo.
+E: Caberá reexame necessário quando da\ndecisão de deferimento de reabilitação\ncriminal, da denegação e da concessão de\nhabeas corpus e da sentença que arquiva\ninquérito policial ou absolutória por\ncrimes contra a economia popular ou\nsaúde pública.
+
+Q0243 | Antônio, durante a madrugada, subtrai, com o emprego de chave falsa, o automóvel de Pedro. Depois de oferecida a denúncia pela prática de crime de furto qualificado, mas antes do seu recebimento, por ato voluntário de Antônio, o automóvel furtado é devolvido à vítima. Nesse caso, pode-se afirmar a ocorrência de | COMANDO: Assinale a alternativa correta.
+A: arrependimento posterior.
+B: desistência voluntária.
+C: arrependimento eficaz.
+D: circunstância atenuante.
+E: causa de extinção da punibilidade.
+
+Q0244 | O agente que exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, responderá pelo crime de: | COMANDO: 
+A: peculato.
+B: concussão.
+C: corrupção passiva.
+D: corrupção ativa.
+
+Q0245 | Assinale a opção correta a respeito da prescrição. | COMANDO: 
+A: O empresário que, com a finalidade de obter vantagem indevida, praticar ato fraudulento do qual resulte prejuízo aos credores terá sua conduta tipificada como crime na Lei de Falências. Nesse caso, a prescrição do crime começará a correr do dia da homologação do plano de recuperação extrajudicial.
+B: A decretação da falência do devedor suspende a prescrição cuja contagem tenha-se iniciado com a concessão da recuperação judicial.
+C: As penas aplicáveis aos usuários de substâncias entorpecentes prescrevem em quatro anos, contados do início da execução da sanção penal.
+D: Depois de transitada em julgado a sentença penal condenatória, reinicia-se a contagem do prazo prescricional, que continua correndo durante o tempo em que o condenado estiver preso por outro motivo.
+E: Na hipótese de um condenado fugir faltando seis meses para o cumprimento da pena, a contagem da prescrição da pretensão executória recomeçará a partir da data da fuga. Nesse caso, a prescrição ocorrerá no lapso temporal correspondente à pena integralmente aplicada.
+
+Q0246 | No procedimento do júri, presentes indícios da autoria e prova da materialidade, se ao término da instrução do sumário de culpa ficar provado tecnicamente que o acusado é semi-imputável, o juiz deverá: | COMANDO: Assinale a alternativa correta.
+A: pronunciá-lo.
+B: absolvê-lo sumariamente.
+C: impronunciá-lo.
+D: remeter os autos para o juízo comum para a prolação da sentença.
+E: declarar nulo o processo e remeter os autos para o juízo comum.
+
+Q0247 | Com a Lei Anticrime surge o instituto do Acordo de Não Persecução Penal (ANPP), cujo cumprimento integral traduz-se em uma causa de extinção da punibilidade. Todavia, o marco legal do ANPP veda a aplicação do acordo nos crimes de violência doméstica e nos crimes de racismo, o que encontra respaldo, incontroverso, na doutrina e na jurisprudência. É preciso lembrar, também, que não deve ser oferecido o acordo se no momento da lavratura do auto de prisão em flagrante o preso não confessar circunstanciadamente. Ademais, a referida lei, no que tange ao acordo de não persecução penal, não pode ser aplicado a fatos ocorridos antes de sua vigência. | COMANDO: 
+C: Certo
+E: Errado
+
+Q0248 | Considere os seguintes tipos penais praticados contra a Administração Pública: Tipos penais 1. Desobediência 2. Resistência 3. Corrupção passiva 4. Corrupção ativa 5. Concussão Ação a. Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem. b. Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida. c. Opor-se à execução de ato legal, mediante violência ou ameaça a funcionário competente para executá-lo ou a quem lhe esteja prestando auxílio. d. Desobedecer a ordem legal de funcionário público. e. Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício. A correta correlação entre o tipo penal e a sua ação é: | COMANDO: 
+A: 1-d - 2-a - 3-b - 4-e - 5-c.
+B: 1-a - 2-c - 3-d - 4-e - 5-b.
+C: 1-d - 2-c - 3-a - 4-e - 5-b.
+D: 1-d - 2-b - 3-a - 4-e - 5-c.
+E: 1e - 2-c - 3-a - 4-d - 5-b.
+
+Q0249 | O Estatuto Processual Penal prevê que o juiz não poderá exercer jurisdição no processo em que: a) tiver funcionado seu cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau, inclusive, como defensor ou advogado, órgão do Ministério Público, autoridade policial, auxiliar da justiça ou perito; b) ele próprio houver desempenhado qualquer dessas funções ou servido como testemunha; c) tiver funcionado como juiz de outra instância, pronunciando-se, de fato ou de direito, sobre a questão; d) ele próprio ou seu cônjuge ou parente, consanguíneo ou afim em linha reta ou colateral até o terceiro grau, inclusive, for parte ou diretamente interessado no feito. Nos juízos coletivos, não poderão servir no mesmo processo os juízes que forem entre si parentes, consanguíneos ou afins, em linha reta ou colateral até o terceiro grau, inclusive. | COMANDO: Processo Penal
+C: Certo
+E: Errado
+
+Q0250 | Sobre a determinação do regime inicial de cumprimento de pena, é correto afirmar que | COMANDO: Assinale a alternativa correta.
+A: em virtude do princípio da individualização da pena, a primeira fase de aplicação da pena não pode influenciar na\ndeterminação do regime.
+B: a pena de detenção deve ser cumprida em regime aberto ou semiaberto, salvo caso de reincidência.
+C: segundo a jurisprudência dominante do STJ, a reincidência impede o cumprimento de pena em regime semiaberto,\nindependentemente da quantidade de pena e das circunstâncias judiciais.
+D: em caso de condenação por crime de extorsão mediante sequestro consumado, é possível a aplicação do regime\nsemiaberto.
+E: por ser cometido com violência ou grave ameaça contra a pessoa, a condenação por roubo consumado impede a\naplicação do regime aberto.
+
+Q0251 | Considere as assertivas abaixo sobre extinção da puni bilidade. I - É taxativo o rol das causas de extinção de punibilidade previsto no art. 107 do Código Penal. II - A anistia e o indulto se referem a fatos e pessoas determinados, respectivamente. III - A perda do direito de punir do Estado pelo não exercício em determinado lapso de tempo é causa de extinção da punibilidade. | COMANDO: Quais são corretas?
+A: Apenas I
+B: Apenas II
+C: Apenas III
+D: Apenas II e III
+E: I, II e III
+
+Q0252 | João, maior de setenta anos de idade ao tempo do fato, foi condenado pelo crime de estelionato à pena privativa de liberdade de quatro anos e três meses de reclusão em regime inicial semiaberto e, ainda, ao pagamento de cinquenta dias-multa, fixado o valor de um vinte avos do salário mínimo vigente. Nessa situação hipotética, conforme o CPP, | COMANDO: Assinale a alternativa correta.
+A: caso o presidente da República conceda a João graça parcial,\no benefício não poderá ser recusado.
+B: o juiz poderá, a requerimento do réu, demonstradas as\ncircunstâncias que o justifiquem, permitir que o pagamento da\npena de multa se faça em parcelas mensais.
+C: João terá direito ao livramento condicional, preenchidos os\nrequisitos, e somente este ou o seu advogado poderá requerê-lo\nao juízo da execução penal, tendo em vista a natureza\npersonalíssima da pena.
+D: o requisito temporal do livramento condicional será reduzido\npela metade, em razão de João contar com mais de setenta anos\nde idade na data do fato.
+
+Q0253 | No que concerne às Escolas Penais, é correto afirmar que a | COMANDO: Complete a frase com a afirmação correta sobre as Escolas Penais.
+A: “Positiva” entende que o crime deriva de circunstâncias\nbiológicas ou sociais, tendo sido defendida por\nFeuerbach.
+B: “Clássica” funda-se no livre-arbítrio e tem em Carrara\num de seus maiores expoentes.
+C: “Lombrosiana” acredita que o homem é racional e\nnasce livre, sendo o crime fruto de uma escolha\nerrada, concepção hipotetizada por Lombroso e\ntambém por Ferri.
+D: “Clássica” entende que a pena é medida profilática,\nde cura, pensamento difundido por Carmignani.
+E: “Positiva” nasce em contraposição às ideias de\nLombroso, defende o naturalismo-racional e tem em\nGarofalo um de seus doutrinadores.
+
+Q0254 | Joana, vítima de violência doméstica e familiar perpetrada pelo seu ex-companheiro, compareceu à Delegacia especializada de Atendimento à Mulher do Município de Recife/PE, manifestando o desejo de obter medidas protetivas de urgência. Nesse cenário, considerando as disposições da Lei nº 11.340/2016, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) As medidas protetivas de urgência serão concedidas independentemente da tipificação penal da violência, do ajuizamento de ação penal ou cível, da existência de inquérito policial ou do registro de boletim de ocorrência. ( ) As medidas protetivas de urgência vigorarão pelo prazo máximo de cento e oitenta dias, admitindo-se sucessivas prorrogações, por decisão judicial, enquanto persistir risco à integridade física, psicológica, sexual, patrimonial ou moral da ofendida ou de seus dependentes. ( ) As medidas protetivas de urgência poderão ser concedidas de imediato, independentemente de audiência das partes e de manifestação do Ministério Público, devendo este ser prontamente comunicado. | COMANDO: As afirmativas são, respectivamente,
+A: V – V – V.
+B: F – V – F.
+C: V – F – V.
+D: F – F – V.
+E: F – F – F.
+
+Q0255 | No que diz respeito à imputabilidade penal, assinale a alternativa incorreta . | COMANDO: Assinale a alternativa incorreta.
+A: A paixão e a emoção não excluem a imputabilidade\npenal
+B: A pena pode ser reduzida de um a dois terços, se o\nagente, por embriaguez, proveniente de caso fortuito\nou força maior, não possuía, ao tempo da ação ou da\nomissão, a plena capacidade de entender o caráter\nilícito do fato ou de determinar-se de acordo com\nesse entendimento
+C: É isento de pena o agente que, em virtude de\nperturbação de saúde mental ou por\ndesenvolvimento mental incompleto ou retardado\nnão era inteiramente capaz de entender o caráter\nilícito do fato ou de determinar-se de acordo com\nesse entendimento
+D: A embriaguez, voluntária ou culposa, pelo álcool ou\nsubstância de efeitos análogos, não exclui a\nimputabilidade penal
+E: Os menores de 18 (dezoito) anos são penalmente\ninimputáveis, ficando sujeitos às normas\nestabelecidas na legislação especial
+
+Q0256 | Tanto a conduta do agente que age imprudentemente, por desconhecimento invencível de algum elemento do tipo quanto a conduta do agente que age acreditando estar autorizado a fazê-lo ensejam como consequência a exclusão do dolo e, por conseguinte, a do próprio crime. | COMANDO: Explique a consequência da conduta do agente que age imprudentemente por desconhecimento invencível ou acreditando estar autorizado a agir.
+C: Certo
+E: Errado
+
+Q0257 | O princípio da legalidade é pedra fundamental do Direito Penal brasileiro, marcando, por isso, a própria abertura do Código em seu dispositivo prefacial. Registra, também, sua presença no elevado artigo 5º, da Constituição Federal, especificamente em seu inciso XXXIX. Nessa linha, o grande jurista Luis Jiménez Asúa afirma com precisão: “Ernest Beling, que expôs a teoria da tipicidade pela primeira vez, deu a ela, desde seu primeiro livro, um valor decisivo na construção técnica do crime, e recentemente estudou o significado do princípio nulla poena sine lege para a determinação dos conceitos fundamentais dos delitos. Ora, visto que não há crime sem um tipo legal claramente formulado, é possível, no sentir de Beling, levar o princípio nullum crimen sine lege adiante, dizendo: 'não há crime sem tipicidade' (kein Verbrechen ohne Tatbestand).” (La Ley e el Delito: princípios de derecho penal. 13ª edição, Buenos Aires: Abeledo-Perrot Editorial Sudamericano, 1984, p. 97-98, tradução livre). Atento às advertências lançadas no trecho, analise as afirmativas abaixo. I. O Direito Penal expressa suas previsões punitivas no tipo penal ou tipo legal incriminador, que é o modelo de conduta prevista na lei penal, que pode ser classificado como crime, contravenção ou ato de improbidade administrativa. II. O autor do crime é a pessoa humana, também designado como sujeito ativo de crime. Excepcionalmente, nos termos da lei e da Constituição, é possível atribuir responsabilidade penal à pessoa jurídica. III. É possível existir um fato que seja ilícito, mas que não seja correspondentemente típico, isto é, que não se subsuma a um tipo penal incriminador e ainda assim seja ilícito. Estão corretas as afirmativas: | COMANDO: 
+A: I, II e III
+B: I e II apenas
+C: I e III apenas
+D: II e III apenas
+
+Q0258 | O exame de corpo de delito | COMANDO: Explique o que é o exame de corpo de delito.
+A: deve ser realizado por perito oficial ou pelo próprio juiz.
+B: deve ser realizado quando se mostrar ausente vestígio do crime, assegurado o direito de apresentação de quesitos pelas partes.
+C: será feito de maneira indireta no caso de competência do Tribunal do Júri.
+D: poderá ser substituído pela acareação ou pelo reconhecimento em crimes contra a fé pública.
+E: será realizado com prioridade em caso de violência doméstica e familiar contra a mulher.
+
+Q0259 | O crime de dano (CP, art. 163), norma menos grave, funciona como elemento do crime de furto qualificado pelo rompimento de obstáculo à subtração da coisa (CP, art. 155, § 4.º, inciso I). Nesta hipótese, o crime de dano é excluído pela norma mais grave, em função do princípio da | COMANDO: Complete a frase com o princípio aplicável.
+A: especialidade.
+B: consunção.
+C: subsidiariedade tácita ou implícita.
+D: subsidiariedade expressa ou explícita.
+
+Q0260 | Analise as assertivas abaixo e indique a alternativa: I. Das construções doutrinárias de Günther Jakobs acerca do “Direito Penal do Inimigo”, extrai-se que aquele que por princípio se conduz de modo desviado, não oferece garantia de um comportamento pessoal, por isso não pode ser tratado como cidadão, mas deve ser combatido como inimigo; II. Uma classificação atual de justiça – levada em consideração na criação de novos métodos de resolução de conflitos -, que surge como alternativa para que o crime não seja punido de maneira retributiva, mas que o dano causado seja reparado ou minimizado, é a Justiça Restaurativa; III. O Direito pátrio acolhe muitas das reinvindicações das minorias mediante edição de normas jurídicas que visam a manter a convivência harmônica do coletivo; IV. A afirmativa de João Baptista Herkenhoff (in Movimentos Sociais, Porto Alegre: Livraria do Advogado, 2004, p.25) de que “Os movimentos sociais não se submetem aos padrões do Direito estabelecido. Sobretudo em sociedades, como a brasileira, onde milhões de pessoas estão à margem de qualquer direito, num estado de permanente negação da Cidadania, os movimentos sociais estão sempre a ´criar direitos´ à face de uma realidade sociopolítica surda aos apelos de direito e dignidade humana”, reflete o confronto dos movimentos sociais com a ordem social cristalizada. | COMANDO: Analise as assertivas abaixo e indique a alternativa.
+A: Apenas as assertivas II, III e IV são corretas;
+B: Somente as assertivas II e IV são corretas;
+C: Apenas as assertivas II e III são corretas;
+D: Somente a assertiva III é correta;
+E: Todas as assertivas são corretas.
+
+Q0261 | Honorato adquiriu regularmente um programa de computador para uso pessoal. Contudo, desejando realizar uma cópia de segurança, reproduziu o conteúdo em mídia digital, guardando-a consigo. Considerando que Honorato não possuía expressa autorização do autor do programa para o ato, é correto afirmar que sua conduta: | COMANDO: Assinale a alternativa correta.
+A: não constitui crime.
+B: constitui crime previsto no Código Penal.
+C: constitui crime previsto no art. 12 da Lei n°9.609, cujo processamento se dará mediante ação\npública incondicionada.\n
+D: constitui crime previsto no art. 12 da Lei n°9.609, cujo processamento se dará mediante ação\npública condicionada à representação do\nofendido.
+E: constitui crime previsto no art. 12 da Lei n°9.609, cujo processamento se dará mediante ação\nprivada.\n
+
+Q0262 | Sobre a superveniência de doença mental ao apenado na fase de execução de pena , é correto afirmar: | COMANDO: Assinale a alternativa correta.
+A: Sobrevinda doença mental ao réu depois da sentença condenatória, haja vista exceção expressa\nno CPP, pode ser decretada pelo juízo da causa, ao constatar a enfermidade do apenado em oitiva,\na sua remoção provisória para hospital de custódia e tratamento psiquiátrico, sem prejuízo de revisão\nda decisão judicial em sede de recurso, pendente de exame.
+B: Pela Lei de Execução Penal, atestada em perícia médica o leve grau da enfermidade do apenado,\nmesmo não tendo sido feita a conversão da pena em medida de segurança, poderá ser determinado\npelo juízo o tratamento ambulatorial na própria unidade penitenciária, em vez de ser decretada a\ninternação em hospital de custódia.
+C: Em qualquer circunstância, a remoção do apenado para hospital de custódia e tratamento\npsiquiátrico poderá ser determinada provisoriamente pelo diretor do estabelecimento penal,\ncomunicando-se imediatamente ao juiz, que em face da perícia médica, ratificará ou revogará a\nmedida, na forma de regras do CPP não revogadas pela reforma legislativa.
+D: Suspensa a execução da pena em virtude de superveniência de doença mental do apenado,\naplicada a medida de segurança, prevalecem as normas desta até o fim da execução, mesmo que\nantes do término do tempo de pena ocorra a cura da enfermidade, atestada em perícia.
+E: O juiz da execução poderá, com base em perícia médica, determinar o internamento em hospital\nde custódia e tratamento psiquiátrico ou, a conversão da pena em medida de segurança, acaso\nsobrevinda a doença mental ao apenado durante a execução.
+
+Q0263 | O juiz dar-se-á por suspeito e, se não o fizer, poderá ser recusado por qualquer das partes: I. Se ele próprio ou seu cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau, inclusive, for parte ou diretamente interessado no feito. II. Se ele, seu cônjuge, ascendente ou descendente, estiver respondendo a processo por fato análogo, sobre cujo caráter criminoso haja controvérsia. III. Se ele, seu cônjuge, ou parente, consanguíneo, ou afim, até o terceiro grau, inclusive, sustentar demanda ou responder a processo que tenha de ser julgado por qualquer das partes. IV. Ele próprio houver desempenhado qualquer dessas funções (defensor ou advogado, órgão do Ministério Público, autoridade policial, auxiliar da justiça ou perito) ou servido como testemunha. | COMANDO: Avalie as assertivas acima e marque a alternativa CORRETA.
+A: Apenas as assertivas I e IV estão corretas.
+B: Apenas as assertivas I, II e III estão corretas.
+C: Apenas as assertivas II e III estão corretas.
+D: Todas as assertivas estão corretas.
+
+Q0264 | Nos crimes contra a dignidade sexual, tratando-se da vítima menor de 14 anos, ou enferma ou deficiente mental sem o necessário discernimento para o ato, a situação em que o proxeneta e o cliente que pratica a conjunção carnal enquadram-se no delito de estupro de vulnerável; enquanto o proprietário, o gerente ou o responsável pelo local responderão, tão somente, pelo crime de favorecimento à prostituição, na modalidade de conduta equiparada. Já, quando a vítima explorada sexualmente for menor de 18 e maior de 14 anos, o cliente que pratica a conjunção carnal responderá pelo crime de favorecimento à prostituição. | COMANDO: Assinale a alternativa correta.
+C: Certo
+E: Errado
+
+Q0265 | Na hipótese de concurso de crimes, a extinção da punibilidade pela prescrição incidirá sobre a pena cominada por cada crime, isoladamente. | COMANDO: Explique como a prescrição incide sobre a pena em caso de concurso de crimes.
+C: Certo
+E: Errado
+
+Q0266 | Em operação conjunta de garantia da Lei e da Ordem, de iniciativa do Presidente da República, com militares do Exército e membro da Polícia Militar estadual, ocorre a morte de um civil. Existem indícios da prática de um crime doloso contra a vida, sendo que há suspeita da participação de um soldado do Exército Brasileiro e um soldado da Polícia Militar estadual neste fato. Nesse caso, é correto afirmar que a competência para o eventual julgamento é | COMANDO: Assinale a alternativa correta.
+A: da Justiça Militar da União, para o Militar do Exército, e do Tribunal do Júri, para o Policial Militar estadual. \n
+B: da Justiça Militar da União, para o Militar do Exército, e da Justiça Militar dos Estados, para o Policial Militar estadual. \n
+C: do Tribunal do Júri, para ambos. \n
+D: da Justiça Federal, para o Militar do Exército, e do Tribunal do Júri, para o Policial Militar estadual. \n
+E: da Justiça Militar da União, para ambos, em razão da conexão. \n
+
+Q0267 | Matheus, caminhoneiro, foi capturado em flagrante enquanto transportava, na fronteira entre a República Federativa do Brasil e a Colômbia, cem quilos de cocaína. Em assim sendo, o indivíduo foi encaminhado à presença do delegado de polícia federal, que constatou que, na unidade policial, inexistia perito oficial para firmar o laudo de constatação da natureza e quantidade da droga. Dessa forma, o laudo pericial foi lavrado por uma pessoa idônea. Nesse cenário, considerando as disposições da Lei n o 11.343/2006, é correto afirmar que: | COMANDO: 
+A: recebida cópia do auto de prisão em flagrante, o juiz, no prazo de dez dias, certificará a regularidade formal do laudo de constatação e determinará a destruição das drogas apreendidas, guardando-se amostra necessária à realização do laudo definitivo;
+B: com a ratificação da prisão em flagrante de Matheus, o delegado de polícia fará, imediatamente, comunicação ao juiz competente, ao Ministério Público e à Defensoria Pública, remetendo-lhes cópia do auto lavrado;
+C: o local da destruição das drogas será vistoriado antes e depois de efetivada a medida, sendo lavrado auto circunstanciado pela autoridade sanitária, certificando-se neste a destruição total do material;
+D: a constatação da natureza e quantidade da droga se deu de forma irregular, pois não é possível suprir a ausência de perito oficial, substituindo-o por pessoa idônea, por ausência de previsão legal;
+E: a destruição das drogas será executada pelo delegado de polícia competente, na presença do Ministério Público, da autoridade sanitária e do juiz que ordenar a adoção da medida.
+
+Q0268 | Assinale a alternativa correta: | COMANDO: Assinale a alternativa correta.
+A: São requisitos do tipo, no crime de falsidade ideológica: 1) alteração da verdade sobre fato juridicamente relevante; 2) imitação da verdade; 3) potencialidade do dano; 4) dolo.
+B: O uso de documento falso não é crime formal e sua caracterização depende da ocorrência de um resultado naturalístico específico e determinado.
+C: A persecução do crime de "abuso de autoridade" somente se procede mediante queixa do ofendido.
+D: Não é punível a calúnia contra os mortos.
+E: A exceção da verdade, nos crimes contra a honra, é cabível, indistintamente, tanto na calúnia, quanto na injúria e na difamação.
+
+Q0269 | Assinale a alternativa que NÃO SE AJUSTA à doutrina do garantismo penal, em sua concepção clássica: | COMANDO: Assinale a alternativa que NÃO SE AJUSTA à doutrina do garantismo penal, em sua concepção clássica
+A: A interpretação da lei nunca é uma atividade exclusivamente recognitiva, mas é sempre fruto de uma escolha prática a respeito de hipóteses interpretativas alternativas.
+B: O problema do garantismo penal é elaborar técnicas no plano teórico, torná-las vinculantes no plano normativo e assegurar sua efetividade no plano prático.
+C: Na aplicação da lei penal, o julgador, preocupado com a legitimação da atividade jurisdicional e com a adesão social a seus atos, deve orientar suas decisões em conformidade com o consenso geral da população.
+D: O direito penal é necessário como técnica institucional de minimização da reação violenta ao desvio socialmente não tolerado e como garantia do acusado contra os arbítrios, os excessos e os erros conexos a formas não jurídicas de controle social.
+E: As garantias penais não servem tanto para legitimar ou validar, senão mais para deslegitimar o abuso da potestade punitiva.
+
+Q0270 | João conduzia o seu veículo automotor, ocasião em que foi parado por uma blitz da Polícia Militar. Após analisar a documentação do condutor, o policial Caio exigiu, para si, R$ 2.000,00 para liberar o automóvel. Nesse cenário, considerando as disposições do Código Penal, Caio responderá pelo crime de: | COMANDO: 
+A: excesso de exação;
+B: corrupção passiva;
+C: corrupção ativa;
+D: concussão;
+E: peculato.

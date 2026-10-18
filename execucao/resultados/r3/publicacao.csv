@@ -1,0 +1,360 @@
+id,decisao,tema_central_id,extras_ids,confianca,motivo
+Q0001,publicar,5524,5527;5528,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0002,publicar,4378,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0003,publicar,5562,5534;5475,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0004,publicar,5480,5484;5483,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0005,publicar,5203,5201;5208,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0006,publicar,5157,5159;5160,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0007,publicar,5468,5471;5472,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0008,publicar,5201,4703,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0009,publicar,5158,5159,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0010,publicar,4688,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0011,publicar,4702,5482,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0012,publicar,5569,4701,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0013,publicar,5503,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0014,publicar,5477,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0015,publicar,5500,5501;5508,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0016,publicar,5584,5519;5586;5589,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0017,fora,,,0.0,Lacuna na taxonomia: Procedimento especial de crimes funcionais sem nó próprio
+Q0018,publicar,5540,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0019,publicar,5475,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0020,revisar,5062,4709;5203;5119;5159;5539,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0021,publicar,5503,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0022,publicar,5087,5089;5091;5092;5095,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0023,publicar,5524,5526;5527;5528,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0024,publicar,4387,,0.964286,Escola de Chicago e associação diferencial são teorias de nível sociológico; calibração expôs confusão com o nó irmão genérico em espécie.
+Q0025,publicar,5101,5093,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0026,publicar,4704,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0027,publicar,5488,5489,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0028,revisar,5524,5526;5527,0.916667,Revisar: referencia_inconclusiva; O comando envolve resposta à acusação e alteração após pronúncia; pai já era a proposta da R1. A rejeição antiga de 5526 não prova que 5524 esteja validado; manter revisão.
+Q0029,publicar,4684,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0030,publicar,5135,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0031,publicar,4387,,0.964286,Anomia explica estrutura social e metas; substituir o nó irmão em espécie pelo nível sociológico validado na calibração.
+Q0032,publicar,5497,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0033,publicar,5519,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0034,publicar,5477,5594,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0035,publicar,4706,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0036,publicar,4704,5471,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0037,revisar,5062,5132;5081;5118,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0038,publicar,5583,5549,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0039,fora,,,0.0,Lacuna na taxonomia: Cartel e crimes contra ordem econômica com nó inativo
+Q0040,publicar,5562,5515;5529,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0041,publicar,5184,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0042,publicar,5222,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0043,publicar,5199,5203;5201;5206,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0044,publicar,5488,5583,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0045,publicar,5091,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0046,publicar,5509,5510;5511,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0047,publicar,5164,5468,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0048,publicar,5193,4703,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0049,publicar,5152,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0050,publicar,4708,5557,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0051,publicar,5182,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0052,publicar,4703,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0053,revisar,5539,5541;5542,0.916667,Revisar: referencia_inconclusiva; O contraste expresso entre suspensão do processo e transação sustenta o pai Procedimento Sumaríssimo. Discordância antiga sem tema substituto permanece inconclusiva e bloqueia publicação.
+Q0054,publicar,5174,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0055,publicar,5550,5511,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0056,publicar,5066,5067;5068;5069;5070,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0057,publicar,5176,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0058,publicar,4378,4390;4375,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0059,publicar,4368,4370,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0060,publicar,5087,5091;5089;5093;5096;5097,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0061,publicar,4703,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0062,publicar,5182,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0063,publicar,4704,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0064,publicar,5165,4695;5172,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0065,publicar,5161,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0066,publicar,4373,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0067,publicar,5091,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0068,revisar,5062,5103;5096;5126;5118;5119,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0069,publicar,5173,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0070,publicar,5193,5201;4703,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0071,publicar,4688,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0072,publicar,5592,5595,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0073,publicar,5087,5089;5093;5101;5084;5147,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0074,publicar,5181,4703,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0075,publicar,5191,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0076,publicar,4373,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0077,revisar,5171,5174;5194,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0078,publicar,4697,4691,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0079,publicar,5581,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0080,publicar,4370,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0081,publicar,4373,4388,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0082,publicar,5100,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0083,publicar,5222,5224;5150,0.916667,"A sequência de atos ilustra dolo geral; alinhar ao nó de dolo e culpa como em Q0153, mantendo erro de tipo como conteúdo secundário."
+Q0084,publicar,4704,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0085,publicar,5076,5091,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0086,publicar,5092,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0087,publicar,4703,5521,0.964286,O comando delimita execução penal definitiva; preferir a LEP ao nó de prisão domiciliar cautelar do Processo Penal.
+Q0088,publicar,4389,4381,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0089,publicar,5172,5227,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0090,revisar,5465,4701;5526;5531,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0091,publicar,5201,4703,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0092,publicar,5511,5493,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0093,publicar,5223,5142;5150,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0094,publicar,4387,4378,0.964286,Etiquetamento social é abordagem sociológica; generalização do critério corrigido em Q0024 e Q0031.
+Q0095,publicar,5197,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0096,publicar,5486,5528,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0097,revisar,4683,4708;4705;4702,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0098,publicar,5548,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0099,publicar,5100,5232;5077,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0100,publicar,5103,5224;5223,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0101,publicar,4704,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0102,publicar,5572,5574;5577;5184,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0103,publicar,5478,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0104,publicar,5500,5477,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0105,publicar,4387,,0.964286,Criminologia cultural e paradigma do etiquetamento são teorias de nível sociológico; evitar o irmão genérico.
+Q0106,publicar,5157,5166,0.916667,Tomar refeição sem recursos é outra fraude patrimonial; o nó pai preserva o ramo sem equiparar automaticamente ao estelionato estrito.
+Q0107,publicar,5119,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0108,publicar,5561,5515,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0109,publicar,4708,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0110,publicar,5480,5483;5484;5482,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0111,publicar,4373,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0112,publicar,4705,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0113,fora,,,0.0,Lacuna na taxonomia: Prazo prescricional disciplinar sem nó administrativo
+Q0114,publicar,5181,5507;4704,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0115,publicar,4387,,0.964286,Teoria da anomia no caso de frustração de metas; aplicar critério sociológico aprendido na calibração.
+Q0116,publicar,4708,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0117,publicar,4384,5200,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0118,publicar,5507,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0119,publicar,5194,5181,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0120,publicar,5591,5533;5547,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0121,publicar,5469,5472;5196,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0122,publicar,4703,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0123,publicar,4378,4388;4390,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0124,publicar,4384,5200,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0125,publicar,5181,4703;4708,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0126,revisar,5062,5226;5076;5213;5182,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0127,publicar,5581,5575;4708,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0128,publicar,5468,5184,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0129,publicar,5550,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0130,publicar,5160,5205,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0131,publicar,5072,5074,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0132,publicar,5550,5549;5583,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0133,publicar,5528,5486,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0134,publicar,5092,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0135,publicar,5169,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0136,publicar,4704,5124,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0137,publicar,5500,5499,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0138,publicar,5199,5205;5207,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0139,publicar,5212,5217,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0140,publicar,5157,5159;5160,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0141,publicar,4387,,0.964286,Teoria ecológica da Escola de Chicago explica organização urbana; classificar no nível sociológico.
+Q0142,fora,,,0.0,Lacuna na taxonomia: Isenção de ITCD sem tema tributário não penal
+Q0143,publicar,5507,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0144,publicar,5562,5529,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0145,publicar,4702,4695;5084,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0146,publicar,5594,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0147,publicar,5498,5556;5502;5557,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0148,publicar,5203,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0149,publicar,5500,5554;5545,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0150,publicar,4708,5181,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0151,publicar,5517,5521;5522;5523;5518,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0152,publicar,5472,5474,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0153,publicar,5222,5224,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0154,revisar,5135,,0.916667,Revisar: lei_especial_sem_no; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0155,publicar,4703,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0156,publicar,4688,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0157,publicar,5520,4693,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0158,publicar,4707,5209,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0159,publicar,5226,5150;5160,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0160,publicar,5205,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0161,publicar,5588,5594;5554;5589,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0162,publicar,4381,4368,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0163,publicar,5133,4684;4703,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0164,publicar,4703,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0165,publicar,4705,5557,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0166,publicar,4703,5521;5208;5193,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0167,publicar,5528,5486,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0168,revisar,4683,,0.5,"Revisar: generico, referencia_inconclusiva; Revisor rejeitou fora sem corrigir o tema. Encaminhar com sugestão da disciplina de legislação especial; jamais publicar nem presumir rótulo validado."
+Q0169,publicar,5492,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0170,publicar,5203,5188;5210,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0171,revisar,5062,4693;5557;4699;5502,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0172,revisar,5465,5484;5579;5188;5473,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0173,publicar,4703,5201,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0174,revisar,5133,4709;5166,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0175,publicar,5092,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0176,publicar,5081,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0177,publicar,5547,5582,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0178,publicar,4697,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0179,publicar,4369,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0180,publicar,5594,5554,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0181,publicar,4695,4689,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0182,revisar,5062,5154;5139;5122,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0183,publicar,5561,5187;5488,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0184,publicar,4708,5518,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0185,publicar,4703,5566,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0186,publicar,5202,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0187,publicar,5209,5201,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0188,publicar,5228,5231;5232,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0189,publicar,5472,5196,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0190,publicar,4701,5540;5542;5541,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0191,publicar,5560,5567;5561,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0192,revisar,5087,5091;5092;5089;5081;5201,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0193,publicar,5557,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0194,publicar,5089,5076,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0195,publicar,4373,4388,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0196,publicar,4387,4378,0.964286,Labelling approach é teoria sociológica; controle seletivo é conteúdo secundário de criminalização.
+Q0197,publicar,5500,5482,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0198,publicar,5073,5072,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0199,revisar,5218,5221;5227;5230;5067,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0200,publicar,4705,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0201,publicar,5103,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0202,publicar,5224,5109,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0203,publicar,4702,5496,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0204,publicar,5507,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0205,publicar,5512,5567;5513;5514;5515,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0206,publicar,5583,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0207,publicar,4703,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0208,publicar,5072,5074;5231,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0209,publicar,5499,5582,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0210,publicar,4697,5172;5181,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0211,publicar,5582,5535,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0212,publicar,5488,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0213,publicar,4708,5533,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0214,publicar,5494,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0215,publicar,5201,5576,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0216,publicar,4701,5541,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0217,publicar,4372,4384,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0218,publicar,5518,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0219,revisar,5074,,0.5,Revisar: texto_incompleto; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0220,publicar,5501,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0221,revisar,5199,5203;5201;5205;5184,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0222,publicar,4375,4376,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0223,publicar,5086,4703,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0224,publicar,5203,5207,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0225,publicar,5478,5485,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0226,publicar,5544,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0227,publicar,5103,4709;5104,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0228,publicar,5208,4703,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0229,publicar,5584,5519;5520;5586,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0230,revisar,5062,5211;5071;5200;5184,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0231,publicar,5224,4708,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0232,publicar,5079,5080;5082;5081;5084;5086,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0233,publicar,5178,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0234,publicar,4382,4381,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0235,publicar,5561,5515,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0236,revisar,5465,5491;5495;5592;5582,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0237,publicar,5178,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0238,publicar,5523,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0239,revisar,5199,5203;5207;5224,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0240,publicar,5473,5500;5488,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0241,publicar,5224,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0242,publicar,5512,5513;5514;5570;5571,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0243,publicar,5178,5159,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0244,publicar,5091,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0245,publicar,5185,5187;5189;5190,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0246,publicar,5527,5213,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0247,publicar,5502,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0248,publicar,5087,5100;5092;5093;5091,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0249,publicar,5492,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0250,publicar,5201,5576,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0251,publicar,5191,5193;5185,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0252,publicar,5199,5206;5208;5193,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0253,publicar,4373,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0254,publicar,4704,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0255,publicar,5213,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0256,publicar,5224,5214,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0257,publicar,5218,5219;5227;5172,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0258,publicar,5545,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0259,publicar,5183,5159;5164,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0260,revisar,4374,4376;4370,0.5,Revisar: abaixo do corte; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0261,revisar,5136,,0.964286,Revisar: lei_especial_sem_no; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0262,publicar,4703,5184,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0263,publicar,5492,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0264,publicar,5102,5103;5109,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0265,publicar,5186,5066,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0266,publicar,5482,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0267,publicar,4708,5546;5518,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0268,revisar,5062,5118;4684;5122;5123;5124,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0269,publicar,4375,5172,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0270,publicar,5091,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0271,publicar,5515,5562,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0272,publicar,4703,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0273,revisar,5087,5089;5096;5118;4695,0.5,Revisar: mosaico; Alternativas incluem falsidade e crimes tributários além de crimes funcionais; não sustentar foco único pela provável resposta correta.
+Q0274,publicar,5160,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0275,publicar,5540,4701;5488,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0276,publicar,5543,5547;5548;5552;5545;5554,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0277,publicar,4696,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0278,publicar,5542,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0279,publicar,5188,5178;5159,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0280,publicar,5122,5472;5471;5474,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0281,publicar,5594,5555;5499,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0282,revisar,4683,4704;4690;4697,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0283,publicar,5496,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0284,publicar,5224,5231;5214;5527,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0285,publicar,4376,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0286,publicar,5199,5202;5203;5204,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0287,publicar,5229,5230,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0288,revisar,5062,5103;4695;4688;5068;5087,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0289,publicar,4704,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0290,publicar,4701,5488;5535,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0291,publicar,4708,5500,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0292,publicar,4374,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0293,publicar,5185,5188;5189,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0294,publicar,5211,5212;5213;5214;5217,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0295,publicar,5489,5583;5514,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0296,publicar,5472,5474,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0297,revisar,4683,4695;4689,0.5,Revisar: generico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0298,revisar,4683,4694,0.5,"Revisar: generico, lei_especial_sem_no; O nó 4694 diz especificamente CDC, mas a questão cobra Lei 8137. Sugestão na disciplina para curadoria sem declarar equivalência legal nem publicar."
+Q0299,publicar,4373,4388;4384,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0300,publicar,5084,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0301,publicar,5197,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0302,publicar,5224,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0303,publicar,5180,5182;5181;5201,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0304,publicar,5540,4701;5541,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0305,publicar,5466,5473;5471;5469,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0306,publicar,5146,4705,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0307,publicar,4707,5223,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0308,publicar,5501,5467,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0309,publicar,4688,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0310,publicar,5505,5507;5508;5506,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0311,publicar,5488,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0312,publicar,4384,5200,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0313,publicar,5209,5577;5475,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0314,publicar,5477,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0315,publicar,5185,5188;5189;5187,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0316,publicar,5224,5153,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0317,publicar,5198,5471,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0318,publicar,5178,5177;5150;5203,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0319,revisar,5073,5072,0.916667,Revisar: texto_inconsistente; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0320,publicar,5550,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0321,publicar,5071,5073;4708,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0322,publicar,5561,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0323,publicar,5590,5593;5547;5557;5550;5595,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0324,revisar,5199,5201;5209;5184;4703,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0325,revisar,5467,5494;5473;4704;4688,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0326,publicar,4708,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0327,publicar,5203,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0328,publicar,4382,4374,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0329,publicar,5557,4705,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0330,publicar,5498,5501;5581,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0331,publicar,5477,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0332,publicar,5541,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0333,revisar,5062,5219;5178;5201;4373,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0334,publicar,4381,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0335,revisar,5218,5221;5222;5223;5171;5174,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0336,publicar,5159,5177,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0337,publicar,4684,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0338,publicar,5590,5548;5550;5546;5592,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0339,revisar,5572,5565;5527;5578;5203,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0340,publicar,5071,5074;5076;5203,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0341,publicar,5157,5164;5160;5159;5166;5169,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0342,publicar,5546,5545,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0343,publicar,5196,5195;5472,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0344,publicar,4688,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0345,publicar,5103,5203;5204,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0346,publicar,5583,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0347,revisar,5062,5230;5232;5207;5069;5208,0.5,"Revisar: generico, mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras."
+Q0348,publicar,5093,5182;5187,0.916667,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0349,publicar,5178,5160,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0350,publicar,4702,5557,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0351,publicar,5118,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0352,publicar,5512,5515;5513;5514,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0353,revisar,5535,5582;5188,0.5,Revisar: abaixo do corte; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0354,revisar,5218,5226;5227;5072;5221,0.5,Revisar: mosaico; Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0355,publicar,4708,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0356,publicar,5066,5067;5068;5070,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0357,publicar,5135,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0358,publicar,5133,,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
+Q0359,publicar,4696,4701,0.964286,Mantidos tema e score da R1 após revisão dos critérios; nenhum ajuste automático por mera presença de extras.
