@@ -23,7 +23,7 @@
     "sistema/avaliacao/auditar_amostra.py": "c669f2c7dc704e3f70ceef1d9aff12bbce2cf07a055c6bbc4c4be0d132435636",
     "sistema/avaliacao/consolidar_adjudicacao.py": "5e28e76ce1888da0dc02780d4f0fc1042dcb3b3158f0fd8e6b41eeccdfec8de6",
     "sistema/avaliacao/verificar_revisao.py": "3fac345f627a735726d3bdad1f316daa922cf922ae85c31bda73b575133515bf",
-    "sistema/executar.py": "c17e3d6892863c0d733e2de846b9567bffc98197e1fd0896397c7177a8571d07",
+    "sistema/executar.py": "ce0f130f43ee02b44a77e72fd84ed6dc5b998202820de17b35f82ae4b9cce113",
     "sistema/mapa_reproducao.json": "3adaa5157c58190a7af39985213fce3e97ef9c4ab1c7b01071b945dcf1fa33fb",
     "sistema/pipeline.py": "ab3b8bb9b1cddc846f031659f0da7c33dbc2bd01df602e48865c09af8d0d778e",
     "sistema/preparar.py": "cbecb70f3fde97f8b52fb377d339e30c1b79fd32769a6e2d88449e107460163f",

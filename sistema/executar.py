@@ -48,7 +48,9 @@ def main():
     logs=[]
     executar('Testes da organização',['-m','unittest','discover','-s','testes','-p','test_organizacao.py','-v'],BASE,logs)
     with tempfile.TemporaryDirectory(prefix='case-vicio-') as temp:
-        work=Path(temp)/'execucao';work.mkdir()
+        # Windows pode fornecer TEMP com nome curto 8.3 (RUNNER~1).
+        # Compare caminhos canônicos, sem relaxar a proteção de diretórios.
+        work=(Path(temp)/'execucao').resolve();work.mkdir()
         # Os scripts originais conservam o layout que utilizaram no experimento.
         # O mapa só o monta temporariamente; nenhuma saída pronta é usada.
         for item in mapping['arquivos']:
