@@ -63,10 +63,11 @@ do avaliador, registrando essa escolha. A meta oficial permanece desconhecida.
 
 Não ajustei os quatro valores acima usando os resultados posteriores da amostra
 de 30 questões ou da adjudicação. Essas comparações estão separadas em
-experimentos/RESULTADOS.md e não foram incorporadas retroativamente à previsão.
+codigo/experimentos/RESULTADOS.md e não foram incorporadas retroativamente à previsão.
 
 Esta explicação foi revisada editorialmente após os experimentos, preservando
 exatamente as quatro linhas numéricas originais. A versão anterior, byte a byte,
-está em auditoria/previsao_original.txt. Os hashes e o motivo da revisão estão
-em auditoria/revisao_previsao.json. O comando python reproduzir.py reconstrói
+está em codigo/auditoria/previsao_original.txt. Os hashes e o motivo da revisão
+estão em codigo/auditoria/revisao_previsao.json. Na raiz do repositório, executo
+python codigo/reproduzir.py para reconstruir
 os cálculos, confere a previsão original e gera esta apresentação revisada.

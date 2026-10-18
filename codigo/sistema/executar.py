@@ -27,6 +27,12 @@ def validar_saida(dest):
         source=(BASE/folder).resolve()
         if dest==source or source in dest.parents:
             raise ValueError(f'Use outra pasta de saída; {folder}/ contém arquivos versionados.')
+    # Ao executar dentro de codigo/, também preservo os metadados do Git
+    # que ficam no nível acima. A pasta codigo continua copiável isoladamente.
+    for name in ['.git','.github']:
+        admin=(BASE.parent/name).resolve()
+        if admin.exists() and (dest==admin or admin in dest.parents):
+            raise ValueError('A saída não pode ser gravada nos metadados do repositório.')
     return dest
 
 def executar(label,args,cwd,logs):

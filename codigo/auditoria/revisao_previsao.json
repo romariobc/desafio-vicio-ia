@@ -1,0 +1,12 @@
+{
+  "revisado_utc": "2026-10-18T22:57:11.450423+00:00",
+  "tipo": "Revisão editorial posterior aos experimentos; sem alteração das estimativas",
+  "quatro_linhas_numericas_preservadas": true,
+  "sha256_original": "5033d4bf175080910ab659139aadc570a75880556a962c9bb80713f2e315f5c7",
+  "sha256_revisado": "2d07ad1599092a0e63c705bd989eedf3aa751b1416e7b10f327af2e63f58b212",
+  "original": "codigo/auditoria/previsao_original.txt",
+  "gerador": "codigo/sistema/previsao.py",
+  "usa_resultados_cegos_ou_adjudicados_para_ajustar_previsao": false,
+  "sha256_revisado_anterior": "0e013848b97a53923f75fb847d5c3b5f61d7163882ed03601479531b05959db8",
+  "caminhos_atualizados_para_pasta_codigo": true
+}

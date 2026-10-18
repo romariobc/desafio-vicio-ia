@@ -18,4 +18,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: Reconstruir dados decisões e avaliações em cópia limpa
-        run: python reproduzir.py
+        run: python codigo/reproduzir.py

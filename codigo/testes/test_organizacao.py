@@ -6,7 +6,9 @@ from sistema.executar import BASE,validar_saida
 
 class OrganizacaoTest(unittest.TestCase):
     def test_recusa_saida_em_dados_codigo_e_raiz(self):
-        for target in [BASE,BASE.parent,BASE/'dados',BASE/'dados/fontes',BASE/'sistema',BASE/'experimentos/teste']:
+        targets=[BASE,BASE.parent,BASE/'dados',BASE/'dados/fontes',BASE/'sistema',BASE/'experimentos/teste']
+        if (BASE.parent/'.git').exists():targets.append(BASE.parent/'.git')
+        for target in targets:
             with self.subTest(target=target),self.assertRaises(ValueError):validar_saida(target)
 
     def test_saida_padrao_permitida(self):
