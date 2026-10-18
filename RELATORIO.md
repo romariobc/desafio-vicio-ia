@@ -1,113 +1,141 @@
-<!-- Cópia textual do DOCX para consulta no GitHub. Documento editável: RELATORIO.docx. -->
+<!-- Cópia textual do documento editável RELATORIO.docx, versão 3 revisada. -->
 
-# Classificação de questões jurídicas com avaliação humana
+# Classificação de questões jurídicas com IA
 
 ## Resumo
 
-Construí um fluxo de classificação para decidir quais questões poderiam chegar ao aluno, quais exigiriam revisão e quais não encontrariam tema adequado. Analisei as 359 questões do desafio com apoio do GPT no aplicativo Codex Desktop, tratei os dados e registrei as decisões para reprodução. Publiquei como decisão experimental 316 questões, cobertura de 88,02%, e preservei minha previsão de precisão de 95,37%. Na amostra, obtive concordância de 53,85% na revisão cega e 96,15% após a conferência das divergências com sugestões visíveis. Não interpreto esse segundo resultado como comprovação de precisão mínima de 95% no gabarito oficial. Entrego o caminho, os cálculos e os limites que sustentam essa conclusão.
+Conduzi um agente GPT para transformar 359 questões e uma árvore de temas em decisões de publicar, revisar ou fora. Deleguei integralmente a execução técnica ao agente; orientei o trabalho, questionei resultados e defini encaminhamentos. Um advogado forneceu os pareceres humanos. O agente selecionou 316 questões, cobertura de 88,02%, e estimou precisão de 95,37%. Na amostra posterior, a concordância nas publicadas foi 53,85% na revisão cega e 96,15% após conferência humana com sugestões visíveis. Preservei os dois resultados e não considero comprovada a meta oficial. Entrego decisões, evidências, código e limites auditáveis.
 
-## Introdução
+## Como pensei antes do código
 
-Entendi que o problema central era proteger o percurso de estudo: uma questão no tema errado pode fazer o aluno estudar um conteúdo diferente do procurado. Por isso, parti da hipótese de que a leitura do comando e das alternativas, combinada ao caminho completo da árvore, seria mais útil que aceitar a classificação de origem. Reconheci antes do código que a semântica e a confiança declarada pelo modelo poderiam produzir respostas plausíveis e incorretas. Planejei tratamento, registro de evidências, abstenção e avaliação humana, em vez de transformar toda sugestão em publicação.
+Interpretei o desafio como uma decisão de risco: publicar no tema errado prejudica o estudo; revisar consome tempo do professor; fora exige reconhecer uma lacuna da árvore. Meu objetivo foi ampliar a cobertura buscando pelo menos 95% de acerto nas publicadas e antecipar o resultado com uma previsão. Pela regra do case, tema exato e ancestral/descendente contam como acerto; irmãos contam como erro [1].
 
-Usei como fonte o repositório oficial e seu LEIA-ME [1]. A empresa possui rótulos reservados; eu não tive acesso a eles. Entendi que estimar a própria precisão sem esse gabarito fazia parte do desafio e não impedia a entrega. A revisão humana local é minha referência experimental, sujeita a erros e exposição às sugestões.
+Parti da hipótese de que interpretar o conhecimento exigido pelo comando e pelas alternativas, confrontando caminhos completos da taxonomia, seria mais adequado que aceitar os metadados de origem. Adotei essa abordagem, mas não executei um teste controlado para medir sua superioridade. Reconheci que uma sugestão plausível e um score alto poderiam estar errados; por isso, incluí evidência textual, alertas e abstenção antes de ampliar a publicação.
 
-## Objetivos gerais
+## Minha atuação e as responsabilidades
 
-Meu objetivo foi maximizar a fração publicada, buscando pelo menos 95% de acerto nas questões publicadas segundo a régua do desafio, e antecipar com intervalos meu próprio resultado. Também procurei demonstrar meu raciocínio, diagnosticar dificuldades, desenhar uma operação semanal de 50 mil questões e comunicar as decisões de forma compreensível ao professor. Considerei acerto o tema exato ou seu ancestral/descendente; temas irmãos contam como erro.
+Orientei o agente sobre contexto, objetivo, formato da entrega e experiência do avaliador. Questionei a execução, pedi avaliação cega e exigi preservar resultados e limitações. O agente realizou a leitura, escreveu e executou os scripts, propôs métodos e calculou métricas. As classificações usadas como referência foram fornecidas pelo avaliador humano.
 
-## Objetivos específicos
+A execução técnica foi realizada pelo agente GPT-6.1 Sol, com esforço de raciocínio médio, no Codex Desktop. A primeira rodada foi uma nova classificação pelas fontes, em uma conversa que já continha informações e resultados anteriores. Embora eu tenha orientado o agente a fundamentar cada decisão nas questões e na taxonomia, não considerei essa rodada independente do histórico. Posteriormente, organizei a avaliação humana cega, cuja interface ocultou as sugestões do modelo para reduzir sua influência nas escolhas do avaliador.
 
-Organizei seis passos e seus artefatos: (1) preservar fontes e hashes; (2) limpar HTML e validar IDs, gerando dados tratados e árvore; (3) classificar com conceito, evidência, extras, alertas e score, salvando checkpoints; (4) comparar com referência humana e calibrar a confiança; (5) congelar a política e auditar uma amostra cega, preservando a adjudicação posterior; (6) gerar publicacao.csv, previsao.txt, métricas, prompts, código e este relatório com memo ao professor. Separei a reprodução dessas decisões da automação de novas inferências, ainda não implementada.
+### Comunicação com o avaliador
 
-## Metodologia aplicada
+Considerei a interação com o especialista parte da solução. Orientei o agente a criar microsites com uma questão por vez, busca na árvore, progresso e salvamento, evitando formulários extensos. Procurei deixar claro o que o avaliador precisava decidir e como registrar o parecer, concentrando seu esforço no julgamento jurídico. Essa escolha buscou facilitar a colaboração e produzir respostas utilizáveis; não medi redução de tempo ou satisfação.
 
-### Preparação e classificação
+## Objetivos e artefatos
 
-Preservei os originais no commit cc8e7eb7bd1069a57634a3e1136b3540c70abb77. Normalizei entidades HTML, Unicode e espaços, mantendo texto e metadados originais para auditoria. Validei 359 questões e 377 temas, dos quais 375 ativos. Excluí candidatos inativos, conferi parentesco e ciclos e retirei disciplina e assunto de origem dos lotes apresentados ao classificador.
+Organizei o fluxo compreender → preparar → classificar → comparar → calibrar → avaliar sem sugestões → conferir divergências → entregar. Esperei como artefatos fontes com hashes, dados tratados, árvore ativa, decisões com evidências, prompts, referências humanas, política congelada, publicacao.csv, previsao.txt, testes, relatório e README. A falta do gabarito reservado da empresa não impediu a execução; estimar a precisão sem acessá-lo era parte do problema.
 
-Registrei a configuração utilizada como GPT-6.1 Sol, esforço de raciocínio medium, diretamente no Codex Desktop, conforme minha identificação no aplicativo; os scripts não capturaram um identificador técnico do backend. Não executei API Gemini ou outra API de inferência. O GPT auxiliou tanto a classificação quanto os scripts. Registrei a leitura das 359 questões em 12 lotes na R1; a R2 foi comparação/calibração; na R3 fiz 15 ajustes documentados, com 13 mudanças de tema central. Não tratei essas etapas como três modelos ou três inferências completas independentes.
+## Como operacionalizei o agente
 
-### Calibração e política de decisão
+### Dados e rodadas registradas
 
-Importei 60 pareceres humanos anteriores: 57 rótulos reconstruíveis e três rejeições sem alternativa. Separei 42 para calibração e 18 para avaliação operacional, com semente fixa. Aceitei a ancoragem da revisão inicial pelo prazo e experiência do revisor, registrando o risco. Para distinguir score e probabilidade calibrada [2], usei faixas fixas de score: abaixo de 0,80; de 0,80 a menos de 0,95; e de 0,95 em diante. Estimei a chance de acerto por ramo com prior Beta(1,1):
+O agente preservou as fontes do commit cc8e7eb7bd1069a57634a3e1136b3540c70abb77, tratou HTML, entidades, Unicode e espaços e validou 359 questões e 377 temas, dos quais 375 ativos. Conservou originais e retirou os metadados de origem dos lotes de leitura. Na R1, leu as questões em 12 lotes e salvou tema, extras, conceito, evidência literal, alertas e score. A R2 foi comparação/calibração; na R3, registrou 15 ajustes, com 13 mudanças de tema central. Não foram três inferências completas independentes.
 
-q = (k + 1)/(n + 2) ;   q(média) = (10 + 1)/(10 + 2) = 0,9167 ;   q(alta) = (26 + 1)/(26 + 2) = 0,9643
+### Instruções operacionais e seu propósito
 
-Apliquei monotonicidade PAVA para impedir que uma faixa de score maior recebesse confiança menor. Escolhi, somente na calibração, o corte de maior cobertura entre os predefinidos que atingia precisão pontual ≥ 95% e ao menos oito rótulos avaliáveis. O corte foi 0,80 no score bruto; no CSV, apresento a confiança recalibrada. Bloqueei publicação por alertas de texto, tema genérico, mistura de assuntos ou lacuna da árvore. Não usei a avaliação posterior para retunar o corte.
+Abaixo sintetizo os critérios documentados em prompts.md; são reconstruções operacionais, não transcrições literais de todas as mensagens da conversa. Dei prioridade às restrições verificáveis, além da atribuição genérica de um papel de especialista.
 
-### Amostragem e intervalos
+Classificar: “Leia a questão integralmente e identifique o conhecimento necessário para responder. Compare os caminhos completos dos temas ativos. Registre tema central, extras, conceito, evidência literal, alertas e score subjetivo. Não tome os metadados de origem como gabarito.” Isso tornou as escolhas inspecionáveis e limitou saídas fora do contrato.
 
-Sorteei 30 das 359 questões sem reposição; cada questão teve probabilidade de inclusão 30/359 = 8,36%. A semente e a ordem estão registradas. A amostra contém 26 publicadas e quatro revisar; três itens já pertenciam à calibração anterior. Não confirmei ausência de exposição prévia do avaliador. Para k acertos em n itens, calculei p̂ = k/n e o intervalo Wilson bilateral de 95%, com z = 1,96 [3]:
+Comparar: “Preserve a R1. Reconstrua os pareceres em relação às sugestões originalmente revisadas. Um concordo não valida automaticamente uma nova classificação; uma rejeição sem correção não fornece outro rótulo.” Isso evitou inventar referência humana ou transferir aprovação entre modelos e rodadas.
 
-IC = C ± R ;   C = (p̂ + (z^(2))/(2n))/(1 + (z^(2))/(n))
+Ajustar e avaliar: “Documente toda alteração e use apenas a partição de calibração para ajustar a política. Congele decisões e previsão antes de calcular a avaliação posterior. Preserve os desacordos.” Isso separou desenvolvimento e avaliação operacional, embora a exposição histórica e a seleção dirigida continuassem limitando a independência.
 
-R = (z√((p̂(1 − p̂))/(n) + (z^(2))/(4n^(2))))/(1 + (z^(2))/(n))
+### Coleta e retorno dos pareceres
 
-Uso esses intervalos como descritivos: eles não corrigem ancoragem, seleção de corte nem erro da referência. Não interpreto 95% de confiança como 95% de chance de cada resposta estar correta.
+Separei a comunicação em dois momentos: na leitura cega, a tela ocultou a pré-classificação; na conferência, apresentou os desacordos e os caminhos dos temas, sem escolha pré-marcada. O avaliador podia manter sua decisão, adotar a sugestão, escolher outro tema ou registrar uma situação inconclusiva. Solicitei decisão associada à questão, tema válido e justificativa nos casos necessários.
 
-## Resultados obtidos e cálculos comprobatórios
+A primeira exportação incompleta mostrou que simplicidade visual não garante dados utilizáveis. Conferi o preenchimento e foi necessário refazer a revisão. Tratei o episódio como problema do fluxo de coleta, sem atribuí-lo automaticamente ao avaliador. O agente registrou e comparou os pareceres; o julgamento continuou humano.
 
-Obtive 316 publicar, 39 revisar e quatro fora. Calculei cobertura = 316/359 = 88,02%; revisão = 39/359 = 10,86%; fora = 4/359 = 1,11%; abstenção total = 43/359 = 11,98%. A cobertura é conhecida para o lote completo, não corresponde aos 30 itens da auditoria. Preservei no previsao.txt a precisão de 95,37%, média das probabilidades calibradas das publicadas, e seu intervalo original de 90,36%–100%. Esse intervalo veio de 36/36 na calibração após selecionar o corte, portanto reconheço seu otimismo. Para a cobertura deste lote, o intervalo é 88,02%–88,02%.
+### Calibração e regra de publicação
 
-| Referência | Acertos por ramo | Wilson de 95% |
+Utilizei 60 pareceres anteriores, com 57 rótulos reconstruíveis e três rejeições sem alternativa. A seleção era dirigida, não uma amostra dimensionada para comprovar 95%. O agente separou 42 para calibração e 18 para avaliação operacional. Aceitei o risco de ancoragem da revisão inicial pelo prazo e pela experiência do revisor, registrando a limitação.
+
+O agente distinguiu score subjetivo de probabilidade calibrada [2]. Em faixas abaixo de 0,80, de 0,80 a menos de 0,95 e a partir de 0,95, estimou q = (k + 1)/(n + 2), média posterior Beta(1,1). Assim, 10/10 resultaram em 11/12 = 91,67%; 26/26, em 27/28 = 96,43%. PAVA verificou a ordem das estimativas, sem precisar agrupar faixas. Essa suavização evita confiança de 100% com poucos exemplos; não garante generalização.
+
+O corte escolhido foi 0,80 no score bruto: maior cobertura entre candidatos com concordância pontual ≥ 95% na calibração e mínimo de oito rótulos avaliáveis. Alertas bloquearam publicar; dúvidas seguiram para revisar com sugestão, e lacunas para fora. No CSV, a confiança é recalibrada, distinta da escala do corte.
+
+## Diagnóstico experimentos e resultados
+
+### Dificuldades e becos sem saída
+
+O agente encontrou oito títulos repetidos e vinte descrições vazias. Em Q0024, a calibração expôs confusão entre nós próximos e levou a um ajuste documentado para o nível sociológico das teorias. Em Q0205, a sugestão final Parte Geral dos Recursos divergiu de Carta Testemunhável, situada em outro ramo: o contexto geral não bastou para identificar o instituto específico. Evidência literal e coerência semântica, sozinhas, não asseguram classificação jurídica correta.
+
+Descartei aceitar origem, score alto, concordância entre rodadas ou promoção indiscriminada ao pai como provas de acerto. Não testei embeddings: similaridades próximas entre temas de fronteira são um risco previsto para produção. Na revisão humana, expertise, critérios da árvore e interface influenciam o julgamento; discordância não comprova falta de competência. A coleta incompleta reforçou a necessidade de conferir os registros, além de facilitar o uso das telas.
+
+### Cobertura e previsão preservadas
+
+O agente decidiu 316 publicar, 39 revisar e quatro fora. Cobertura = 316/359 = 88,02%; revisão = 10,86%; fora = 1,11%; abstenção total = 43/359 = 11,98%. A cobertura é exata neste lote, por isso seu intervalo é pontual. A previsão de precisão, 95,37%, veio da média das probabilidades recalibradas das publicadas. O intervalo original 90,36%–100% veio de Wilson sobre 36/36 na calibração após escolher o corte; é descritivo e otimista, não intervalo validado da generalização dessa média.
+
+| Referência humana | Concordância nas publicadas | Wilson de 95% |
 | --- | --- | --- |
-| Reservada operacional não cega | 16/16 = 100% | 80,64%–100% |
-| Revisão cega | 14/26 = 53,85% | 35,46%–71,24% |
-| Adjudicada com sugestões visíveis | 25/26 = 96,15% | 81,11%–99,32% |
+| Guiada inicial — reservada operacional | 16/16 = 100% | 80,64%–100% |
+| Cega — sem sugestão visível | 14/26 = 53,85% | 35,46%–71,24% |
+| Guiada final — adjudicação com sugestões | 25/26 = 96,15% | 81,11%–99,32% |
 
-Na adjudicada, o acerto exato foi 22/26 = 84,62%, distinto da regra por ramo permitida. Minha previsão diferiu em +0,78 ponto percentual do resultado adjudicado e superestimou a concordância cega em 41,52 pontos. Não apresento apenas o resultado favorável: os arquivos preservam as duas referências e a divergência remanescente Q0205.
+O sorteio sem reposição selecionou 30/359 questões; 26 eram publicadas e quatro revisar. Três itens já estavam na calibração e não confirmei ausência de exposição prévia do avaliador. Das 15 divergências totais, o humano alterou 14; entre as publicadas, alterou 11 das 12. Mudou a referência, não o modelo. A conferência guiada não foi um novo teste cego nem permite estimar redução causal de ancoragem.
 
-Conferi 15 divergências; o avaliador adotou o tema do modelo em 14. Assim, a referência mudou em 14/30 = 46,67% da amostra e em 14/15 = 93,33% dos desacordos. Não atribuo causalmente essa mudança à redução de ancoragem: a conferência voltou a mostrar as sugestões. Mantive modelo e previsão intactos. Calculei Brier como a média de (q − y)², com y igual a 1 no acerto por ramo e 0 no erro: 0,4133 na cega e 0,0351 na adjudicada. Como só y mudou, a melhora não comprova nova calibração do modelo.
+Na adjudicada, houve 22/26 = 84,62% de concordância exata e 25/26 = 96,15% por ramo. O resultado ficou +0,78 ponto percentual da previsão; a cega ficou 41,52 pontos abaixo dela. O Brier, média de (q − y)², caiu de 0,4133 para 0,0351 porque mudaram os rótulos humanos, sem nova calibração. Os intervalos Wilson usam k/n e z = 1,96 [3]; não corrigem ancoragem ou erro da referência. Mesmo 26/26 dariam limite inferior de 87,13%. Não considero comprovada a meta oficial de 95%.
 
-Amostra aleatória não significa amostra suficiente. Penal ocupou 17/30 da amostra, contra 146/359 do lote. Mesmo 26/26 dariam limite Wilson inferior de 87,13%. Nas 316 publicadas, 16 erros já violariam 95%: 300/316 = 94,94%. A chance de sortear 26 sem detectar esses 16 erros seria C(300,26)/C(316,26) = 24,44%, sendo C a combinação sem reposição. Sob política fixa, referência adequada e zero erros, seriam necessários pelo menos 53 itens para essa probabilidade cair a ≤ 5%; não adoto esse número como plano universal para qualquer resultado observado.
+## Produção para 50 mil questões semanais
 
-### Diagnóstico e problemas encontrados
+### Da importação ao reporte do aluno
 
-Identifiquei oito títulos repetidos e vinte descrições vazias. Questões de fronteira e cenários parecidos podem exigir institutos jurídicos diferentes; proximidade semântica não garante enquadramento. Embeddings poderiam atribuir similaridades próximas a temas distintos, mas não os executei neste experimento. Mantenho auditoria humana contínua, sem presumir que toda publicação precise de revisão manual individual. Do lado humano, reconheço a necessidade de expertise no domínio e critérios claros entre temas vizinhos; não inferi falta de competência pela discordância. A exportação inicial incompleta exigiu refazer a revisão. Descartei tratar confiança subjetiva, origem, acordo entre rodadas ou a promoção indiscriminada ao pai como provas de acerto.
+Eu receberia cada importação com versão, preservaria o original e validaria campos, IDs e duplicatas. Usaria hash para processar apenas itens novos ou alterados, com fila, concorrência limitada, controle de limites da API, retentativas e checkpoints. Cada decisão registraria versões de texto, árvore, prompt, modelo e calibrador. Publicaria em versão auditável, encaminharia dúvidas ao professor e manteria exclusões rastreáveis.
 
-## Defesa do workflow para aumento de escala
+Usaria embeddings para recuperar candidatos somente após medir se o tema correto está entre eles, com fallback quando a recuperação falhar. Uma LLM interpretaria comando e alternativas e retornaria IDs ativos, evidência e alertas em formato validado. Com referência suficiente, compararia um classificador treinado à LLM em teste separado. Agentes poderiam coordenar tarefas e falhas; seu acordo não substituiria referência independente. A abstenção manteria o compromisso entre risco e cobertura [4].
 
-### Importação e escolha das técnicas
+Começaria com Python, armazenamento versionado, banco relacional e processamento em lote. Consideraria Databricks se já estivesse no ambiente ou houvesse múltiplas fontes a governar: bronze para bruto, silver para tratado e gold para validado [5]. Não o considero obrigatório pelo volume isolado. APIs, embeddings, classificador treinado e essa infraestrutura são propostas, não componentes executados neste case.
 
-Para 50 mil questões semanais, eu preservaria o mesmo encadeamento de responsabilidades: importação versionada, validação, normalização, classificação, decisão, revisão e publicação auditável. Processaria apenas itens novos ou alterados, usando ID e hash, com fila, concorrência limitada, controle de limites da API, tentativas com espera e checkpoints. Associaria cada decisão à versão do texto, da árvore, do prompt, do modelo e do calibrador, permitindo rastrear e desfazer uma publicação.
+Planejaria auditorias semanais aleatórias das publicadas, além da revisão de casos difíceis e exclusões. Fixaria amostra e critérios antes dos resultados; monitoraria precisão por ramo e exata, intervalos, Brier, cobertura, custo, latência e fila. Separaria desenvolvimento, calibração e teste. Reportes de alunos abririam incidentes ligados à versão publicada: julgamento humano, correção, investigação de casos semelhantes e teste de regressão. Reduziria automação quando o risco excedesse o limite aprovado.
 
-Eu usaria embeddings para recuperar candidatos, medindo antes se o tema correto aparece entre eles. Similaridade próxima entre temas de fronteira exigiria mais contexto e eventual abstenção; não usaria o maior valor de similaridade como probabilidade de acerto. Uma LLM interpretaria comando e alternativas e retornaria IDs ativos, evidência e alertas em formato validado. Após reunir referências consistentes, compararia um classificador treinado, potencialmente mais barato, com a LLM em teste separado. Eu reservaria agentes para orquestração de tarefas, falhas e registros; sua concordância não substituiria revisão independente. Essa classificação com rejeição busca equilibrar risco e cobertura [4].
+### Comunicação entre setores
 
-Eu começaria com armazenamento versionado, banco relacional e processamento em lote. Se já houvesse Databricks na empresa ou necessidade de governar várias importações, usaria camadas bronze para dados brutos, silver para dados tratados e gold para decisões validadas; ingestão incremental e quarentena preservariam erros para diagnóstico [5]. Não considero Databricks obrigatório pelo volume isolado, nem o utilizei aqui.
+Em produção, manteria um ciclo entre importação, tecnologia, professores e atendimento ao aluno. Cada encaminhamento ao especialista apresentaria a questão, o caminho sugerido e o motivo da revisão. O parecer retornaria estruturado, permitindo publicar, corrigir ou investigar a taxonomia. Reportes de alunos teriam contexto, responsável pelo encaminhamento e registro da resolução. Eu buscaria reduzir solicitações incompletas e tornar a colaboração entre setores compreensível e rastreável.
 
-### Custo médio estimado por questão
+### Custo e capacidade operacional
 
-Meu custo observado foi o uso da assinatura do aplicativo; não medi tokens, duração integral da inferência ou custo marginal por questão. Para orçar uma futura API, adoto como cenário um modelo diferente, GPT-5.4 Mini, que precisaria passar por avaliação antes de substituir o GPT utilizado. Na tabela consultada em 18/10/2026, entrada custa US$ 0,75 e saída US$ 4,50 por milhão de tokens [6]. Com 1.500 tokens de entrada e 200 de saída, calculo (1.500 × 0,75 + 200 × 4,50)/1.000.000 = US$ 0,002025 por questão; para 50 mil, US$ 101,25. Com 12 mil tokens de entrada, seriam US$ 0,0099 por questão e US$ 495 por semana. Não são médias observadas nem preços do GPT-6.1 Sol; são cenários sem cache, reprocessamento, embeddings, infraestrutura, tributos ou trabalho humano.
+Não medi custo marginal, tokens ou duração integral da inferência no aplicativo. Para uma futura API, o cenário GPT-5.4 Mini precisaria de avaliação própria. Com preços consultados em 18/10/2026 de US$ 0,75 por milhão de tokens de entrada e US$ 4,50 de saída [6], 1.500 tokens de entrada e 200 de saída custariam US$ 0,002025 por questão, US$ 101,25 por 50 mil. Com 12 mil de entrada, seriam US$ 0,0099 e US$ 495. Excluem infraestrutura, embeddings, retentativas, tributos e revisão humana; não são custos observados do GPT-6.1 Sol.
 
-Mantida apenas como hipótese a proporção de revisão de 39/359, eu receberia cerca de 5.432 questões por semana. A dois minutos por item, precisaria de aproximadamente 181 horas de revisão. Esse cálculo mostra que reduzir custo de tokens não resolve sozinho o gargalo: eu priorizaria casos de risco, melhoraria os temas e mediria o tempo real antes de dimensionar a equipe.
+Mantida hipoteticamente a taxa de 39/359 para revisão, seriam cerca de 5.432 itens semanais; a dois minutos cada, 181 horas. Eu mediria o tempo real e priorizaria reduzir ambiguidades e retrabalho. O repositório permite executar python reproduzir.py com Python 3.10+: reconstrói dados e métricas, passa 13 testes e confere hashes; foi verificado em Windows e Linux. Isso reproduz checkpoints, sem executar nova inferência.
 
-### Qualidade contínua e participação humana
+### Referências e artefatos para reprodução
 
-Eu reservaria amostras semanais aleatórias das publicadas para avaliação sem sugestões, além de revisar casos difíceis e exclusões. Fixaria tamanho e critérios antes de ver resultados; estratificaria por disciplina e importação quando necessário, usando pesos para estimativas globais. Acompanharia precisão por ramo e exata, cobertura, intervalos, Brier, custo, latência e erros por origem. Quando o risco excedesse o limite aprovado, reduziria a publicação automática e só recalibraria com separação entre desenvolvimento e teste. Reportes de alunos entrariam como incidentes com julgamento humano, correção rastreável e teste de regressão. Eu manteria os minisites com uma questão por vez, progresso, busca e exportação validada; no de divergências, mostraria os caminhos sem escolha pré-marcada. Defendo esse desenho pela auditabilidade e pelo uso seletivo do professor; ainda não medi sua produtividade ou satisfação.
+[1] [Case oficial e anexos no commit fixado.](https://github.com/viciod/case-vicio-ia/tree/cc8e7eb7bd1069a57634a3e1136b3540c70abb77)
+
+[2] [Guo et al. On Calibration of Modern Neural Networks. PMLR, 2017. Base conceitual; não apliquei temperature scaling.](https://proceedings.mlr.press/v70/guo17a.html)
+
+[3] [NIST/SEMATECH. Confidence intervals. Método de Wilson.](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm)
+
+[4] [El-Yaniv e Wiener. On the Foundations of Noise-free Selective Classification. JMLR, 2010.](https://www.jmlr.org/papers/v11/el-yaniv10a.html)
+
+[5] [Databricks. Best practices for reliability. Desenho futuro de ingestão e qualidade.](https://docs.databricks.com/aws/en/lakehouse-architecture/reliability/best-practices)
+
+[6] [OpenAI. GPT-5.4 Mini. Tabela de preços do cenário proposto.](https://developers.openai.com/api/docs/models/gpt-5.4-mini)
+
+[7] [Repositório da entrega: fontes, prompts, decisões, revisões, scripts e manifesto de reprodução.](https://github.com/romariobc/desafio-vicio-ia)
 
 ## Memo para o professor
 
-Professor, organizei este experimento para que o aluno encontre questões do conhecimento que precisa estudar. Encontrei situações em que o texto menciona um crime, mas exige conhecimento de outro assunto, como um recurso processual. Por isso, procurei classificar pelo conhecimento necessário para responder, e não apenas pelas palavras mais parecidas.
+Professor, organizei este experimento para que o aluno encontre questões do conhecimento que procura. Deleguei a classificação ao agente de IA e utilizei avaliação humana para examinar suas decisões. O agente pode interpretar bem o texto e ainda escolher um tema inadequado. Por isso, preciso de critérios jurídicos claros para orientar tanto a máquina quanto quem revisa.
 
-Recomendo manter os identificadores dos temas e sempre mostrar o caminho completo. Peço sua ajuda para escrever definições curtas, exemplos do que entra e do que não entra em cada assunto, especialmente nos temas vizinhos. Antes de criar categorias, eu revisaria as lacunas apontadas pelas questões fora. Evitaria usar temas introdutórios como destino de toda dúvida.
+### O que encontrei
 
-Preciso de seu julgamento nas questões com vários conhecimentos e nas fronteiras entre assuntos. Peço que registre um trecho da questão e uma razão curta para a escolha, podendo declarar dúvida. Em Q0205, a sugestão foi Parte Geral dos Recursos e a referência final ficou em Carta Testemunhável; essa distinção precisa orientar outros casos semelhantes. A discordância também pode revelar ambiguidade da árvore, não apenas erro de uma pessoa ou da máquina.
+A árvore contém nomes repetidos e descrições ausentes ou pouco discriminantes. Algumas questões mencionam um assunto no cenário, mas exigem outro conhecimento para responder. Outras atravessam assuntos vizinhos. Essas situações dificultam distinguir o tema central dos assuntos adicionais e podem levar a categorias genéricas que acumulam conteúdos diferentes.
 
-Na primeira tela de revisão, eu ocultei a sugestão para reduzir sua influência. Depois, reuni os desacordos para conferência. Nas 26 publicadas da amostra, houve acordo em 14 na revisão cega e em 25 após a conferência com as opções visíveis. Eu considero o segundo resultado promissor, mas não apago o primeiro nem prometo que já comprovamos 95% de precisão. Antes de ampliar a automação, recomendo estabilizar os critérios e fazer nova auditoria com amostra planejada. Ao longo do uso, eu reservaria seu tempo também para verificar publicações e reportes de alunos, e não apenas para esvaziar a fila de dúvidas.
+Q0205 exemplifica uma diferença relevante: o agente sugeriu Parte Geral dos Recursos, enquanto a referência final indicou Carta Testemunhável. Esses temas estão em ramos distintos da árvore. O caso exige definir quando classificar pelo contexto geral e quando pelo recurso específico, para orientar futuras questões semelhantes.
 
-## Referências e reprodução do experimento
+### O que recomendo mudar nos temas
 
-Eu preservei dados, decisões, prompts e revisões em PIPILINE-GPT/entrega_final/execucao. Para repetir os cálculos locais, executo python reproduzir.py em entrega_final, com Python 3.10 ou superior. O comando reconstrói o CSV, verifica hashes, executa 13 testes e recalcula as métricas. Não executa nova inferência. Para novo lote, eu registraria novamente configuração do modelo, entradas, respostas, tempo e custo; não reutilizaria este calibrador como garantia de generalização.
+Recomendo manter identificadores estáveis e mostrar sempre o caminho completo do assunto. Para cada tema, peço uma definição curta, exemplos do que entra e do que não entra e orientações para distinguir temas vizinhos. Eu não uniria categorias apenas porque têm o mesmo nome. Antes de criar novos temas, examinaria as lacunas apontadas pelas questões fora. Também evitaria usar temas introdutórios como destino automático de toda dúvida.
 
-[1] [Vício de uma Estudante. Case e anexos oficiais. Commit cc8e7eb7bd1069a57634a3e1136b3540c70abb77.](https://github.com/viciod/case-vicio-ia/tree/cc8e7eb7bd1069a57634a3e1136b3540c70abb77)
+### Como você pode contribuir
 
-[2] [Guo et al. On Calibration of Modern Neural Networks. PMLR 70, 2017. Referência conceitual de calibração; meu estimador foi Beta por faixas, não temperature scaling.](https://proceedings.mlr.press/v70/guo17a.html)
+Precisamos da sua ajuda para definir qual assunto cada questão realmente cobra, principalmente quando ela envolve temas próximos ou mais de um conteúdo. Nesses casos, indique o tema principal e se vale acrescentar outro marcador. Um trecho da questão e uma explicação curta já ajudam a orientar futuras classificações. Se houver dúvida ou nenhum tema servir bem, registre isso também: essa informação ajuda a melhorar a árvore de assuntos.
 
-[3] [NIST/SEMATECH. Confidence intervals. Fórmulas para proporções e limites de Wilson.](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm)
+Para facilitar a revisão, criamos duas telas. Na primeira, você escolhe o tema sem ver a sugestão da IA. Na segunda, confere apenas os casos em que as escolhas foram diferentes. Assim, buscamos concentrar seu tempo nas decisões que precisam de atenção.
 
-[4] [El-Yaniv e Wiener. On the Foundations of Noise-free Selective Classification. JMLR 11, 2010.](https://www.jmlr.org/papers/v11/el-yaniv10a.html)
+No experimento, a IA e o avaliador escolheram temas compatíveis em 14 das 26 questões selecionadas para publicação. Depois da conferência, esse número passou para 25. Como algumas escolhas humanas mudaram ao ver as opções, esse resultado ainda precisa ser confirmado em uma nova avaliação.
 
-[5] [Databricks. Best practices for reliability. Referência para desenho futuro de ingestão e qualidade.](https://docs.databricks.com/aws/en/lakehouse-architecture/reliability/best-practices)
-
-[6] [OpenAI. GPT-5.4 Mini. Preços consultados em 18/10/2026; cenário de produção não executado.](https://developers.openai.com/api/docs/models/gpt-5.4-mini)
+Antes de ampliar a publicação automática, recomendamos esclarecer os critérios dos temas e revisar uma nova amostra. Depois, sua participação continuará importante para verificar parte das questões publicadas, resolver dúvidas e examinar problemas apontados pelos alunos. O sistema organiza as informações e registra as decisões; você contribui com o julgamento jurídico que orienta sua qualidade.
