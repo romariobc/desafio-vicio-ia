@@ -12,6 +12,7 @@ import sys
 import tempfile
 import time
 import zipfile
+from .previsao import explicar_previsao
 
 BASE=Path(__file__).resolve().parents[1]
 PROTEGIDOS=['sistema','dados','interfaces','experimentos','auditoria','testes','docs','.github','.git']
@@ -69,6 +70,13 @@ def main():
         experiment=work/'experimentos/avaliacao-cega-30'
         for name in ['auditar_amostra.py','verificar_revisao.py','consolidar_adjudicacao.py']:
             executar(name,[str(experiment/name)],work,logs)
+        original=(work/'previsao.txt').read_bytes()
+        if hashlib.sha256(original).hexdigest()!=manifest['previsao_original_sha256']:
+            raise RuntimeError('A previsão numérica/original mudou antes da revisão editorial.')
+        revised=explicar_previsao(original.decode('utf-8'))
+        assert revised.splitlines()[:4]==original.decode('utf-8').splitlines()[:4]
+        (work/'previsao_original.txt').write_bytes(original)
+        (work/'previsao.txt').write_bytes(revised.replace('\n','\r\n').encode('utf-8'))
         expected=manifest['entrega_sha256'];actual={name:sha(work/name) for name in expected}
         if expected!=actual:raise RuntimeError('Os arquivos reconstruídos divergem da entrega congelada.')
         with (work/'publicacao.csv').open(encoding='utf-8-sig',newline='') as file:rows=list(csv.DictReader(file))
@@ -79,7 +87,7 @@ def main():
         assert adjud['cega']['publicadas']['acertos_ramo']==14
         assert adjud['adjudicada']['publicadas']['acertos_ramo']==25
         dest.mkdir(parents=True,exist_ok=True)
-        for name in ['publicacao.csv','previsao.txt','arvore.html']:shutil.copy2(work/name,dest/name)
+        for name in ['publicacao.csv','previsao.txt','previsao_original.txt','arvore.html']:shutil.copy2(work/name,dest/name)
         for source,target in [(work/'dados',dest/'dados_tratados'),(work/'resultados',dest/'metricas'),
                               (work/'leitura',dest/'lotes_leitura'),(work/'referencia',dest/'referencias'),
                               (experiment,dest/'avaliacoes')]:
@@ -91,6 +99,9 @@ def main():
             'segundos_sem_inferencia_gpt':round(time.perf_counter()-start,4),
             'nova_inferencia_executada':False,'api_inferencia_chamada':False,
             'entradas_congeladas_verificadas':len(manifest['entradas_sha256'])}
+        result.update({'previsao_numeros_originais_preservados':True,
+                       'previsao_original_sha256':hashlib.sha256(original).hexdigest(),
+                       'explicacao_previsao_revisada':True})
         (dest/'validacao_final.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         (dest/'execucao.log').write_text('\n'.join(logs),encoding='utf-8')
     print(json.dumps(result,ensure_ascii=False,indent=2));print('Saídas reconstruídas: '+str(dest))

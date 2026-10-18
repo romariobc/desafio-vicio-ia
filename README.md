@@ -75,6 +75,8 @@ Na conferência mudaram os rótulos humanos, sem mudança nas classificações o
 
 `auditoria/manifesto_reproducao.json` registra as entradas e as saídas esperadas. `sistema/mapa_reproducao.json` torna explícito como os arquivos são montados temporariamente para executar os scripts originais. O ZIP é a fonte única dos anexos; saídas tratadas, lotes e visualizações são gerados pelo comando, sem cópias prontas usadas como entrada.
 
+A explicação de `previsao.txt` foi ampliada após os experimentos, mantendo suas quatro linhas numéricas originais. A versão anterior está em `auditoria/previsao_original.txt`; a revisão está registrada em `auditoria/revisao_previsao.json`. A reprodução confere primeiro os bytes da previsão original e depois gera a explicação revisada. As estimativas não foram ajustadas aos resultados posteriores.
+
 Se um hash divergir, use uma cópia limpa ou abra uma nova versão do experimento; não altere os registros para fazer a verificação passar. Preserve CSVs originais ao abrir no Excel, que pode alterar codificação e separadores. Os arquivos anteriores à reorganização permanecem recuperáveis no histórico Git.
 
 O pipeline atual reproduz este case. O serviço de inferência para novos lotes e 50 mil questões semanais, a auditoria contínua e as ferramentas opcionais estão descritos separadamente no documento de escala.

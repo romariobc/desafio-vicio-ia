@@ -3,5 +3,70 @@ precisao_intervalo: 0.9036-1.0000
 cobertura_prevista: 0.8802
 cobertura_intervalo: 0.8802-0.8802
 
-Previsão pontual = média das probabilidades obtidas com referência de calibração, bins fixos, prior Beta(1,1) e PAVA. Intervalo Wilson calculado sobre acertos das publicadas na CALIBRAÇÃO; é descritivo e otimista após seleção de corte, não intervalo válido de generalização. A seleção original é dirigida e a revisão ancorada, riscos aceitos pelo usuário. A referência não é o gabarito oficial. Se não há publicadas, precisão é indefinida e zero é sentinela do formato.
-Cobertura é exata neste lote de 359, não previsão para novos lotes. Abstenção = revisar + fora. Resultados da partição reservada estão separados em resultados/metricas.json; não foram usados para escolher o corte.
+O QUE ESTOU PREVENDO
+
+Estimo que 95,37% das questões selecionadas para publicar tenham o tema central
+correto segundo a regra do desafio: tema exato ou ancestral/descendente da
+referência. Temas irmãos contam como erro; extras não corrigem um tema central
+errado. Esta é minha previsão para a avaliação, não uma precisão oficial já medida.
+
+A cobertura é a fração do lote selecionada para publicação: 316/359 = 88,02%.
+As demais decisões são 39 revisar e quatro fora. A abstenção total é 43/359 =
+11,98%. Cobertura informa quanto publiquei como decisão; precisão informa quanto
+dessa seleção está correto. São medidas diferentes.
+
+COMO CHEGUEI À PRECISÃO DE 95,37%
+
+Deleguei ao agente GPT a classificação e os cálculos. Para estimar a confiança,
+ele comparou suas sugestões com a partição de calibração da referência humana.
+A referência inicial tinha 60 pareceres: 42 para calibração e 18 para avaliação
+operacional. Era uma seleção dirigida, com acesso humano à pré-classificação.
+
+O score inicial era subjetivo. O agente agrupou esses scores em faixas e aplicou
+a estimativa Beta(1,1): (concordâncias por ramo + 1)/(avaliações na faixa + 2).
+Na faixa intermediária, 10/10 produziram 11/12 = 91,67%; na alta, 26/26 produziram
+27/28 = 96,43%. A suavização evita atribuir 100% de confiança a poucos exemplos.
+PAVA verificou a ordem das faixas; não foi necessário agrupá-las.
+
+A previsão de 95,37% é a média das probabilidades recalibradas das 316 publicadas.
+O corte de publicação, 0,80, incide no score bruto, outra escala. Foi escolhido
+entre candidatos predefinidos para maximizar cobertura com concordância pontual
+de pelo menos 95% na calibração e mínimo de oito referências avaliáveis, mantendo
+os alertas que bloqueiam publicar. Isso não demonstra a mesma precisão no lote.
+
+COMO INTERPRETO O INTERVALO DE PRECISÃO
+
+Preservo o intervalo original de 90,36% a 100%, calculado pelo método de Wilson,
+com nível nominal de 95%, sobre 36 concordâncias em 36 publicadas da calibração.
+Esse intervalo descreve a proporção observada naquela referência; o ponto de
+95,37% veio de outro cálculo, a média das probabilidades recalibradas.
+
+Como os dados de calibração também participaram dos ajustes e da escolha do
+corte, reconheço que o intervalo é otimista. Ele não é um intervalo validado de
+generalização da previsão agregada e não comprova precisão mínima de 95%.
+Sua extremidade inferior, inclusive, está abaixo da meta. Não interpreto
+confiança estatística de 95% como garantia de acerto de cada questão.
+
+POR QUE O INTERVALO DE COBERTURA É PONTUAL
+
+As decisões das 359 questões já são conhecidas. Não preciso estimar a cobertura
+por amostra: ela é exatamente 316/359, apresentada com o arredondamento exigido
+pelo formato. Por isso, os dois limites são 0.8802. Esse intervalo não prevê
+a cobertura de novas importações ou de outros lotes.
+
+LIMITES E PRESERVAÇÃO DA PREVISÃO
+
+A referência humana local não é o gabarito reservado pela empresa. Sua seleção
+dirigida, a exposição às sugestões e o tamanho dos grupos limitam a estimativa.
+Aceitei o risco de ancoragem da primeira revisão pelo prazo e pela experiência
+do avaliador, registrando essa escolha. A meta oficial permanece desconhecida.
+
+Não ajustei os quatro valores acima usando os resultados posteriores da amostra
+de 30 questões ou da adjudicação. Essas comparações estão separadas em
+experimentos/RESULTADOS.md e não foram incorporadas retroativamente à previsão.
+
+Esta explicação foi revisada editorialmente após os experimentos, preservando
+exatamente as quatro linhas numéricas originais. A versão anterior, byte a byte,
+está em auditoria/previsao_original.txt. Os hashes e o motivo da revisão estão
+em auditoria/revisao_previsao.json. O comando python reproduzir.py reconstrói
+os cálculos, confere a previsão original e gera esta apresentação revisada.

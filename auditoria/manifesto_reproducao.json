@@ -1,9 +1,10 @@
 {
-  "versao": 2,
+  "versao": 3,
   "proposito": "Entradas do sistema reorganizado e saídas congeladas esperadas",
   "entradas_sha256": {
     "auditoria/congelamento_r1.json": "b8fc7a3b988e67992870ebdaaa2fefe428beb9cceca4693429cf5acaa8cadd03",
     "auditoria/politica_congelada.json": "de5180f45edf32702ce46d33179c25d4b4c748e7efac154cb523b918a5a5722e",
+    "auditoria/previsao_original.txt": "5033d4bf175080910ab659139aadc570a75880556a962c9bb80713f2e315f5c7",
     "dados/decisoes/ajustes_r3.psv": "3fb12229c28a3170f1952dea38f9cd2ea2e136777b2792d4b16cf5a6b4aafd68",
     "dados/decisoes/r1.psv": "65c34da87acf895c5f5d414d9300cb503da5c32c45b7a39350049806a32ebad4",
     "dados/fontes/README-original.md": "ee20ef1345a2f769521b8b461091a4aa157026ef1721a5bd684deeaeec4ff659",
@@ -23,10 +24,11 @@
     "sistema/avaliacao/auditar_amostra.py": "c669f2c7dc704e3f70ceef1d9aff12bbce2cf07a055c6bbc4c4be0d132435636",
     "sistema/avaliacao/consolidar_adjudicacao.py": "5e28e76ce1888da0dc02780d4f0fc1042dcb3b3158f0fd8e6b41eeccdfec8de6",
     "sistema/avaliacao/verificar_revisao.py": "3fac345f627a735726d3bdad1f316daa922cf922ae85c31bda73b575133515bf",
-    "sistema/executar.py": "ce0f130f43ee02b44a77e72fd84ed6dc5b998202820de17b35f82ae4b9cce113",
+    "sistema/executar.py": "1be05084cd390ff51cd1183eea756f39c92cbd67f59c847cf8b3885276bf8346",
     "sistema/mapa_reproducao.json": "3adaa5157c58190a7af39985213fce3e97ef9c4ab1c7b01071b945dcf1fa33fb",
     "sistema/pipeline.py": "ab3b8bb9b1cddc846f031659f0da7c33dbc2bd01df602e48865c09af8d0d778e",
     "sistema/preparar.py": "cbecb70f3fde97f8b52fb377d339e30c1b79fd32769a6e2d88449e107460163f",
+    "sistema/previsao.py": "d98866a0f5c9e8e948a95d94b6c2cc98b3743fe6aa74d4d8ddf3b6c98540335e",
     "sistema/referencia.py": "b3703d3df6674d8fe8e745694348a8c35cf6d43d7170b132225bd85353fdd466",
     "sistema/relatorio.py": "bc37972bb365824106f32e35a279a6389e7fbe3528bc8d8ce4145bb2a0693934",
     "testes/test_organizacao.py": "5555880cb1e74f832dfcd5ef1090d35f88b43e42d9df9db9d0b5b4fde3463569",
@@ -34,6 +36,7 @@
   },
   "entrega_sha256": {
     "publicacao.csv": "8fa02999992a217da3173f0af82f0616128e6a1d843ad86cdea476ca4a986ffc",
-    "previsao.txt": "5033d4bf175080910ab659139aadc570a75880556a962c9bb80713f2e315f5c7"
-  }
+    "previsao.txt": "0e013848b97a53923f75fb847d5c3b5f61d7163882ed03601479531b05959db8"
+  },
+  "previsao_original_sha256": "5033d4bf175080910ab659139aadc570a75880556a962c9bb80713f2e315f5c7"
 }
