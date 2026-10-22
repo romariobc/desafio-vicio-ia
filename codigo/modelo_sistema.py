@@ -165,6 +165,8 @@ class ClassificadorTopicosJuridicos:
         corpus_fit = docs_proprio + docs_familia + textos_ponderados
         word_vec.fit(corpus_fit)
         char_vec.fit(corpus_fit)
+        self.word_vec = word_vec
+        self.char_vec = char_vec
 
         self.qw_pond = word_vec.transform(textos_ponderados)
         self.qc_pond = char_vec.transform(textos_ponderados)
@@ -173,24 +175,24 @@ class ClassificadorTopicosJuridicos:
         sw_orig = word_vec.transform(assuntos_orig)
         sc_orig = char_vec.transform(assuntos_orig)
 
-        tw_prop = word_vec.transform(docs_proprio)
-        tc_prop = char_vec.transform(docs_proprio)
+        self.tw_prop = word_vec.transform(docs_proprio)
+        self.tc_prop = char_vec.transform(docs_proprio)
         tw_fam = word_vec.transform(docs_familia)
         tc_fam = char_vec.transform(docs_familia)
         mw_tit = word_vec.transform(titulos_temas)
         mc_tit = char_vec.transform(titulos_temas)
 
         self.sim_lex_prop = (
-            0.65 * (self.qw_pond @ tw_prop.T).toarray()
-            + 0.35 * (self.qc_pond @ tc_prop.T).toarray()
+            0.65 * (self.qw_pond @ self.tw_prop.T).toarray()
+            + 0.35 * (self.qc_pond @ self.tc_prop.T).toarray()
         ).astype(np.float32)
         self.sim_lex_fam = (
             0.65 * (self.qw_pond @ tw_fam.T).toarray()
             + 0.35 * (self.qc_pond @ tc_fam.T).toarray()
         ).astype(np.float32)
         self.sim_foco_prop = (
-            0.70 * (qw_foco @ tw_prop.T).toarray()
-            + 0.30 * (qc_foco @ tc_prop.T).toarray()
+            0.70 * (qw_foco @ self.tw_prop.T).toarray()
+            + 0.30 * (qc_foco @ self.tc_prop.T).toarray()
         ).astype(np.float32)
         self.sim_meta = (
             0.65 * (sw_orig @ mw_tit.T).toarray()
@@ -270,13 +272,24 @@ class ClassificadorTopicosJuridicos:
                 self.meta_gate[i] = 0.12
                 self.eh_lixeira_flag[i] = True
 
-        # Matriz de similaridade par-a-par entre todas as 659 questões (para kNN ágil)
-        sim_q_sem = self.vecs_q @ self.vecs_q.T
-        sim_q_lex = (
-            0.65 * (self.qw_pond @ self.qw_pond.T).toarray()
-            + 0.35 * (self.qc_pond @ self.qc_pond.T).toarray()
+        # Matriz de similaridade O(N * M_ref) apenas contra as questões rotuladas (evita matriz N x N em escala)
+        self.ids_ref_ordenados = sorted(self.referencias.keys())
+        self.idx_ref_global = [self.q_idx_map[qid] for qid in self.ids_ref_ordenados]
+        self.pos_ref_por_qidx = {
+            q_idx: pos for pos, q_idx in enumerate(self.idx_ref_global)
+        }
+        vecs_ref = self.vecs_q[self.idx_ref_global]
+        qw_ref = self.qw_pond[self.idx_ref_global]
+        qc_ref = self.qc_pond[self.idx_ref_global]
+
+        sim_q_sem_ref = self.vecs_q @ vecs_ref.T
+        sim_q_lex_ref = (
+            0.65 * (self.qw_pond @ qw_ref.T).toarray()
+            + 0.35 * (self.qc_pond @ qc_ref.T).toarray()
         ).astype(np.float32)
-        self.sim_q_hibrida = (0.65 * sim_q_sem + 0.35 * sim_q_lex).astype(np.float32)
+        self.sim_q_ref_hibrida = (0.65 * sim_q_sem_ref + 0.35 * sim_q_lex_ref).astype(
+            np.float32
+        )
 
         # Mapa de nó -> ramo canônico
         self.ramo_de_no = [self.tax.ramo_canonico(tid) for tid in self.t_ids]
@@ -325,8 +338,8 @@ class ClassificadorTopicosJuridicos:
             if q_tr != i and self.fingerprints[q_tr] != fp_i
         ]
         if mask_validos:
-            idx_banco = [tr_idx[k_i] for k_i in mask_validos]
-            near = self.sim_q_hibrida[i, idx_banco]
+            pos_ref = [self.pos_ref_por_qidx[tr_idx[k_i]] for k_i in mask_validos]
+            near = self.sim_q_ref_hibrida[i, pos_ref]
             top_k_local = np.argsort(-near)[:3]
             pesos_viz = near[top_k_local]
             mat_viz = label_mat[[mask_validos[k] for k in top_k_local]]
@@ -504,12 +517,32 @@ class ClassificadorTopicosJuridicos:
         conf = 0.45 * p_lr + 0.55 * p_ana
         return float(max(0.01, min(0.99, conf)))
 
+    @staticmethod
+    def tem_convergencia_minima(f: Dict[str, float]) -> bool:
+        """
+        Regra explícita de corroboração multi-canal para publicação automática:
+        Exige que pelo menos 2 famílias distintas de evidência corroborem o ramo líder
+        (entre: canal léxico top-2, canal semântico top-2, metadado válido não-lixeira,
+        âncora normativa/doutrinária explícita e vizinhança rotulada kNN).
+        Impede que qualquer canal isolado publique uma questão sozinho.
+        """
+        sinais_positivos = (
+            int(f["lex_top2_agree"] > 0.5)
+            + int(f["sem_top2_agree"] > 0.5)
+            + int(f["meta_agree"] > 0.5)
+            + int(f["ancora_b1"] > 0.0)
+            + int(f["sup_b1"] >= 0.12)
+        )
+        return sinais_positivos >= 2
+
     def construir_motivo_revisao(self, r: Dict) -> str:
         b1 = r["ramo_top1"]
         b2 = r["ramo_top2"]
         t1 = self.tax.ativos[b1]["titulo"]
         t2 = self.tax.ativos[b2]["titulo"]
         f = r["features"]
+        if not self.tem_convergencia_minima(f):
+            return f"ausencia de convergencia minima entre canais; sugestao {b1} ({t1}) vs {b2} ({t2})"
         if f["margin12"] < 0.12:
             return f"margem estreita entre {b1} ({t1}) e {b2} ({t2})"
         if f["lex_top1_agree"] < 0.5 and f["sem_top1_agree"] < 0.5:
@@ -540,7 +573,7 @@ class ClassificadorTopicosJuridicos:
                 "motivo": motivo,
             }
 
-        if conf >= limiar_publicar:
+        if conf >= limiar_publicar and self.tem_convergencia_minima(f):
             return {
                 "id": r["qid"],
                 "decisao": "publicar",
@@ -570,17 +603,7 @@ class ClassificadorTopicosJuridicos:
         da folha_verdade.csv para auditar acurácia top-1, calibração e precisão seletiva.
         """
         if divisoes_path is None:
-            cand_local = self.pasta_artefatos / "divisoes_validacao.json"
-            if cand_local.exists():
-                divisoes_path = cand_local
-            else:
-                divisoes_path = (
-                    self.pasta_etapa2.parent.parent
-                    / "etapa2"
-                    / "experimentos"
-                    / "ancoras-capacidade-v1"
-                    / "divisoes.json"
-                )
+            divisoes_path = self.pasta_artefatos / "divisoes_validacao.json"
         divisoes = json.loads(Path(divisoes_path).read_text(encoding="utf-8"))
 
         oof_registros = {}
@@ -615,6 +638,7 @@ class ClassificadorTopicosJuridicos:
                     "tema_central_id": dec["tema_central_id"],
                     "ramo_top1": r["ramo_top1"],
                     "confianca": conf,
+                    "convergencia_minima": self.tem_convergencia_minima(r["features"]),
                     "acerto_top1": bool(acerto_top1),
                     "fora_real": bool(fora_real),
                     "score_fora": r["features"]["score_fora"],
@@ -650,7 +674,9 @@ class ClassificadorTopicosJuridicos:
             pub_th = [
                 x
                 for x in todos
-                if x["confianca"] >= th and x["score_fora"] < limiar_fora
+                if x["confianca"] >= th
+                and x["score_fora"] < limiar_fora
+                and x["convergencia_minima"]
             ]
             if not pub_th:
                 continue
@@ -665,7 +691,6 @@ class ClassificadorTopicosJuridicos:
                 }
             )
 
-        # Brier score sobre acertos top-1
         confs_arr = np.array([x["confianca"] for x in todos], dtype=np.float64)
         hits_arr = np.array([1.0 if x["acerto_top1"] else 0.0 for x in todos], dtype=np.float64)
         brier = float(np.mean((confs_arr - hits_arr) ** 2))
@@ -695,6 +720,119 @@ class ClassificadorTopicosJuridicos:
             "curva_limiares": curva_limiares,
         }
 
+    def avaliar_simulacao_formato_coorte_nova(
+        self,
+        limiar_publicar: float = 0.575,
+        limiar_fora: float = 0.70,
+    ) -> Dict:
+        """
+        Experimento verificável de ablação estrutural nas 100 referências:
+        Simula o formato da coorte nova (Q0360-Q0659) incorporando o campo `comando`
+        ao final de `enunciado_html` e esvaziando `comando = ""`.
+        Nota metodológica: avalia o impacto sobre o extrator `extrair_foco_e_corpo` e os
+        canais léxicos/âncoras de foco, mantendo os vetores MiniLM pré-computados fixos.
+        """
+        s_foc_orig = self.s_foc_p.copy()
+        sim_foc_orig = self.sim_foco_prop.copy()
+        hit_anc_orig = self.hit_ancora.copy()
+
+        try:
+            textos_foco_sim = []
+            for i, q in enumerate(self.questoes):
+                if q["id"] in self.referencias and q.get("comando"):
+                    q_sim = dict(q)
+                    q_sim["enunciado_html"] = (
+                        f"{q.get('enunciado_html', '')} <p>{q.get('comando', '')}</p>"
+                    )
+                    q_sim["comando"] = ""
+                    p_sim = extrair_foco_e_corpo(q_sim)
+                    textos_foco_sim.append(p_sim["enunciado"] + " " + p_sim["foco"])
+                else:
+                    p = self.partes_qs[i]
+                    textos_foco_sim.append(p["enunciado"] + " " + p["foco"])
+
+            qw_foco_sim = self.word_vec.transform(textos_foco_sim)
+            qc_foco_sim = self.char_vec.transform(textos_foco_sim)
+            self.sim_foco_prop = (
+                0.70 * (qw_foco_sim @ self.tw_prop.T).toarray()
+                + 0.30 * (qc_foco_sim @ self.tc_prop.T).toarray()
+            ).astype(np.float32)
+            self.s_foc_p = _minmax_linhas(self.sim_foco_prop)
+
+            norm_foco_sim = [" " + normalizar(t) + " " for t in textos_foco_sim]
+            norm_full_qs = [" " + normalizar(p["completo"]) + " " for p in self.partes_qs]
+            self.hit_ancora = np.zeros((len(self.questoes), len(self.t_ids)), dtype=np.float32)
+            for j, tid in enumerate(self.t_ids):
+                comp = ENRIQUECIMENTO_COMPLEMENTAR.get(tid, {})
+                termos = [normalizar(t) for t in comp.get("termos", []) if len(t) >= 4]
+                if not termos:
+                    continue
+                for i in range(len(self.questoes)):
+                    c_foco = sum(1 for t in termos if f" {t} " in norm_foco_sim[i])
+                    c_full = sum(1 for t in termos if f" {t} " in norm_full_qs[i])
+                    if c_foco or c_full:
+                        self.hit_ancora[i, j] = min(1.0, 0.45 * c_foco + 0.20 * c_full)
+
+            res_sim = self.avaliar_validacao_cruzada(
+                limiar_publicar=limiar_publicar,
+                limiar_fora=limiar_fora,
+            )
+            return {
+                "descricao": "Comando concatenado ao enunciado_html e campo comando esvaziado nas 100 referencias (vetores MiniLM fixos)",
+                "acertos_top1_total": res_sim["acertos_top1_total"],
+                "acuracia_top1_em_taxonomia": res_sim["acuracia_top1_em_taxonomia"],
+                "publicadas_oof": res_sim["publicadas_oof"],
+                "acertos_publicadas_oof": res_sim["acertos_publicadas_oof"],
+                "precisao_publicar_oof": res_sim["precisao_publicar_oof"],
+                "brier_score_oof": res_sim["brier_score_oof"],
+            }
+        finally:
+            self.s_foc_p = s_foc_orig
+            self.sim_foco_prop = sim_foc_orig
+            self.hit_ancora = hit_anc_orig
+
+    def benchmark_escala_50k(self, tempo_decisao_659_s: float) -> Dict:
+        """
+        Calcula o consumo exato de memória das estruturas matriciais em N=659 e N=50.000
+        (com matriz de vizinhança O(N * M_ref) em vez de O(N^2)) e projeta o tempo de
+        execução separando a etapa de decisão da etapa de codificação vetorial (embeddings).
+        """
+        n_atual = len(self.questoes)
+        n_escala = 50000
+        m_temas = len(self.t_ids)
+        m_refs = len(self.referencias)
+        fator = n_escala / n_atual
+
+        bytes_matrizes_659 = (
+            self.vecs_q.nbytes
+            + self.sim_lex_prop.nbytes
+            + self.sim_lex_fam.nbytes
+            + self.sim_foco_prop.nbytes
+            + self.sim_meta.nbytes
+            + self.sim_sem_orig.nbytes
+            + self.sim_sem_perf.nbytes
+            + self.hit_ancora.nbytes
+            + self.disc_compat.nbytes
+            + self.sim_q_ref_hibrida.nbytes
+        )
+        mb_matrizes_659 = bytes_matrizes_659 / (1024 * 1024)
+        # Em N=50.000, processar em mini-lotes de 5.000 ou manter matrizes N x 371 + N x 100:
+        mb_matrizes_50k_completo = mb_matrizes_659 * fator
+        mb_matriz_knn_50k_x_100 = (n_escala * m_refs * 4) / (1024 * 1024)
+
+        return {
+            "n_medido": n_atual,
+            "n_alvo_semanal": n_escala,
+            "m_temas_ativos": m_temas,
+            "m_referencias_knn": m_refs,
+            "tempo_decisao_medido_659_s": round(tempo_decisao_659_s, 3),
+            "tempo_decisao_extrapolado_linear_50k_s": round(tempo_decisao_659_s * fator, 1),
+            "memoria_matrizes_densas_659_mb": round(mb_matrizes_659, 2),
+            "memoria_matriz_knn_50k_x_100_mb": round(mb_matriz_knn_50k_x_100, 2),
+            "memoria_todas_matrizes_50k_sem_batching_mb": round(mb_matrizes_50k_completo, 1),
+            "memoria_por_lote_5k_com_batching_mb": round(mb_matrizes_50k_completo / 10.0, 1),
+        }
+
     def executar_inferencia_completa(
         self,
         limiar_publicar: float = 0.575,
@@ -715,8 +853,24 @@ class ClassificadorTopicosJuridicos:
             "fora": 0,
             "soma_confianca_publicadas": 0.0,
             "por_coorte": {
-                "antiga_Q0001_Q0359": {"total": 0, "publicar": 0, "revisar": 0, "fora": 0},
-                "nova_Q0360_Q0659": {"total": 0, "publicar": 0, "revisar": 0, "fora": 0},
+                "antiga_Q0001_Q0359": {
+                    "total": 0,
+                    "publicar": 0,
+                    "revisar": 0,
+                    "fora": 0,
+                    "pub_lex1_e_sem1": 0,
+                    "pub_lex2_e_sem2": 0,
+                    "pub_com_ancora": 0,
+                },
+                "nova_Q0360_Q0659": {
+                    "total": 0,
+                    "publicar": 0,
+                    "revisar": 0,
+                    "fora": 0,
+                    "pub_lex1_e_sem1": 0,
+                    "pub_lex2_e_sem2": 0,
+                    "pub_com_ancora": 0,
+                },
             },
         }
 
@@ -731,13 +885,27 @@ class ClassificadorTopicosJuridicos:
                 estatisticas_559["total_avaliadas_fora_folha"] += 1
                 d_str = dec["decisao"]
                 estatisticas_559[d_str] += 1
-                if d_str == "publicar":
-                    estatisticas_559["soma_confianca_publicadas"] += conf
                 coorte_k = (
                     "antiga_Q0001_Q0359" if int(qid[1:]) <= 359 else "nova_Q0360_Q0659"
                 )
-                estatisticas_559["por_coorte"][coorte_k]["total"] += 1
-                estatisticas_559["por_coorte"][coorte_k][d_str] += 1
+                c_dict = estatisticas_559["por_coorte"][coorte_k]
+                c_dict["total"] += 1
+                c_dict[d_str] += 1
+                if d_str == "publicar":
+                    estatisticas_559["soma_confianca_publicadas"] += conf
+                    f = r["features"]
+                    if f["lex_top1_agree"] > 0.5 and f["sem_top1_agree"] > 0.5:
+                        c_dict["pub_lex1_e_sem1"] += 1
+                    if f["lex_top2_agree"] > 0.5 and f["sem_top2_agree"] > 0.5:
+                        c_dict["pub_lex2_e_sem2"] += 1
+                    if f["ancora_b1"] > 0.0:
+                        c_dict["pub_com_ancora"] += 1
+
+        for ck, c_dict in estatisticas_559["por_coorte"].items():
+            npub = max(c_dict["publicar"], 1)
+            c_dict["taxa_pub_lex1_e_sem1"] = round(c_dict["pub_lex1_e_sem1"] / npub, 4)
+            c_dict["taxa_pub_lex2_e_sem2"] = round(c_dict["pub_lex2_e_sem2"] / npub, 4)
+            c_dict["taxa_pub_com_ancora"] = round(c_dict["pub_com_ancora"] / npub, 4)
 
         n_pub_559 = estatisticas_559["publicar"]
         n_tot_559 = estatisticas_559["total_avaliadas_fora_folha"]

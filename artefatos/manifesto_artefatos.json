@@ -1,5 +1,5 @@
 {
-  "versao": "etapa2-hibrido-v1",
+  "versao": "etapa2-hibrido-v2",
   "modelo_embedding": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "licenca_modelo": "Apache-2.0",
   "fastembed_versao": "0.7.3",
@@ -12,7 +12,9 @@
   },
   "sha256": {
     "anexos_zip": "fbb5c0374cdf495abdbd328735e9f184bf9a67e7619941dedf4fbabb46636fe1",
+    "insumos_base_temas_json": "8eca3e52f42aabe3f517ea5b62052105a863b9eb1cdd45e6d0b8713af38849a9",
     "catalogo_temas_json": "e2637b5d46b8fb4e999e2477a50c829515f6cd1497ba0514c85d29153ef3de22",
-    "embeddings_cache_npz": "6ab8d882503109f267b504ba3bf08279cdbb7aa372b2345af0148413f3c1d838"
+    "embeddings_cache_npz": "6ab8d882503109f267b504ba3bf08279cdbb7aa372b2345af0148413f3c1d838",
+    "divisoes_validacao_json": "3840fa2fdb6a483511857f50c568a56e357c3711aa222e2bb6d3c0834be11e2e"
   }
 }

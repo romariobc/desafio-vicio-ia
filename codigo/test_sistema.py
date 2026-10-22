@@ -6,19 +6,21 @@ Verifica:
 1. Integridade estrutural e contratual de `publicacao.csv` (659 linhas, colunas exatas, tipos).
 2. Proibição estrita de temas inativos (5078, 5234) ou nós de nível 0 (raízes de disciplina).
 3. Regra oficial de acerto hierárquico e propriedade de dominância do Roll-up Canônico (92/92 = 100%).
-4. Formato de `previsao.txt` conforme `anexos/LEIA-ME.md`.
-5. Meta de qualidade na validação cruzada Out-of-Fold (precisão de publicação >= 95%).
+4. Formato de `previsao.txt` conforme `anexos/LEIA-ME.md` e ausência de clamps artificiais.
+5. Meta de qualidade na validação cruzada Out-of-Fold (precisão observada >= 95%).
 6. Isolamento estrito em tempo de decisão (ausência de imports de LLM/rede nos módulos de inferência).
+7. Autocontenção de `preparar_artefatos.py` (sem caminhos externos ao repositório).
+8. Complexidade de memória O(N * M_ref) e sincronia numérica entre `metricas_validacao.json` e a documentação.
 """
 from __future__ import annotations
 
 import ast
 import csv
 import json
-import re
 import unittest
 from pathlib import Path
 
+from modelo_sistema import ClassificadorTopicosJuridicos
 from processamento import carregar_anexos, extrair_foco_e_corpo, limpar_html
 
 PASTA_ETAPA2 = Path(__file__).resolve().parent.parent
@@ -41,7 +43,6 @@ class TestSistemaClassificacaoTopicos(unittest.TestCase):
         for termo in ("incorreta", "não", "exceto"):
             self.assertIn(termo, limpo)
 
-        # Na coorte nova (Q0360-Q0659), comando original é vazio mas foco é extraído do enunciado
         q_nova = next(q for q in self.questoes if q["id"] == "Q0360")
         self.assertEqual(q_nova.get("comando", ""), "")
         partes = extrair_foco_e_corpo(q_nova)
@@ -129,16 +130,21 @@ class TestSistemaClassificacaoTopicos(unittest.TestCase):
         self.assertRegex(linhas[3], r"^cobertura_intervalo:\s*0\.\d{2}-0\.\d{2}$")
 
         prec = float(linhas[0].split(":")[1].strip())
-        self.assertGreaterEqual(prec, 0.95, "Precisão prevista deve atender à meta >= 0.95")
+        self.assertGreaterEqual(prec, 0.90)
+        self.assertLessEqual(prec, 0.97)
 
-    def test_05_metricas_validacao_oof_meta_95(self) -> None:
-        """Audita se a precisão Out-of-Fold registrada nas 5 dobras externas atinge >= 95%."""
+    def test_05_metricas_validacao_oof_e_simulacao_coorte(self) -> None:
+        """Audita se a precisão OOF nas 5 dobras e a simulação estrutural da coorte nova estão registradas."""
         self.assertTrue(self.caminho_metricas.exists())
         dados = json.loads(self.caminho_metricas.read_text(encoding="utf-8"))
         cv = dados["validacao_cruzada_100_refs"]
         self.assertGreaterEqual(cv["acuracia_top1_em_taxonomia"], 0.85)
         self.assertGreaterEqual(cv["precisao_publicar_oof"], 0.95)
         self.assertGreaterEqual(cv["cobertura_publicar_oof"], 0.50)
+
+        sim = dados["simulacao_formato_coorte_nova_100_refs"]
+        self.assertGreaterEqual(sim["acertos_top1_total"], 80)
+        self.assertGreaterEqual(sim["precisao_publicar_oof"], 0.95)
 
     def test_06_isolamento_zero_llm_em_tempo_de_decisao(self) -> None:
         """Garante via AST que processamento.py, modelo_sistema.py e reproduzir.py não importam LLMs/encoders/rede."""
@@ -181,6 +187,29 @@ class TestSistemaClassificacaoTopicos(unittest.TestCase):
                         modulos_proibidos,
                         f"ImportFrom proibido '{no.module}' detectado em {arq.name}",
                     )
+
+    def test_07_preparar_artefatos_autocontido(self) -> None:
+        """Verifica que preparar_artefatos.py não referencia pastas externas ao repositório."""
+        arq_prep = PASTA_ETAPA2 / "codigo" / "preparar_artefatos.py"
+        conteudo = arq_prep.read_text(encoding="utf-8")
+        self.assertNotIn("parent.parent", conteudo)
+        self.assertNotIn("experimentos", conteudo)
+        self.assertTrue((PASTA_ETAPA2 / "artefatos" / "insumos_base_temas.json").exists())
+
+    def test_08_complexidade_memoria_knn_e_sincronia_docs(self) -> None:
+        """Garante que a matriz kNN é O(N * M_ref) = (659, 100) e que os números da doc batem com o JSON."""
+        clf = ClassificadorTopicosJuridicos(PASTA_ETAPA2)
+        self.assertEqual(clf.sim_q_ref_hibrida.shape, (659, 100))
+        self.assertFalse(hasattr(clf, "sim_q_hibrida"))
+
+        dados = json.loads(self.caminho_metricas.read_text(encoding="utf-8"))
+        brier_str = f"{dados['validacao_cruzada_100_refs']['brier_score_oof']:.4f}"
+        n_pub_559 = str(dados["inferencia_559_avaliadas"]["publicar"])
+
+        relatorio_txt = (PASTA_ETAPA2 / "RELATORIO.md").read_text(encoding="utf-8")
+        readme_txt = (PASTA_ETAPA2 / "README.md").read_text(encoding="utf-8")
+        self.assertIn(brier_str.replace(".", ","), relatorio_txt)
+        self.assertIn(f"{n_pub_559}/559", readme_txt)
 
 
 if __name__ == "__main__":

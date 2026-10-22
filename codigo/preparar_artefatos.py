@@ -457,26 +457,13 @@ def main() -> None:
     PASTA_ARTEFATOS.mkdir(parents=True, exist_ok=True)
     qs, tax, refs, _ = carregar_anexos(PASTA_ETAPA2 / "anexos")
 
-    # 1. Carrega perfis legislativos e cache de embeddings existentes na base do projeto
-    raiz_projeto = PASTA_ETAPA2.parent.parent / "etapa2"
-    perfis_path = raiz_projeto / "experimentos" / "perfis-conceituais-v1" / "perfis.json"
-    emb_orig_path = raiz_projeto / "codigo" / "artefatos" / "embeddings.npy"
-    emb_orig_meta_path = raiz_projeto / "codigo" / "artefatos" / "embeddings.json"
-    emb_perf_path = raiz_projeto / "experimentos" / "perfis-conceituais-v1" / "cache" / "embeddings.npy"
-    emb_perf_meta_path = raiz_projeto / "experimentos" / "perfis-conceituais-v1" / "cache" / "embeddings.json"
-    dic_ancoras_path = (
-        raiz_projeto
-        / "experimentos"
-        / "canais-representacao-v1"
-        / "politicas-seletivas-v1"
-        / "estabilidade-cv-v1"
-        / "ancoras-normativas-v1"
-        / "dicionario.json"
-    )
-
-    perfis_lista = json.loads(perfis_path.read_text(encoding="utf-8"))
+    # 1. Carrega insumos textuais versionados no próprio repositório (autocontido)
+    insumos_path = PASTA_ARTEFATOS / "insumos_base_temas.json"
+    insumos = json.loads(insumos_path.read_text(encoding="utf-8"))
+    meta_modelo = insumos["meta_modelo"]
+    perfis_lista = insumos["perfis"]
     perfis_por_id = {p["tema_id"]: p for p in perfis_lista}
-    dic_ancoras = json.loads(dic_ancoras_path.read_text(encoding="utf-8"))
+    dic_ancoras = insumos["dicionario_ancoras"]
 
     # 2. Constrói o catálogo de temas enriquecido + agregação hierárquica por família (nível 1 + filhos nível 2)
     catalogo_nos: dict[str, dict[str, object]] = {}
@@ -579,37 +566,45 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    # 3. Empacota os vetores de embeddings em cache (.npz comprimido e auditável)
-    meta_orig = json.loads(emb_orig_meta_path.read_text(encoding="utf-8"))
-    vecs_orig = np.load(emb_orig_path, allow_pickle=False)
-    mapa_orig = dict(zip(meta_orig["keys"], vecs_orig))
-
-    meta_perf = json.loads(emb_perf_meta_path.read_text(encoding="utf-8"))
-    vecs_perf = np.load(emb_perf_path, allow_pickle=False)
-    mapa_perf = dict(zip(meta_perf["keys"], vecs_perf))
-
+    # 3. Valida ou recalcula os vetores de embeddings em cache (.npz comprimido e auditável)
+    import sys as _sys
+    caminho_npz = PASTA_ARTEFATOS / "embeddings_cache.npz"
     q_ids = [q["id"] for q in qs]
     t_ids = tax.candidatos
 
-    matriz_questoes = np.stack([mapa_orig[qid] for qid in q_ids]).astype(np.float32)
-    matriz_temas_orig = np.stack([mapa_orig["tema:" + tid] for tid in t_ids]).astype(np.float32)
-    matriz_temas_perf = np.stack([mapa_perf["tema:" + tid] for tid in t_ids]).astype(np.float32)
+    if "--recalcular-embeddings" in _sys.argv or not caminho_npz.exists():
+        from fastembed import TextEmbedding
+        from processamento import extrair_foco_e_corpo
+        embedder = TextEmbedding(model_name=meta_modelo["modelo"])
+        textos_q = [extrair_foco_e_corpo(q)["completo"] for q in qs]
+        textos_t_orig = [
+            f"{tax.ativos[tid]['titulo']} {tax.ativos[tid]['caminho']} {tax.ativos[tid]['descricao']}".strip()
+            for tid in t_ids
+        ]
+        textos_t_perf = [str(catalogo_nos[tid]["texto_proprio"]) for tid in t_ids]
+        matriz_questoes = np.stack(list(embedder.embed(textos_q))).astype(np.float32)
+        matriz_temas_orig = np.stack(list(embedder.embed(textos_t_orig))).astype(np.float32)
+        matriz_temas_perf = np.stack(list(embedder.embed(textos_t_perf))).astype(np.float32)
+        np.savez_compressed(
+            caminho_npz,
+            q_ids=np.array(q_ids),
+            t_ids=np.array(t_ids),
+            questoes=matriz_questoes,
+            temas_orig=matriz_temas_orig,
+            temas_perf=matriz_temas_perf,
+        )
+    else:
+        cache_existente = np.load(caminho_npz, allow_pickle=False)
+        matriz_questoes = cache_existente["questoes"].astype(np.float32)
+        matriz_temas_orig = cache_existente["temas_orig"].astype(np.float32)
+        matriz_temas_perf = cache_existente["temas_perf"].astype(np.float32)
 
-    caminho_npz = PASTA_ARTEFATOS / "embeddings_cache.npz"
-    np.savez_compressed(
-        caminho_npz,
-        q_ids=np.array(q_ids),
-        t_ids=np.array(t_ids),
-        questoes=matriz_questoes,
-        temas_orig=matriz_temas_orig,
-        temas_perf=matriz_temas_perf,
-    )
-
+    caminho_divisoes = PASTA_ARTEFATOS / "divisoes_validacao.json"
     manifesto = {
-        "versao": "etapa2-hibrido-v1",
-        "modelo_embedding": meta_orig["modelo"],
-        "licenca_modelo": meta_orig["licenca"],
-        "fastembed_versao": meta_orig["fastembed"],
+        "versao": "etapa2-hibrido-v2",
+        "modelo_embedding": meta_modelo["modelo"],
+        "licenca_modelo": meta_modelo["licenca"],
+        "fastembed_versao": meta_modelo["fastembed"],
         "dimensoes": 384,
         "contagens": {
             "questoes": len(q_ids),
@@ -619,15 +614,13 @@ def main() -> None:
         },
         "sha256": {
             "anexos_zip": sha256_arquivo(PASTA_ETAPA2 / "anexos-case-ia.zip"),
+            "insumos_base_temas_json": sha256_arquivo(insumos_path),
             "catalogo_temas_json": sha256_arquivo(caminho_catalogo),
             "embeddings_cache_npz": sha256_arquivo(caminho_npz),
+            "divisoes_validacao_json": sha256_arquivo(caminho_divisoes),
         },
     }
     caminho_manifesto = PASTA_ARTEFATOS / "manifesto_artefatos.json"
-    divisoes_orig = raiz_projeto / "experimentos" / "ancoras-capacidade-v1" / "divisoes.json"
-    caminho_divisoes = PASTA_ARTEFATOS / "divisoes_validacao.json"
-    if divisoes_orig.exists():
-        caminho_divisoes.write_text(divisoes_orig.read_text(encoding="utf-8"), encoding="utf-8")
     caminho_manifesto.write_text(
         json.dumps(manifesto, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

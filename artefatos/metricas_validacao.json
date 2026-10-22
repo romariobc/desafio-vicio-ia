@@ -1,5 +1,6 @@
 {
-  "tempo_execucao_segundos": 12.643,
+  "tempo_execucao_segundos": 14.496,
+  "tempo_inferencia_659_segundos": 2.609,
   "validacao_cruzada_100_refs": {
     "n_referencias": 100,
     "n_em_taxonomia": 92,
@@ -75,17 +76,17 @@
     "curva_limiares": [
       {
         "limiar": 0.5,
-        "publicadas": 69,
-        "cobertura": 0.69,
-        "acertos": 65,
-        "precisao": 0.9420289855072463
+        "publicadas": 67,
+        "cobertura": 0.67,
+        "acertos": 64,
+        "precisao": 0.9552238805970149
       },
       {
         "limiar": 0.525,
-        "publicadas": 65,
-        "cobertura": 0.65,
+        "publicadas": 64,
+        "cobertura": 0.64,
         "acertos": 62,
-        "precisao": 0.9538461538461539
+        "precisao": 0.96875
       },
       {
         "limiar": 0.55,
@@ -166,32 +167,65 @@
       }
     ]
   },
+  "simulacao_formato_coorte_nova_100_refs": {
+    "descricao": "Comando concatenado ao enunciado_html e campo comando esvaziado nas 100 referencias (vetores MiniLM fixos)",
+    "acertos_top1_total": 82,
+    "acuracia_top1_em_taxonomia": 0.8913043478260869,
+    "publicadas_oof": 63,
+    "acertos_publicadas_oof": 61,
+    "precisao_publicar_oof": 0.9682539682539683,
+    "brier_score_oof": 0.12
+  },
   "inferencia_559_avaliadas": {
     "total_avaliadas_fora_folha": 559,
-    "publicar": 319,
-    "revisar": 224,
+    "publicar": 302,
+    "revisar": 241,
     "fora": 16,
-    "soma_confianca_publicadas": 256.24111194035083,
+    "soma_confianca_publicadas": 244.43367786961448,
     "por_coorte": {
       "antiga_Q0001_Q0359": {
         "total": 259,
-        "publicar": 115,
-        "revisar": 139,
-        "fora": 5
+        "publicar": 109,
+        "revisar": 145,
+        "fora": 5,
+        "pub_lex1_e_sem1": 53,
+        "pub_lex2_e_sem2": 70,
+        "pub_com_ancora": 56,
+        "taxa_pub_lex1_e_sem1": 0.4862,
+        "taxa_pub_lex2_e_sem2": 0.6422,
+        "taxa_pub_com_ancora": 0.5138
       },
       "nova_Q0360_Q0659": {
         "total": 300,
-        "publicar": 204,
-        "revisar": 85,
-        "fora": 11
+        "publicar": 193,
+        "revisar": 96,
+        "fora": 11,
+        "pub_lex1_e_sem1": 80,
+        "pub_lex2_e_sem2": 122,
+        "pub_com_ancora": 59,
+        "taxa_pub_lex1_e_sem1": 0.4145,
+        "taxa_pub_lex2_e_sem2": 0.6321,
+        "taxa_pub_com_ancora": 0.3057
       }
     },
-    "cobertura_publicar_559": 0.5706618962432916,
-    "confianca_media_publicadas_559": 0.8032636737942033
+    "cobertura_publicar_559": 0.5402504472271914,
+    "confianca_media_publicadas_559": 0.8093830393033592
+  },
+  "benchmark_escala_50k": {
+    "n_medido": 659,
+    "n_alvo_semanal": 50000,
+    "m_temas_ativos": 371,
+    "m_referencias_knn": 100,
+    "tempo_decisao_medido_659_s": 12.48,
+    "tempo_decisao_extrapolado_linear_50k_s": 946.9,
+    "memoria_matrizes_densas_659_mb": 8.68,
+    "memoria_matriz_knn_50k_x_100_mb": 19.07,
+    "memoria_todas_matrizes_50k_sem_batching_mb": 658.4,
+    "memoria_por_lote_5k_com_batching_mb": 65.8
   },
   "distribuicao_659_total": {
-    "publicar": 383,
-    "revisar": 254,
+    "publicar": 365,
+    "revisar": 272,
     "fora": 22
   }
 }

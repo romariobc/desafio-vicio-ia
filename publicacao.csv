@@ -9,46 +9,46 @@ Q0007,revisar,5128,,0.30,margem estreita entre 5128 (Dos Crimes Contra a Liberda
 Q0008,revisar,5087,4703,0.30,margem estreita entre 5087 (Dos Crimes Contra a Administração Pública) e 4703 (Lei de Execução Penal)
 Q0009,revisar,5157,,0.53,assunto de origem inconsistente; duvida entre 5157 (Dos Crimes Contra o Patrimônio) e 5185 (Prescrição)
 Q0010,publicar,4688,6717,0.61,
-Q0011,revisar,4700,,0.30,margem estreita entre 4700 (Interceptação Telefônica) e 4702 (Lavagem de Dinheiro)
+Q0011,revisar,4700,,0.30,ausencia de convergencia minima entre canais; sugestao 4700 (Interceptação Telefônica) vs 4702 (Lavagem de Dinheiro)
 Q0012,revisar,5560,,0.49,margem estreita entre 5560 (Recursos em Espécies) e 5530 (Procedimento Ordinário)
 Q0013,publicar,5498,,0.94,
 Q0014,fora,,,0.02,Direito da Criança e do Adolescente (medidas socioeducativas/ECA) fora da árvore penal
 Q0015,publicar,5498,,0.67,
-Q0016,revisar,5560,5517,0.18,margem estreita entre 5560 (Recursos em Espécies) e 5517 (Prisões em Espécie)
+Q0016,revisar,5560,5517,0.18,ausencia de convergencia minima entre canais; sugestao 5560 (Recursos em Espécies) vs 5517 (Prisões em Espécie)
 Q0017,fora,,,0.01,Procedimento especial dos crimes funcionais (arts. 513-518 CPP) sem nó específico na árvore
 Q0018,publicar,5539,4701,0.64,
-Q0019,publicar,5466,,0.63,
+Q0019,revisar,5466,,0.63,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5498 (Inquérito Policial)
 Q0020,revisar,4701,5539;5560,0.36,margem estreita entre 4701 (Juizado Especial Criminal) e 5560 (Recursos em Espécies)
 Q0021,revisar,5498,5524,0.54,margem estreita entre 5498 (Inquérito Policial) e 5524 (Procedimento do Tribunal do Júri)
-Q0022,revisar,5087,5079,0.15,margem estreita entre 5087 (Dos Crimes Contra a Administração Pública) e 5079 (Dos Crimes Contra a Administração Judicial)
+Q0022,revisar,5087,5079,0.15,ausencia de convergencia minima entre canais; sugestao 5087 (Dos Crimes Contra a Administração Pública) vs 5079 (Dos Crimes Contra a Administração Judicial)
 Q0023,publicar,5524,,0.88,
 Q0024,publicar,4385,,0.71,
 Q0025,publicar,5087,,0.78,
-Q0026,revisar,4704,6724,0.31,assunto de origem inconsistente; duvida entre 4704 (Lei Maria da Penha) e 5476 (Ações Autônomas de Impugnação)
+Q0026,revisar,4704,6724,0.31,ausencia de convergencia minima entre canais; sugestao 4704 (Lei Maria da Penha) vs 5476 (Ações Autônomas de Impugnação)
 Q0027,revisar,5466,5543,0.27,margem estreita entre 5466 (Ação Penal) e 5543 (Provas em Espécies)
 Q0028,revisar,5530,5466,0.28,margem estreita entre 5530 (Procedimento Ordinário) e 5466 (Ação Penal)
 Q0029,publicar,4684,6716,0.78,
-Q0030,revisar,5157,5128,0.44,margem estreita entre 5157 (Dos Crimes Contra o Patrimônio) e 5128 (Dos Crimes Contra a Liberdade Pessoal)
+Q0030,revisar,5157,5128,0.44,ausencia de convergencia minima entre canais; sugestao 5157 (Dos Crimes Contra o Patrimônio) vs 5128 (Dos Crimes Contra a Liberdade Pessoal)
 Q0031,revisar,4368,4385,0.37,margem estreita entre 4368 (Criminologia no Estado Democrático de Direito) e 4385 (Teorias Sociológicas Explicativas da Criminalidade)
 Q0032,revisar,5498,5490,0.47,margem estreita entre 5498 (Inquérito Policial) e 5490 (Das Questões e Processos Incidentes)
 Q0033,publicar,5517,,0.67,
 Q0034,publicar,5476,,0.78,
 Q0035,publicar,4706,,0.70,
-Q0036,revisar,4704,6724;5530,0.18,margem estreita entre 4704 (Lei Maria da Penha) e 5530 (Procedimento Ordinário)
-Q0037,revisar,5128,5079,0.20,margem estreita entre 5128 (Dos Crimes Contra a Liberdade Pessoal) e 5079 (Dos Crimes Contra a Administração Judicial)
+Q0036,revisar,4704,6724;5530,0.18,ausencia de convergencia minima entre canais; sugestao 4704 (Lei Maria da Penha) vs 5530 (Procedimento Ordinário)
+Q0037,revisar,5128,5079,0.20,ausencia de convergencia minima entre canais; sugestao 5128 (Dos Crimes Contra a Liberdade Pessoal) vs 5079 (Dos Crimes Contra a Administração Judicial)
 Q0038,revisar,5498,5543,0.18,margem estreita entre 5498 (Inquérito Policial) e 5543 (Provas em Espécies)
 Q0039,fora,,,0.01,Tema de Direito Penal Econômico (nó 5078 inativo na taxonomia oficial)
 Q0040,publicar,5560,5524,0.78,
 Q0041,publicar,5184,,0.87,
 Q0042,publicar,5218,,0.93,
 Q0043,publicar,5199,,0.67,
-Q0044,revisar,5530,5543,0.24,margem estreita entre 5530 (Procedimento Ordinário) e 5543 (Provas em Espécies)
+Q0044,revisar,5530,5543,0.24,ausencia de convergencia minima entre canais; sugestao 5530 (Procedimento Ordinário) vs 5543 (Provas em Espécies)
 Q0045,publicar,5087,,0.94,
 Q0046,revisar,5509,,0.39,assunto de origem inconsistente; duvida entre 5509 (Nulidades) e 5530 (Procedimento Ordinário)
 Q0047,revisar,5466,5087,0.39,margem estreita entre 5466 (Ação Penal) e 5087 (Dos Crimes Contra a Administração Pública)
 Q0048,revisar,5191,,0.31,margem estreita entre 5191 (Punibilidade) e 5199 (Teoria da Pena)
 Q0049,publicar,5149,,0.82,
-Q0050,revisar,4708,6728;5071,0.15,margem estreita entre 4708 (Tráfico de Drogas) e 5071 (Concurso de Pessoas)
+Q0050,revisar,4708,6728;5071,0.15,ausencia de convergencia minima entre canais; sugestao 4708 (Tráfico de Drogas) vs 5071 (Concurso de Pessoas)
 Q0051,publicar,5180,,0.74,
 Q0052,publicar,4703,6734,0.73,
 Q0053,publicar,4701,5539,0.86,
@@ -69,20 +69,20 @@ Q0067,publicar,5087,,0.72,
 Q0068,revisar,5087,,0.55,confianca intermediaria; duvida entre 5087 (Dos Crimes Contra a Administração Pública) e 5228 (Teoria do Crime: Ilicitude)
 Q0069,revisar,5170,,0.44,margem estreita entre 5170 (Introdução ao Estudo do Direito Penal) e 5157 (Dos Crimes Contra o Patrimônio)
 Q0070,publicar,5199,,0.77,
-Q0071,revisar,5199,4688,0.21,margem estreita entre 5199 (Teoria da Pena) e 4688 (Crimes contra o meio ambiente)
-Q0072,revisar,5590,,0.33,assunto de origem inconsistente; duvida entre 5590 (Teoria Geral das Provas) e 5498 (Inquérito Policial)
+Q0071,revisar,5199,4688,0.21,ausencia de convergencia minima entre canais; sugestao 5199 (Teoria da Pena) vs 4688 (Crimes contra o meio ambiente)
+Q0072,revisar,5590,,0.33,ausencia de convergencia minima entre canais; sugestao 5590 (Teoria Geral das Provas) vs 5498 (Inquérito Policial)
 Q0073,publicar,5087,,0.75,
 Q0074,revisar,5199,4703,0.32,margem estreita entre 5199 (Teoria da Pena) e 4703 (Lei de Execução Penal)
 Q0075,publicar,5191,,0.72,
 Q0076,publicar,4380,4371,0.69,
 Q0077,publicar,5180,,0.63,
-Q0078,revisar,4697,4691,0.21,margem estreita entre 4697 (Estatuto do Desarmamento) e 4691 (Crimes de Trânsito)
+Q0078,revisar,4697,4691,0.21,ausencia de convergencia minima entre canais; sugestao 4697 (Estatuto do Desarmamento) vs 4691 (Crimes de Trânsito)
 Q0079,publicar,5580,,0.86,
 Q0080,publicar,4368,,0.82,
 Q0081,publicar,4371,,0.94,
 Q0082,publicar,5087,,0.69,
-Q0083,publicar,5149,,0.73,
-Q0084,revisar,4704,6724,0.23,margem estreita entre 4704 (Lei Maria da Penha) e 5543 (Provas em Espécies)
+Q0083,revisar,5149,,0.73,ausencia de convergencia minima entre canais; sugestao 5149 (Dos Crimes Contra a Vida) vs 5191 (Punibilidade)
+Q0084,revisar,4704,6724,0.23,ausencia de convergencia minima entre canais; sugestao 4704 (Lei Maria da Penha) vs 5543 (Provas em Espécies)
 Q0085,revisar,5071,,0.54,assunto de origem inconsistente; duvida entre 5071 (Concurso de Pessoas) e 5087 (Dos Crimes Contra a Administração Pública)
 Q0086,revisar,5087,,0.57,"assunto de origem inconsistente; duvida entre 5087 (Dos Crimes Contra a Administração Pública) e 5134 (Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso)"
 Q0087,fora,,,0.10,Regime aberto em residência particular (art. 117 LEP) sem subtema na árvore de Execução Penal
@@ -93,15 +93,15 @@ Q0091,publicar,4703,6734,0.83,
 Q0092,publicar,5509,5490,0.58,
 Q0093,revisar,5138,,0.51,assunto de origem inconsistente; duvida entre 5138 (Dos Crimes Contra a Periclitação da Vida e da Saúde) e 5149 (Dos Crimes Contra a Vida)
 Q0094,publicar,4368,,0.76,
-Q0095,revisar,5191,,0.42,assunto de origem inconsistente; duvida entre 5191 (Punibilidade) e 5077 (Das Lesões Corporais)
+Q0095,revisar,5191,,0.42,ausencia de convergencia minima entre canais; sugestao 5191 (Punibilidade) vs 5077 (Das Lesões Corporais)
 Q0096,publicar,5480,,0.67,
 Q0097,revisar,4708,6728;4702,0.12,margem estreita entre 4708 (Tráfico de Drogas) e 4702 (Lavagem de Dinheiro)
-Q0098,revisar,5543,,0.48,assunto de origem inconsistente; duvida entre 5543 (Provas em Espécies) e 5466 (Ação Penal)
+Q0098,revisar,5543,,0.48,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5466 (Ação Penal)
 Q0099,publicar,5087,,0.83,
 Q0100,publicar,5102,,0.90,
-Q0101,revisar,4704,6724,0.36,assunto de origem inconsistente; duvida entre 4704 (Lei Maria da Penha) e 5490 (Das Questões e Processos Incidentes)
-Q0102,revisar,5572,,0.39,assunto de origem inconsistente; duvida entre 5572 (Sentença Penal) e 5466 (Ação Penal)
-Q0103,revisar,5476,,0.43,assunto de origem inconsistente; duvida entre 5476 (Ações Autônomas de Impugnação) e 5560 (Recursos em Espécies)
+Q0101,revisar,4704,6724,0.36,ausencia de convergencia minima entre canais; sugestao 4704 (Lei Maria da Penha) vs 5490 (Das Questões e Processos Incidentes)
+Q0102,revisar,5572,,0.39,ausencia de convergencia minima entre canais; sugestao 5572 (Sentença Penal) vs 5466 (Ação Penal)
+Q0103,revisar,5476,,0.43,ausencia de convergencia minima entre canais; sugestao 5476 (Ações Autônomas de Impugnação) vs 5560 (Recursos em Espécies)
 Q0104,publicar,5498,,0.74,
 Q0105,publicar,4385,,0.77,
 Q0106,publicar,5157,,0.62,
@@ -110,14 +110,14 @@ Q0108,revisar,5530,5560,0.39,margem estreita entre 5530 (Procedimento Ordinário
 Q0109,revisar,4708,6728,0.23,margem estreita entre 4708 (Tráfico de Drogas) e 5185 (Prescrição)
 Q0110,revisar,5480,5560,0.29,margem estreita entre 5480 (Competência) e 5560 (Recursos em Espécies)
 Q0111,publicar,4371,,0.75,
-Q0112,revisar,5480,4705,0.14,margem estreita entre 5480 (Competência) e 4705 (Organizações Criminosas)
-Q0113,revisar,5191,5466,0.16,margem estreita entre 5191 (Punibilidade) e 5466 (Ação Penal)
-Q0114,revisar,5466,5476,0.14,margem estreita entre 5466 (Ação Penal) e 5476 (Ações Autônomas de Impugnação)
+Q0112,revisar,5480,4705,0.14,ausencia de convergencia minima entre canais; sugestao 5480 (Competência) vs 4705 (Organizações Criminosas)
+Q0113,revisar,5191,5466,0.16,ausencia de convergencia minima entre canais; sugestao 5191 (Punibilidade) vs 5466 (Ação Penal)
+Q0114,revisar,5466,5476,0.14,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5476 (Ações Autônomas de Impugnação)
 Q0115,publicar,4385,,0.85,
 Q0116,publicar,4708,6728,0.77,
 Q0117,publicar,4384,,0.70,
-Q0118,revisar,5517,5505,0.14,margem estreita entre 5517 (Prisões em Espécie) e 5505 (Lei Processual no Tempo e no Espaço)
-Q0119,publicar,5466,,0.65,
+Q0118,revisar,5517,5505,0.14,ausencia de convergencia minima entre canais; sugestao 5517 (Prisões em Espécie) vs 5505 (Lei Processual no Tempo e no Espaço)
+Q0119,revisar,5466,,0.65,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5530 (Procedimento Ordinário)
 Q0120,revisar,5590,,0.57,assunto de origem inconsistente; duvida entre 5590 (Teoria Geral das Provas) e 5543 (Provas em Espécies)
 Q0121,publicar,5466,,0.69,
 Q0122,publicar,4703,6734,0.79,
@@ -130,69 +130,69 @@ Q0128,revisar,5466,,0.14,margem estreita entre 5466 (Ação Penal) e 5543 (Prova
 Q0129,publicar,5530,,0.66,
 Q0130,revisar,5199,,0.56,assunto de origem inconsistente; duvida entre 5199 (Teoria da Pena) e 5185 (Prescrição)
 Q0131,publicar,5071,,0.94,
-Q0132,revisar,5466,5498,0.13,margem estreita entre 5466 (Ação Penal) e 5498 (Inquérito Policial)
+Q0132,revisar,5466,5498,0.13,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5498 (Inquérito Policial)
 Q0133,publicar,5524,,0.92,
 Q0134,publicar,5087,,0.91,
 Q0135,publicar,5157,,0.85,
-Q0136,revisar,5543,,0.10,margem estreita entre 5543 (Provas em Espécies) e 5530 (Procedimento Ordinário)
+Q0136,revisar,5543,,0.10,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5530 (Procedimento Ordinário)
 Q0137,publicar,5498,,0.90,
 Q0138,publicar,5199,,0.83,
 Q0139,publicar,5211,,0.86,
 Q0140,publicar,5157,,0.83,
 Q0141,publicar,4385,,0.92,
 Q0142,fora,,,0.03,Questão de Direito Tributário material sem relação com crimes tributários
-Q0143,revisar,5580,5505,0.52,margem estreita entre 5580 (Sistemas e Princípios Processuais Penais) e 5505 (Lei Processual no Tempo e no Espaço)
+Q0143,revisar,5580,5505,0.52,ausencia de convergencia minima entre canais; sugestao 5580 (Sistemas e Princípios Processuais Penais) vs 5505 (Lei Processual no Tempo e no Espaço)
 Q0144,publicar,5524,,0.86,
-Q0145,revisar,4702,6723,0.42,assunto de origem inconsistente; duvida entre 4702 (Lavagem de Dinheiro) e 5079 (Dos Crimes Contra a Administração Judicial)
+Q0145,revisar,4702,6723,0.42,ausencia de convergencia minima entre canais; sugestao 4702 (Lavagem de Dinheiro) vs 5079 (Dos Crimes Contra a Administração Judicial)
 Q0146,revisar,5530,5498,0.16,margem estreita entre 5530 (Procedimento Ordinário) e 5498 (Inquérito Policial)
 Q0147,revisar,5498,5590,0.34,margem estreita entre 5498 (Inquérito Policial) e 5590 (Teoria Geral das Provas)
 Q0148,publicar,5199,,0.83,
 Q0149,publicar,5498,,0.85,
-Q0150,revisar,4708,6728,0.34,assunto de origem inconsistente; duvida entre 4708 (Tráfico de Drogas) e 5199 (Teoria da Pena)
+Q0150,revisar,4708,6728,0.34,ausencia de convergencia minima entre canais; sugestao 4708 (Tráfico de Drogas) vs 5199 (Teoria da Pena)
 Q0151,publicar,5517,,0.58,
 Q0152,revisar,5466,,0.40,assunto de origem inconsistente; duvida entre 5466 (Ação Penal) e 5530 (Procedimento Ordinário)
 Q0153,publicar,5218,,0.83,
 Q0154,revisar,5134,,0.54,"assunto de origem inconsistente; duvida entre 5134 (Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso) e 4703 (Lei de Execução Penal)"
 Q0155,revisar,5199,,0.34,margem estreita entre 5199 (Teoria da Pena) e 5184 (Medida de Segurança)
-Q0156,publicar,4688,6717,0.60,
+Q0156,revisar,4688,6717,0.60,ausencia de convergencia minima entre canais; sugestao 4688 (Crimes contra o meio ambiente) vs 5199 (Teoria da Pena)
 Q0157,publicar,5517,,0.65,
-Q0158,revisar,4684,6716;5199,0.06,margem estreita entre 4684 (Abuso de Autoridade) e 5199 (Teoria da Pena)
+Q0158,revisar,4684,6716;5199,0.06,ausencia de convergencia minima entre canais; sugestao 4684 (Abuso de Autoridade) vs 5199 (Teoria da Pena)
 Q0159,publicar,5149,,0.67,
 Q0160,publicar,5199,,0.65,
 Q0161,revisar,5517,5543,0.22,margem estreita entre 5517 (Prisões em Espécie) e 5543 (Provas em Espécies)
-Q0162,revisar,4380,4368,0.56,margem estreita entre 4380 (Teoria Geral da Criminologia) e 4368 (Criminologia no Estado Democrático de Direito)
-Q0163,revisar,4708,6728;4703,0.26,margem estreita entre 4708 (Tráfico de Drogas) e 4703 (Lei de Execução Penal)
-Q0164,revisar,4703,6734,0.46,assunto de origem inconsistente; duvida entre 4703 (Lei de Execução Penal) e 5185 (Prescrição)
-Q0165,revisar,4705,6725,0.31,assunto de origem inconsistente; duvida entre 4705 (Organizações Criminosas) e 5530 (Procedimento Ordinário)
+Q0162,revisar,4380,4368,0.56,ausencia de convergencia minima entre canais; sugestao 4380 (Teoria Geral da Criminologia) vs 4368 (Criminologia no Estado Democrático de Direito)
+Q0163,revisar,4708,6728;4703,0.26,ausencia de convergencia minima entre canais; sugestao 4708 (Tráfico de Drogas) vs 4703 (Lei de Execução Penal)
+Q0164,revisar,4703,6734,0.46,ausencia de convergencia minima entre canais; sugestao 4703 (Lei de Execução Penal) vs 5185 (Prescrição)
+Q0165,revisar,4705,6725,0.31,ausencia de convergencia minima entre canais; sugestao 4705 (Organizações Criminosas) vs 5530 (Procedimento Ordinário)
 Q0166,publicar,4703,6734,0.84,
 Q0167,publicar,5524,,0.82,
 Q0168,revisar,5191,5066,0.25,margem estreita entre 5191 (Punibilidade) e 5066 (Concurso de Crimes)
 Q0169,publicar,5490,,0.86,
 Q0170,fora,,,0.01,Matéria de Direito Penal/Processual Penal Militar ausente da taxonomia ativa
-Q0171,revisar,5543,5498,0.16,margem estreita entre 5543 (Provas em Espécies) e 5498 (Inquérito Policial)
-Q0172,revisar,5466,,0.24,assunto de origem inconsistente; duvida entre 5466 (Ação Penal) e 5572 (Sentença Penal)
+Q0171,revisar,5543,5498,0.16,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5498 (Inquérito Policial)
+Q0172,revisar,5466,,0.24,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5572 (Sentença Penal)
 Q0173,publicar,4703,6734,0.92,
 Q0174,revisar,5157,5087,0.28,margem estreita entre 5157 (Dos Crimes Contra o Patrimônio) e 5087 (Dos Crimes Contra a Administração Pública)
 Q0175,publicar,5087,,0.87,
 Q0176,publicar,5079,,0.70,
-Q0177,revisar,5543,5490,0.20,margem estreita entre 5543 (Provas em Espécies) e 5490 (Das Questões e Processos Incidentes)
+Q0177,revisar,5543,5490,0.20,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5490 (Das Questões e Processos Incidentes)
 Q0178,publicar,4697,5079,0.68,
 Q0179,publicar,4368,,0.99,
 Q0180,publicar,5543,,0.83,
 Q0181,fora,,,0.01,Tema de Direito Penal Econômico (nó 5078 inativo na taxonomia oficial)
 Q0182,revisar,5149,5138,0.15,margem estreita entre 5149 (Dos Crimes Contra a Vida) e 5138 (Dos Crimes Contra a Periclitação da Vida e da Saúde)
-Q0183,revisar,5560,5572,0.22,margem estreita entre 5560 (Recursos em Espécies) e 5572 (Sentença Penal)
-Q0184,revisar,5517,,0.19,margem estreita entre 5517 (Prisões em Espécie) e 5498 (Inquérito Policial)
+Q0183,revisar,5560,5572,0.22,ausencia de convergencia minima entre canais; sugestao 5560 (Recursos em Espécies) vs 5572 (Sentença Penal)
+Q0184,revisar,5517,,0.19,ausencia de convergencia minima entre canais; sugestao 5517 (Prisões em Espécie) vs 5498 (Inquérito Policial)
 Q0185,publicar,4703,6734,0.77,
 Q0186,publicar,5199,,0.96,
-Q0187,revisar,5157,5185,0.19,margem estreita entre 5157 (Dos Crimes Contra o Patrimônio) e 5185 (Prescrição)
+Q0187,revisar,5157,5185,0.19,ausencia de convergencia minima entre canais; sugestao 5157 (Dos Crimes Contra o Patrimônio) vs 5185 (Prescrição)
 Q0188,publicar,5228,,0.89,
-Q0189,revisar,5572,5466,0.17,margem estreita entre 5572 (Sentença Penal) e 5466 (Ação Penal)
+Q0189,revisar,5572,5466,0.17,ausencia de convergencia minima entre canais; sugestao 5572 (Sentença Penal) vs 5466 (Ação Penal)
 Q0190,publicar,5539,4701,0.81,
 Q0191,publicar,5560,,0.75,
 Q0192,publicar,5087,,0.75,
 Q0193,publicar,5543,,0.74,
-Q0194,revisar,5087,,0.49,assunto de origem inconsistente; duvida entre 5087 (Dos Crimes Contra a Administração Pública) e 5157 (Dos Crimes Contra o Patrimônio)
+Q0194,revisar,5087,,0.49,ausencia de convergencia minima entre canais; sugestao 5087 (Dos Crimes Contra a Administração Pública) vs 5157 (Dos Crimes Contra o Patrimônio)
 Q0195,publicar,4371,,0.80,
 Q0196,publicar,4385,,0.91,
 Q0197,publicar,5498,,0.66,
@@ -204,30 +204,30 @@ Q0202,revisar,5102,5218,0.52,margem estreita entre 5102 (Dos Crimes Contra a Dig
 Q0203,publicar,4702,6723,0.69,
 Q0204,publicar,5505,,0.88,
 Q0205,revisar,5560,,0.57,assunto de origem inconsistente; duvida entre 5560 (Recursos em Espécies) e 5572 (Sentença Penal)
-Q0206,revisar,5572,5560,0.27,margem estreita entre 5572 (Sentença Penal) e 5560 (Recursos em Espécies)
+Q0206,revisar,5572,5560,0.27,ausencia de convergencia minima entre canais; sugestao 5572 (Sentença Penal) vs 5560 (Recursos em Espécies)
 Q0207,revisar,5199,,0.52,assunto de origem inconsistente; duvida entre 5199 (Teoria da Pena) e 5185 (Prescrição)
 Q0208,publicar,5071,,0.81,
 Q0209,revisar,5590,5498,0.18,margem estreita entre 5590 (Teoria Geral das Provas) e 5498 (Inquérito Policial)
-Q0210,revisar,4697,,0.25,margem estreita entre 4697 (Estatuto do Desarmamento) e 5211 (Teoria do Crime: Culpabilidade)
-Q0211,revisar,5487,5530,0.38,margem estreita entre 5487 (Comunicação dos Atos Processuais) e 5530 (Procedimento Ordinário)
-Q0212,revisar,5543,,0.49,confianca intermediaria; duvida entre 5543 (Provas em Espécies) e 5487 (Comunicação dos Atos Processuais)
-Q0213,revisar,4708,6728;4694,0.39,margem estreita entre 4708 (Tráfico de Drogas) e 4694 (Crimes previstos no CDC)
+Q0210,revisar,4697,,0.25,ausencia de convergencia minima entre canais; sugestao 4697 (Estatuto do Desarmamento) vs 5211 (Teoria do Crime: Culpabilidade)
+Q0211,revisar,5487,5530,0.38,ausencia de convergencia minima entre canais; sugestao 5487 (Comunicação dos Atos Processuais) vs 5530 (Procedimento Ordinário)
+Q0212,revisar,5543,,0.49,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5487 (Comunicação dos Atos Processuais)
+Q0213,revisar,4708,6728;4694,0.39,ausencia de convergencia minima entre canais; sugestao 4708 (Tráfico de Drogas) vs 4694 (Crimes previstos no CDC)
 Q0214,publicar,5490,,0.64,
 Q0215,publicar,5199,,0.93,
 Q0216,publicar,4701,5539,0.85,
-Q0217,revisar,4377,,0.11,margem estreita entre 4377 (Processos de Criminalização e Cifras Criminais) e 4368 (Criminologia no Estado Democrático de Direito)
+Q0217,revisar,4377,,0.11,ausencia de convergencia minima entre canais; sugestao 4377 (Processos de Criminalização e Cifras Criminais) vs 4368 (Criminologia no Estado Democrático de Direito)
 Q0218,revisar,5517,,0.29,assunto de origem inconsistente; duvida entre 5517 (Prisões em Espécie) e 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental)
 Q0219,publicar,5071,,0.79,
 Q0220,revisar,5498,,0.43,margem estreita entre 5498 (Inquérito Policial) e 5524 (Procedimento do Tribunal do Júri)
 Q0221,publicar,5199,5184,0.68,
 Q0222,revisar,5199,,0.31,assunto de origem inconsistente; duvida entre 5199 (Teoria da Pena) e 5180 (Lei Penal no Tempo e no Espaço)
-Q0223,revisar,5079,,0.56,confianca intermediaria; duvida entre 5079 (Dos Crimes Contra a Administração Judicial) e 5184 (Medida de Segurança)
+Q0223,revisar,5079,,0.56,ausencia de convergencia minima entre canais; sugestao 5079 (Dos Crimes Contra a Administração Judicial) vs 5184 (Medida de Segurança)
 Q0224,publicar,5199,,0.58,
 Q0225,publicar,5560,5524,0.60,
-Q0226,revisar,5543,,0.49,assunto de origem inconsistente; duvida entre 5543 (Provas em Espécies) e 5524 (Procedimento do Tribunal do Júri)
+Q0226,revisar,5543,,0.49,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5524 (Procedimento do Tribunal do Júri)
 Q0227,publicar,5102,,0.90,
-Q0228,revisar,5524,,0.12,margem estreita entre 5524 (Procedimento do Tribunal do Júri) e 5560 (Recursos em Espécies)
-Q0229,revisar,5517,5584,0.44,margem estreita entre 5517 (Prisões em Espécie) e 5584 (Teoria Geral das Prisões)
+Q0228,revisar,5524,,0.12,ausencia de convergencia minima entre canais; sugestao 5524 (Procedimento do Tribunal do Júri) vs 5560 (Recursos em Espécies)
+Q0229,revisar,5517,5584,0.44,ausencia de convergencia minima entre canais; sugestao 5517 (Prisões em Espécie) vs 5584 (Teoria Geral das Prisões)
 Q0230,publicar,5211,,0.66,
 Q0231,publicar,5218,,0.93,
 Q0232,publicar,5087,5079,0.70,
@@ -236,9 +236,9 @@ Q0234,publicar,4380,,0.93,
 Q0235,revisar,5560,5480,0.45,margem estreita entre 5560 (Recursos em Espécies) e 5480 (Competência)
 Q0236,revisar,5530,5509,0.27,margem estreita entre 5530 (Procedimento Ordinário) e 5509 (Nulidades)
 Q0237,publicar,5175,,0.97,
-Q0238,revisar,5466,5572,0.16,margem estreita entre 5466 (Ação Penal) e 5572 (Sentença Penal)
+Q0238,revisar,5466,5572,0.16,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5572 (Sentença Penal)
 Q0239,revisar,5199,5466,0.30,margem estreita entre 5199 (Teoria da Pena) e 5466 (Ação Penal)
-Q0240,revisar,5517,5498,0.29,margem estreita entre 5517 (Prisões em Espécie) e 5498 (Inquérito Policial)
+Q0240,revisar,5517,5498,0.29,ausencia de convergencia minima entre canais; sugestao 5517 (Prisões em Espécie) vs 5498 (Inquérito Policial)
 Q0241,publicar,5218,,0.89,
 Q0242,revisar,5560,5512,0.45,margem estreita entre 5560 (Recursos em Espécies) e 5512 (Parte Geral dos Recursos)
 Q0243,publicar,5175,5157,0.58,
@@ -252,22 +252,22 @@ Q0250,publicar,5199,,0.90,
 Q0251,publicar,5191,,0.82,
 Q0252,fora,,,0.02,Livro IV do CPP (Da Execução no CPP: graça e parcelamento de multa) ausente da árvore de Processo Penal
 Q0253,publicar,4371,,0.84,
-Q0254,revisar,5530,,0.11,margem estreita entre 5530 (Procedimento Ordinário) e 4704 (Lei Maria da Penha)
+Q0254,revisar,5530,,0.11,ausencia de convergencia minima entre canais; sugestao 5530 (Procedimento Ordinário) vs 4704 (Lei Maria da Penha)
 Q0255,publicar,5211,,0.92,
 Q0256,publicar,5218,,0.79,
 Q0257,publicar,5218,,0.78,
 Q0258,publicar,5543,,0.83,
 Q0259,revisar,5157,,0.50,divergencia entre canais lexico e semantico; sugestao 5157 (Dos Crimes Contra o Patrimônio) vs 5071 (Concurso de Pessoas)
 Q0260,publicar,4374,,0.85,
-Q0261,revisar,5466,,0.12,margem estreita entre 5466 (Ação Penal) e 5079 (Dos Crimes Contra a Administração Judicial)
+Q0261,revisar,5466,,0.12,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5079 (Dos Crimes Contra a Administração Judicial)
 Q0262,revisar,5184,,0.46,margem estreita entre 5184 (Medida de Segurança) e 4703 (Lei de Execução Penal)
 Q0263,publicar,5490,,0.72,
 Q0264,publicar,5102,,0.93,
 Q0265,revisar,5185,5066,0.31,margem estreita entre 5185 (Prescrição) e 5066 (Concurso de Crimes)
 Q0266,fora,,,0.04,Matéria de Direito Penal/Processual Penal Militar ausente da taxonomia ativa
-Q0267,revisar,5543,5498,0.35,margem estreita entre 5543 (Provas em Espécies) e 5498 (Inquérito Policial)
+Q0267,revisar,5543,5498,0.35,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5498 (Inquérito Policial)
 Q0268,revisar,5120,,0.56,confianca intermediaria; duvida entre 5120 (Dos Crimes Contra a Honra) e 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental)
-Q0269,revisar,5466,,0.29,margem estreita entre 5466 (Ação Penal) e 5211 (Teoria do Crime: Culpabilidade)
+Q0269,revisar,5466,,0.29,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5211 (Teoria do Crime: Culpabilidade)
 Q0270,publicar,5087,,0.80,
 Q0271,revisar,5560,,0.32,assunto de origem inconsistente; duvida entre 5560 (Recursos em Espécies) e 5512 (Parte Geral dos Recursos)
 Q0272,publicar,4703,6734,0.84,
@@ -276,46 +276,46 @@ Q0274,revisar,5211,5191,0.34,margem estreita entre 5211 (Teoria do Crime: Culpab
 Q0275,publicar,4701,5539,0.61,
 Q0276,revisar,5543,,0.38,margem estreita entre 5543 (Provas em Espécies) e 5590 (Teoria Geral das Provas)
 Q0277,publicar,4696,6722,0.61,
-Q0278,revisar,5539,4701,0.41,assunto de origem inconsistente; duvida entre 5539 (Procedimento Sumaríssimo) e 5466 (Ação Penal)
+Q0278,revisar,5539,4701,0.41,ausencia de convergencia minima entre canais; sugestao 5539 (Procedimento Sumaríssimo) vs 5466 (Ação Penal)
 Q0279,revisar,5175,5157,0.57,margem estreita entre 5175 (Iter Criminis) e 5157 (Dos Crimes Contra o Patrimônio)
-Q0280,revisar,5466,,0.18,margem estreita entre 5466 (Ação Penal) e 5530 (Procedimento Ordinário)
-Q0281,revisar,5543,5498,0.24,margem estreita entre 5543 (Provas em Espécies) e 5498 (Inquérito Policial)
-Q0282,revisar,5476,,0.04,margem estreita entre 5476 (Ações Autônomas de Impugnação) e 5517 (Prisões em Espécie)
+Q0280,revisar,5466,,0.18,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5530 (Procedimento Ordinário)
+Q0281,revisar,5543,5498,0.24,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5498 (Inquérito Policial)
+Q0282,revisar,5476,,0.04,ausencia de convergencia minima entre canais; sugestao 5476 (Ações Autônomas de Impugnação) vs 5517 (Prisões em Espécie)
 Q0283,publicar,5490,,0.62,
 Q0284,revisar,5211,,0.57,assunto de origem inconsistente; duvida entre 5211 (Teoria do Crime: Culpabilidade) e 5228 (Teoria do Crime: Ilicitude)
-Q0285,revisar,5211,,0.14,margem estreita entre 5211 (Teoria do Crime: Culpabilidade) e 5199 (Teoria da Pena)
+Q0285,revisar,5211,,0.14,ausencia de convergencia minima entre canais; sugestao 5211 (Teoria do Crime: Culpabilidade) vs 5199 (Teoria da Pena)
 Q0286,revisar,5185,5199,0.26,margem estreita entre 5185 (Prescrição) e 5199 (Teoria da Pena)
 Q0287,publicar,5228,,0.95,
-Q0288,revisar,5102,,0.30,assunto de origem inconsistente; duvida entre 5102 (Dos Crimes Contra a Dignidade Sexual) e 5191 (Punibilidade)
+Q0288,revisar,5102,,0.30,ausencia de convergencia minima entre canais; sugestao 5102 (Dos Crimes Contra a Dignidade Sexual) vs 5191 (Punibilidade)
 Q0289,publicar,4704,6724,0.76,
 Q0290,publicar,4701,5539,0.64,
 Q0291,fora,,,0.02,Procedimento investigatório da Lei de Drogas (art. 51 da Lei 11.343/2006) sem subtema em 4702
 Q0292,publicar,4374,,0.96,
 Q0293,revisar,5199,5185,0.34,margem estreita entre 5199 (Teoria da Pena) e 5185 (Prescrição)
 Q0294,publicar,5211,,0.92,
-Q0295,revisar,5487,,0.56,assunto de origem inconsistente; duvida entre 5487 (Comunicação dos Atos Processuais) e 5572 (Sentença Penal)
-Q0296,revisar,5466,,0.25,margem estreita entre 5466 (Ação Penal) e 5498 (Inquérito Policial)
-Q0297,revisar,4689,,0.33,assunto de origem inconsistente; duvida entre 4689 (Crimes contra o Sistema Financeiro) e 4687 (Crimes contra a Economia Popular)
-Q0298,publicar,4694,,0.78,
+Q0295,revisar,5487,,0.56,ausencia de convergencia minima entre canais; sugestao 5487 (Comunicação dos Atos Processuais) vs 5572 (Sentença Penal)
+Q0296,revisar,5466,,0.25,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5498 (Inquérito Policial)
+Q0297,revisar,4689,,0.33,ausencia de convergencia minima entre canais; sugestao 4689 (Crimes contra o Sistema Financeiro) vs 4687 (Crimes contra a Economia Popular)
+Q0298,revisar,4694,,0.78,ausencia de convergencia minima entre canais; sugestao 4694 (Crimes previstos no CDC) vs 4687 (Crimes contra a Economia Popular)
 Q0299,revisar,4385,4371,0.31,margem estreita entre 4385 (Teorias Sociológicas Explicativas da Criminalidade) e 4371 (Etapas Evolutivas e Escolas Criminológicas)
-Q0300,revisar,5079,5157,0.41,margem estreita entre 5079 (Dos Crimes Contra a Administração Judicial) e 5157 (Dos Crimes Contra o Patrimônio)
+Q0300,revisar,5079,5157,0.41,ausencia de convergencia minima entre canais; sugestao 5079 (Dos Crimes Contra a Administração Judicial) vs 5157 (Dos Crimes Contra o Patrimônio)
 Q0301,publicar,5191,,0.85,
 Q0302,revisar,5211,5218,0.51,margem estreita entre 5211 (Teoria do Crime: Culpabilidade) e 5218 (Teoria do Crime: Fato Típico)
 Q0303,revisar,5180,,0.56,assunto de origem inconsistente; duvida entre 5180 (Lei Penal no Tempo e no Espaço) e 5199 (Teoria da Pena)
 Q0304,publicar,4701,5539,0.72,
-Q0305,revisar,5466,,0.45,assunto de origem inconsistente; duvida entre 5466 (Ação Penal) e 5530 (Procedimento Ordinário)
-Q0306,revisar,4705,6725;5144,0.41,margem estreita entre 4705 (Organizações Criminosas) e 5144 (Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública)
+Q0305,revisar,5466,,0.45,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5530 (Procedimento Ordinário)
+Q0306,revisar,4705,6725;5144,0.41,ausencia de convergencia minima entre canais; sugestao 4705 (Organizações Criminosas) vs 5144 (Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública)
 Q0307,publicar,4707,,0.58,
 Q0308,publicar,5498,,0.97,
 Q0309,publicar,4688,6717,0.81,
 Q0310,publicar,5505,,0.89,
-Q0311,publicar,5487,,0.60,
+Q0311,revisar,5487,,0.60,ausencia de convergencia minima entre canais; sugestao 5487 (Comunicação dos Atos Processuais) vs 5466 (Ação Penal)
 Q0312,publicar,4384,,0.88,
 Q0313,revisar,5199,,0.35,margem estreita entre 5199 (Teoria da Pena) e 5185 (Prescrição)
 Q0314,publicar,5476,,0.84,
 Q0315,publicar,5185,,0.63,
-Q0316,revisar,5149,,0.44,assunto de origem inconsistente; duvida entre 5149 (Dos Crimes Contra a Vida) e 5218 (Teoria do Crime: Fato Típico)
-Q0317,revisar,5191,,0.57,assunto de origem inconsistente; duvida entre 5191 (Punibilidade) e 5466 (Ação Penal)
+Q0316,revisar,5149,,0.44,ausencia de convergencia minima entre canais; sugestao 5149 (Dos Crimes Contra a Vida) vs 5218 (Teoria do Crime: Fato Típico)
+Q0317,revisar,5191,,0.57,ausencia de convergencia minima entre canais; sugestao 5191 (Punibilidade) vs 5466 (Ação Penal)
 Q0318,revisar,5175,,0.45,margem estreita entre 5175 (Iter Criminis) e 5149 (Dos Crimes Contra a Vida)
 Q0319,publicar,5071,,0.86,
 Q0320,revisar,5560,5543,0.28,margem estreita entre 5560 (Recursos em Espécies) e 5543 (Provas em Espécies)
@@ -326,44 +326,44 @@ Q0324,revisar,4703,6734;4686,0.43,margem estreita entre 4703 (Lei de Execução 
 Q0325,revisar,4701,5539,0.29,divergencia entre canais lexico e semantico; sugestao 4701 (Juizado Especial Criminal) vs 5466 (Ação Penal)
 Q0326,publicar,4708,6728,0.65,
 Q0327,publicar,5199,,0.92,
-Q0328,revisar,4380,4374,0.37,margem estreita entre 4380 (Teoria Geral da Criminologia) e 4374 (Política Criminal)
-Q0329,revisar,5543,,0.38,assunto de origem inconsistente; duvida entre 5543 (Provas em Espécies) e 5590 (Teoria Geral das Provas)
+Q0328,revisar,4380,4374,0.37,ausencia de convergencia minima entre canais; sugestao 4380 (Teoria Geral da Criminologia) vs 4374 (Política Criminal)
+Q0329,revisar,5543,,0.38,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5590 (Teoria Geral das Provas)
 Q0330,publicar,5498,,0.58,
 Q0331,publicar,5476,,0.68,
-Q0332,revisar,5539,4701,0.55,assunto de origem inconsistente; duvida entre 5539 (Procedimento Sumaríssimo) e 4703 (Lei de Execução Penal)
+Q0332,revisar,5539,4701,0.55,ausencia de convergencia minima entre canais; sugestao 5539 (Procedimento Sumaríssimo) vs 4703 (Lei de Execução Penal)
 Q0333,publicar,5175,,0.79,
-Q0334,revisar,4380,,0.54,confianca intermediaria; duvida entre 4380 (Teoria Geral da Criminologia) e 4385 (Teorias Sociológicas Explicativas da Criminalidade)
+Q0334,revisar,4380,,0.54,ausencia de convergencia minima entre canais; sugestao 4380 (Teoria Geral da Criminologia) vs 4385 (Teorias Sociológicas Explicativas da Criminalidade)
 Q0335,revisar,5218,5211,0.33,margem estreita entre 5218 (Teoria do Crime: Fato Típico) e 5211 (Teoria do Crime: Culpabilidade)
 Q0336,publicar,5157,,0.76,
 Q0337,revisar,4684,6716,0.34,margem estreita entre 4684 (Abuso de Autoridade) e 5466 (Ação Penal)
 Q0338,revisar,5543,5590,0.27,margem estreita entre 5543 (Provas em Espécies) e 5590 (Teoria Geral das Provas)
-Q0339,revisar,5572,5560,0.20,margem estreita entre 5572 (Sentença Penal) e 5560 (Recursos em Espécies)
+Q0339,revisar,5572,5560,0.20,ausencia de convergencia minima entre canais; sugestao 5572 (Sentença Penal) vs 5560 (Recursos em Espécies)
 Q0340,publicar,5071,,0.88,
 Q0341,publicar,5157,,0.80,
 Q0342,revisar,5543,,0.41,assunto de origem inconsistente; duvida entre 5543 (Provas em Espécies) e 5524 (Procedimento do Tribunal do Júri)
 Q0343,publicar,5466,,0.80,
-Q0344,revisar,4688,6717,0.50,assunto de origem inconsistente; duvida entre 4688 (Crimes contra o meio ambiente) e 5466 (Ação Penal)
+Q0344,revisar,4688,6717,0.50,ausencia de convergencia minima entre canais; sugestao 4688 (Crimes contra o meio ambiente) vs 5466 (Ação Penal)
 Q0345,publicar,5102,,0.68,
 Q0346,revisar,5498,5530,0.22,margem estreita entre 5498 (Inquérito Policial) e 5530 (Procedimento Ordinário)
 Q0347,revisar,5199,,0.51,confianca intermediaria; duvida entre 5199 (Teoria da Pena) e 5066 (Concurso de Crimes)
 Q0348,publicar,5087,,0.78,
 Q0349,revisar,5175,5157,0.53,margem estreita entre 5175 (Iter Criminis) e 5157 (Dos Crimes Contra o Patrimônio)
-Q0350,revisar,4702,6723,0.48,assunto de origem inconsistente; duvida entre 4702 (Lavagem de Dinheiro) e 5199 (Teoria da Pena)
-Q0351,publicar,5116,,0.77,
-Q0352,revisar,5512,5560,0.21,margem estreita entre 5512 (Parte Geral dos Recursos) e 5560 (Recursos em Espécies)
-Q0353,revisar,5466,5572,0.10,margem estreita entre 5466 (Ação Penal) e 5572 (Sentença Penal)
+Q0350,revisar,4702,6723,0.48,ausencia de convergencia minima entre canais; sugestao 4702 (Lavagem de Dinheiro) vs 5199 (Teoria da Pena)
+Q0351,revisar,5116,,0.77,ausencia de convergencia minima entre canais; sugestao 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental) vs 5079 (Dos Crimes Contra a Administração Judicial)
+Q0352,revisar,5512,5560,0.21,ausencia de convergencia minima entre canais; sugestao 5512 (Parte Geral dos Recursos) vs 5560 (Recursos em Espécies)
+Q0353,revisar,5466,5572,0.10,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5572 (Sentença Penal)
 Q0354,publicar,5218,,0.67,
 Q0355,revisar,5185,,0.16,margem estreita entre 5185 (Prescrição) e 5157 (Dos Crimes Contra o Patrimônio)
 Q0356,publicar,5066,,0.92,
-Q0357,revisar,5157,5087,0.24,margem estreita entre 5157 (Dos Crimes Contra o Patrimônio) e 5087 (Dos Crimes Contra a Administração Pública)
+Q0357,revisar,5157,5087,0.24,ausencia de convergencia minima entre canais; sugestao 5157 (Dos Crimes Contra o Patrimônio) vs 5087 (Dos Crimes Contra a Administração Pública)
 Q0358,publicar,5125,,0.70,
 Q0359,revisar,5530,5517,0.26,margem estreita entre 5530 (Procedimento Ordinário) e 5517 (Prisões em Espécie)
-Q0360,revisar,4366,,0.22,margem estreita entre 4366 (Classificação das Vítimas) e 4389 (Vitimologia)
+Q0360,revisar,4366,,0.22,ausencia de convergencia minima entre canais; sugestao 4366 (Classificação das Vítimas) vs 4389 (Vitimologia)
 Q0361,publicar,5211,,0.94,
-Q0362,publicar,5543,,0.78,
+Q0362,revisar,5543,,0.78,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5498 (Inquérito Policial)
 Q0363,publicar,5087,,0.91,
-Q0364,revisar,5228,5218,0.35,margem estreita entre 5228 (Teoria do Crime: Ilicitude) e 5218 (Teoria do Crime: Fato Típico)
-Q0365,revisar,5191,5185,0.45,margem estreita entre 5191 (Punibilidade) e 5185 (Prescrição)
+Q0364,revisar,5228,5218,0.35,ausencia de convergencia minima entre canais; sugestao 5228 (Teoria do Crime: Ilicitude) vs 5218 (Teoria do Crime: Fato Típico)
+Q0365,revisar,5191,5185,0.45,ausencia de convergencia minima entre canais; sugestao 5191 (Punibilidade) vs 5185 (Prescrição)
 Q0366,publicar,5199,,0.77,
 Q0367,publicar,5530,,0.89,
 Q0368,publicar,5498,,0.99,
@@ -376,15 +376,15 @@ Q0374,revisar,5147,5087,0.46,margem estreita entre 5147 (Dos Crimes contra as Fi
 Q0375,publicar,5218,,0.91,
 Q0376,publicar,5218,,0.84,
 Q0377,publicar,5476,,0.94,
-Q0378,revisar,5116,,0.52,margem estreita entre 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental) e 5079 (Dos Crimes Contra a Administração Judicial)
+Q0378,revisar,5116,,0.52,ausencia de convergencia minima entre canais; sugestao 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental) vs 5079 (Dos Crimes Contra a Administração Judicial)
 Q0379,publicar,4704,6724,0.93,
-Q0380,revisar,5530,5487,0.32,margem estreita entre 5530 (Procedimento Ordinário) e 5487 (Comunicação dos Atos Processuais)
+Q0380,revisar,5530,5487,0.32,ausencia de convergencia minima entre canais; sugestao 5530 (Procedimento Ordinário) vs 5487 (Comunicação dos Atos Processuais)
 Q0381,publicar,5498,,0.91,
-Q0382,revisar,5191,5218,0.47,margem estreita entre 5191 (Punibilidade) e 5218 (Teoria do Crime: Fato Típico)
+Q0382,revisar,5191,5218,0.47,ausencia de convergencia minima entre canais; sugestao 5191 (Punibilidade) vs 5218 (Teoria do Crime: Fato Típico)
 Q0383,publicar,4702,6723,0.85,
-Q0384,revisar,5490,,0.56,margem estreita entre 5490 (Das Questões e Processos Incidentes) e 5560 (Recursos em Espécies)
-Q0385,revisar,5543,,0.54,confianca intermediaria; duvida entre 5543 (Provas em Espécies) e 5466 (Ação Penal)
-Q0386,revisar,4368,4385,0.21,margem estreita entre 4368 (Criminologia no Estado Democrático de Direito) e 4385 (Teorias Sociológicas Explicativas da Criminalidade)
+Q0384,revisar,5490,,0.56,ausencia de convergencia minima entre canais; sugestao 5490 (Das Questões e Processos Incidentes) vs 5560 (Recursos em Espécies)
+Q0385,revisar,5543,,0.54,ausencia de convergencia minima entre canais; sugestao 5543 (Provas em Espécies) vs 5466 (Ação Penal)
+Q0386,revisar,4368,4385,0.21,ausencia de convergencia minima entre canais; sugestao 4368 (Criminologia no Estado Democrático de Direito) vs 4385 (Teorias Sociológicas Explicativas da Criminalidade)
 Q0387,publicar,5590,,0.63,
 Q0388,publicar,5530,,0.61,
 Q0389,publicar,5218,,0.80,
@@ -395,13 +395,13 @@ Q0393,fora,,,0.01,Matéria de Direito Penal/Processual Penal Militar ausente da 
 Q0394,publicar,5480,,0.70,
 Q0395,publicar,5476,4701,0.63,
 Q0396,publicar,5087,,0.91,
-Q0397,revisar,5155,5079,0.43,margem estreita entre 5155 (Dos Crimes contra o Estado Democrático de Direito) e 5079 (Dos Crimes Contra a Administração Judicial)
+Q0397,revisar,5155,5079,0.43,ausencia de convergencia minima entre canais; sugestao 5155 (Dos Crimes contra o Estado Democrático de Direito) vs 5079 (Dos Crimes Contra a Administração Judicial)
 Q0398,publicar,5175,,0.99,
 Q0399,publicar,5087,,0.93,
 Q0400,publicar,5211,,0.89,
 Q0401,revisar,4703,6734;5199,0.38,margem estreita entre 4703 (Lei de Execução Penal) e 5199 (Teoria da Pena)
 Q0402,publicar,4684,6716,0.69,
-Q0403,revisar,5180,,0.53,divergencia entre canais lexico e semantico; sugestao 5180 (Lei Penal no Tempo e no Espaço) vs 5175 (Iter Criminis)
+Q0403,revisar,5180,,0.53,ausencia de convergencia minima entre canais; sugestao 5180 (Lei Penal no Tempo e no Espaço) vs 5175 (Iter Criminis)
 Q0404,publicar,5116,,0.85,
 Q0405,publicar,5498,,0.62,
 Q0406,publicar,5087,,0.91,
@@ -413,19 +413,19 @@ Q0411,publicar,5087,,0.92,
 Q0412,publicar,5087,,0.91,
 Q0413,publicar,5087,,0.97,
 Q0414,revisar,5157,5466,0.50,margem estreita entre 5157 (Dos Crimes Contra o Patrimônio) e 5466 (Ação Penal)
-Q0415,revisar,4695,,0.29,margem estreita entre 4695 (Crimes Tributários) e 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental)
+Q0415,revisar,4695,,0.29,ausencia de convergencia minima entre canais; sugestao 4695 (Crimes Tributários) vs 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental)
 Q0416,fora,,,0.01,Matéria de Direito Penal/Processual Penal Militar ausente da taxonomia ativa
 Q0417,revisar,4384,,0.25,margem estreita entre 4384 (Teorias Legitimidoras da Pena) e 4377 (Processos de Criminalização e Cifras Criminais)
 Q0418,publicar,4704,6724,0.71,
 Q0419,publicar,4385,,0.66,
 Q0420,publicar,4704,6724,0.84,
-Q0421,revisar,5466,5498,0.41,margem estreita entre 5466 (Ação Penal) e 5498 (Inquérito Policial)
+Q0421,revisar,5466,5498,0.41,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5498 (Inquérito Policial)
 Q0422,publicar,5180,,0.80,
-Q0423,revisar,5087,5079,0.37,margem estreita entre 5087 (Dos Crimes Contra a Administração Pública) e 5079 (Dos Crimes Contra a Administração Judicial)
+Q0423,revisar,5087,5079,0.37,ausencia de convergencia minima entre canais; sugestao 5087 (Dos Crimes Contra a Administração Pública) vs 5079 (Dos Crimes Contra a Administração Judicial)
 Q0424,fora,,,0.03,Matéria de Direito Penal/Processual Penal Militar ausente da taxonomia ativa
-Q0425,publicar,5572,,0.67,
+Q0425,revisar,5572,,0.67,ausencia de convergencia minima entre canais; sugestao 5572 (Sentença Penal) vs 5530 (Procedimento Ordinário)
 Q0426,publicar,5175,,0.67,
-Q0427,revisar,5466,,0.46,confianca intermediaria; duvida entre 5466 (Ação Penal) e 5572 (Sentença Penal)
+Q0427,revisar,5466,,0.46,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5572 (Sentença Penal)
 Q0428,publicar,5466,,0.92,
 Q0429,publicar,5149,,0.59,
 Q0430,revisar,4704,6724,0.50,margem estreita entre 4704 (Lei Maria da Penha) e 5498 (Inquérito Policial)
@@ -443,21 +443,21 @@ Q0441,publicar,4701,5539,0.88,
 Q0442,publicar,5466,,0.77,
 Q0443,publicar,5211,,0.95,
 Q0444,publicar,5543,,0.87,
-Q0445,revisar,4705,6725;5480,0.30,margem estreita entre 4705 (Organizações Criminosas) e 5480 (Competência)
+Q0445,revisar,4705,6725;5480,0.30,ausencia de convergencia minima entre canais; sugestao 4705 (Organizações Criminosas) vs 5480 (Competência)
 Q0446,revisar,5517,5560,0.37,margem estreita entre 5517 (Prisões em Espécie) e 5560 (Recursos em Espécies)
 Q0447,publicar,5185,,0.90,
-Q0448,publicar,5572,,0.71,
+Q0448,revisar,5572,,0.71,ausencia de convergencia minima entre canais; sugestao 5572 (Sentença Penal) vs 5466 (Ação Penal)
 Q0449,publicar,5228,,0.90,
 Q0450,publicar,5560,,0.82,
 Q0451,publicar,5498,,0.90,
 Q0452,publicar,5498,,0.98,
 Q0453,publicar,4704,6724,0.91,
-Q0454,publicar,5180,,0.69,
-Q0455,revisar,5530,5572,0.40,margem estreita entre 5530 (Procedimento Ordinário) e 5572 (Sentença Penal)
-Q0456,revisar,5180,5218,0.47,margem estreita entre 5180 (Lei Penal no Tempo e no Espaço) e 5218 (Teoria do Crime: Fato Típico)
+Q0454,revisar,5180,,0.69,ausencia de convergencia minima entre canais; sugestao 5180 (Lei Penal no Tempo e no Espaço) vs 5066 (Concurso de Crimes)
+Q0455,revisar,5530,5572,0.40,ausencia de convergencia minima entre canais; sugestao 5530 (Procedimento Ordinário) vs 5572 (Sentença Penal)
+Q0456,revisar,5180,5218,0.47,ausencia de convergencia minima entre canais; sugestao 5180 (Lei Penal no Tempo e no Espaço) vs 5218 (Teoria do Crime: Fato Típico)
 Q0457,publicar,5476,,0.85,
 Q0458,publicar,5218,5175,0.67,
-Q0459,revisar,4695,,0.21,margem estreita entre 4695 (Crimes Tributários) e 5087 (Dos Crimes Contra a Administração Pública)
+Q0459,revisar,4695,,0.21,ausencia de convergencia minima entre canais; sugestao 4695 (Crimes Tributários) vs 5087 (Dos Crimes Contra a Administração Pública)
 Q0460,publicar,5144,,0.84,
 Q0461,publicar,5560,,0.89,
 Q0462,publicar,5071,,0.91,
@@ -481,8 +481,8 @@ Q0479,fora,,,0.02,Matéria de Direito Penal/Processual Penal Militar ausente da 
 Q0480,publicar,5199,,0.90,
 Q0481,publicar,5218,,0.70,
 Q0482,publicar,5505,,0.91,
-Q0483,revisar,5175,,0.46,margem estreita entre 5175 (Iter Criminis) e 5157 (Dos Crimes Contra o Patrimônio)
-Q0484,publicar,4702,6723,0.60,
+Q0483,revisar,5175,,0.46,ausencia de convergencia minima entre canais; sugestao 5175 (Iter Criminis) vs 5157 (Dos Crimes Contra o Patrimônio)
+Q0484,revisar,4702,6723,0.60,ausencia de convergencia minima entre canais; sugestao 4702 (Lavagem de Dinheiro) vs 4701 (Juizado Especial Criminal)
 Q0485,publicar,5180,,0.84,
 Q0486,revisar,5530,5560,0.48,margem estreita entre 5530 (Procedimento Ordinário) e 5560 (Recursos em Espécies)
 Q0487,publicar,5157,5079,0.76,
@@ -497,24 +497,24 @@ Q0495,revisar,5480,5498,0.45,margem estreita entre 5480 (Competência) e 5498 (I
 Q0496,revisar,5087,5191,0.41,margem estreita entre 5087 (Dos Crimes Contra a Administração Pública) e 5191 (Punibilidade)
 Q0497,revisar,5560,5466,0.36,margem estreita entre 5560 (Recursos em Espécies) e 5466 (Ação Penal)
 Q0498,revisar,5466,,0.19,margem estreita entre 5466 (Ação Penal) e 4704 (Lei Maria da Penha)
-Q0499,publicar,5218,,0.67,
+Q0499,revisar,5218,,0.67,ausencia de convergencia minima entre canais; sugestao 5218 (Teoria do Crime: Fato Típico) vs 5211 (Teoria do Crime: Culpabilidade)
 Q0500,revisar,5087,,0.27,margem estreita entre 5087 (Dos Crimes Contra a Administração Pública) e 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental)
 Q0501,publicar,4704,6724,0.69,
 Q0502,publicar,5087,,0.62,
 Q0503,publicar,4377,,0.89,
 Q0504,publicar,5218,,0.85,
 Q0505,publicar,5087,,0.94,
-Q0506,publicar,5180,,0.71,
+Q0506,revisar,5180,,0.71,ausencia de convergencia minima entre canais; sugestao 5180 (Lei Penal no Tempo e no Espaço) vs 5170 (Introdução ao Estudo do Direito Penal)
 Q0507,publicar,5211,,0.68,
 Q0508,publicar,5543,,0.80,
 Q0509,publicar,5498,,0.92,
 Q0510,publicar,5590,,0.64,
-Q0511,revisar,5466,5560,0.45,margem estreita entre 5466 (Ação Penal) e 5560 (Recursos em Espécies)
+Q0511,revisar,5466,5560,0.45,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5560 (Recursos em Espécies)
 Q0512,publicar,5480,,0.62,
-Q0513,revisar,4688,6717;4701,0.50,margem estreita entre 4688 (Crimes contra o meio ambiente) e 4701 (Juizado Especial Criminal)
-Q0514,revisar,5466,,0.34,margem estreita entre 5466 (Ação Penal) e 5539 (Procedimento Sumaríssimo)
+Q0513,revisar,4688,6717;4701,0.50,ausencia de convergencia minima entre canais; sugestao 4688 (Crimes contra o meio ambiente) vs 4701 (Juizado Especial Criminal)
+Q0514,revisar,5466,,0.34,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5539 (Procedimento Sumaríssimo)
 Q0515,publicar,4704,6724,0.91,
-Q0516,revisar,4690,4689,0.25,margem estreita entre 4690 (Crimes de Racismo) e 4689 (Crimes contra o Sistema Financeiro)
+Q0516,revisar,4690,4689,0.25,ausencia de convergencia minima entre canais; sugestao 4690 (Crimes de Racismo) vs 4689 (Crimes contra o Sistema Financeiro)
 Q0517,publicar,5466,,0.85,
 Q0518,publicar,5087,,0.85,
 Q0519,publicar,5498,,0.93,
@@ -536,31 +536,31 @@ Q0534,publicar,4377,,0.86,
 Q0535,publicar,4704,6724,0.92,
 Q0536,publicar,5543,,0.85,
 Q0537,publicar,5480,,0.85,
-Q0538,revisar,5199,,0.56,confianca intermediaria; duvida entre 5199 (Teoria da Pena) e 5111 (Dos Crimes contra a Família)
+Q0538,revisar,5199,,0.56,ausencia de convergencia minima entre canais; sugestao 5199 (Teoria da Pena) vs 5111 (Dos Crimes contra a Família)
 Q0539,publicar,5157,,0.60,
-Q0540,revisar,5066,5218,0.23,margem estreita entre 5066 (Concurso de Crimes) e 5218 (Teoria do Crime: Fato Típico)
+Q0540,revisar,5066,5218,0.23,ausencia de convergencia minima entre canais; sugestao 5066 (Concurso de Crimes) vs 5218 (Teoria do Crime: Fato Típico)
 Q0541,publicar,5087,,0.92,
 Q0542,publicar,5517,,0.85,
 Q0543,revisar,5560,,0.51,confianca intermediaria; duvida entre 5560 (Recursos em Espécies) e 5490 (Das Questões e Processos Incidentes)
-Q0544,revisar,5560,5476,0.30,margem estreita entre 5560 (Recursos em Espécies) e 5476 (Ações Autônomas de Impugnação)
-Q0545,revisar,4374,,0.50,margem estreita entre 4374 (Política Criminal) e 4368 (Criminologia no Estado Democrático de Direito)
+Q0544,revisar,5560,5476,0.30,ausencia de convergencia minima entre canais; sugestao 5560 (Recursos em Espécies) vs 5476 (Ações Autônomas de Impugnação)
+Q0545,revisar,4374,,0.50,ausencia de convergencia minima entre canais; sugestao 4374 (Política Criminal) vs 4368 (Criminologia no Estado Democrático de Direito)
 Q0546,publicar,5087,,0.91,
 Q0547,publicar,5185,,0.67,
 Q0548,publicar,5560,,0.85,
-Q0549,revisar,5185,,0.19,margem estreita entre 5185 (Prescrição) e 5157 (Dos Crimes Contra o Patrimônio)
+Q0549,revisar,5185,,0.19,ausencia de convergencia minima entre canais; sugestao 5185 (Prescrição) vs 5157 (Dos Crimes Contra o Patrimônio)
 Q0550,publicar,5157,,0.93,
 Q0551,publicar,5466,,0.85,
-Q0552,publicar,5509,,0.71,
+Q0552,revisar,5509,,0.71,ausencia de convergencia minima entre canais; sugestao 5509 (Nulidades) vs 5530 (Procedimento Ordinário)
 Q0553,fora,,,0.04,Procedimento especial dos crimes funcionais (arts. 513-518 CPP) sem nó específico na árvore
 Q0554,publicar,5128,,0.86,
 Q0555,publicar,5199,,0.92,
 Q0556,publicar,4385,,0.92,
 Q0557,publicar,4701,5539,0.89,
-Q0558,revisar,5560,5530,0.25,margem estreita entre 5560 (Recursos em Espécies) e 5530 (Procedimento Ordinário)
+Q0558,revisar,5560,5530,0.25,ausencia de convergencia minima entre canais; sugestao 5560 (Recursos em Espécies) vs 5530 (Procedimento Ordinário)
 Q0559,publicar,5087,,0.90,
 Q0560,revisar,5530,5517,0.30,margem estreita entre 5530 (Procedimento Ordinário) e 5517 (Prisões em Espécie)
-Q0561,publicar,5116,,0.71,
-Q0562,revisar,5466,,0.26,margem estreita entre 5466 (Ação Penal) e 5530 (Procedimento Ordinário)
+Q0561,revisar,5116,,0.71,ausencia de convergencia minima entre canais; sugestao 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental) vs 5087 (Dos Crimes Contra a Administração Pública)
+Q0562,revisar,5466,,0.26,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5530 (Procedimento Ordinário)
 Q0563,publicar,4385,,0.96,
 Q0564,publicar,4385,,0.78,
 Q0565,revisar,5498,5466,0.49,margem estreita entre 5498 (Inquérito Policial) e 5466 (Ação Penal)
@@ -568,19 +568,19 @@ Q0566,publicar,5071,,0.73,
 Q0567,publicar,5199,,0.93,
 Q0568,publicar,5180,,0.73,
 Q0569,publicar,4377,,0.76,
-Q0570,revisar,5476,5560,0.42,margem estreita entre 5476 (Ações Autônomas de Impugnação) e 5560 (Recursos em Espécies)
+Q0570,revisar,5476,5560,0.42,ausencia de convergencia minima entre canais; sugestao 5476 (Ações Autônomas de Impugnação) vs 5560 (Recursos em Espécies)
 Q0571,publicar,5543,,0.79,
-Q0572,revisar,4708,6728,0.57,confianca intermediaria; duvida entre 4708 (Tráfico de Drogas) e 4697 (Estatuto do Desarmamento)
+Q0572,revisar,4708,6728,0.57,ausencia de convergencia minima entre canais; sugestao 4708 (Tráfico de Drogas) vs 4697 (Estatuto do Desarmamento)
 Q0573,publicar,5157,,0.75,
-Q0574,revisar,5180,,0.15,margem estreita entre 5180 (Lei Penal no Tempo e no Espaço) e 5191 (Punibilidade)
-Q0575,revisar,4702,6723;5476,0.47,margem estreita entre 4702 (Lavagem de Dinheiro) e 5476 (Ações Autônomas de Impugnação)
+Q0574,revisar,5180,,0.15,ausencia de convergencia minima entre canais; sugestao 5180 (Lei Penal no Tempo e no Espaço) vs 5191 (Punibilidade)
+Q0575,revisar,4702,6723;5476,0.47,ausencia de convergencia minima entre canais; sugestao 4702 (Lavagem de Dinheiro) vs 5476 (Ações Autônomas de Impugnação)
 Q0576,publicar,5087,5466,0.63,
 Q0577,revisar,5543,,0.33,margem estreita entre 5543 (Provas em Espécies) e 4704 (Lei Maria da Penha)
 Q0578,publicar,4702,6723,0.85,
 Q0579,revisar,5530,5543,0.49,margem estreita entre 5530 (Procedimento Ordinário) e 5543 (Provas em Espécies)
-Q0580,revisar,4690,,0.35,margem estreita entre 4690 (Crimes de Racismo) e 5211 (Teoria do Crime: Culpabilidade)
-Q0581,revisar,5505,5466,0.25,margem estreita entre 5505 (Lei Processual no Tempo e no Espaço) e 5466 (Ação Penal)
-Q0582,revisar,5128,5157,0.41,margem estreita entre 5128 (Dos Crimes Contra a Liberdade Pessoal) e 5157 (Dos Crimes Contra o Patrimônio)
+Q0580,revisar,4690,,0.35,ausencia de convergencia minima entre canais; sugestao 4690 (Crimes de Racismo) vs 5211 (Teoria do Crime: Culpabilidade)
+Q0581,revisar,5505,5466,0.25,ausencia de convergencia minima entre canais; sugestao 5505 (Lei Processual no Tempo e no Espaço) vs 5466 (Ação Penal)
+Q0582,revisar,5128,5157,0.41,ausencia de convergencia minima entre canais; sugestao 5128 (Dos Crimes Contra a Liberdade Pessoal) vs 5157 (Dos Crimes Contra o Patrimônio)
 Q0583,revisar,5199,5185,0.48,margem estreita entre 5199 (Teoria da Pena) e 5185 (Prescrição)
 Q0584,revisar,5185,,0.54,confianca intermediaria; duvida entre 5185 (Prescrição) e 5191 (Punibilidade)
 Q0585,revisar,5175,5211,0.56,margem estreita entre 5175 (Iter Criminis) e 5211 (Teoria do Crime: Culpabilidade)
@@ -595,44 +595,44 @@ Q0593,publicar,5157,,0.89,
 Q0594,publicar,5087,,0.77,
 Q0595,publicar,5498,,0.93,
 Q0596,publicar,5180,,0.81,
-Q0597,revisar,5476,5490,0.28,margem estreita entre 5476 (Ações Autônomas de Impugnação) e 5490 (Das Questões e Processos Incidentes)
+Q0597,revisar,5476,5490,0.28,ausencia de convergencia minima entre canais; sugestao 5476 (Ações Autônomas de Impugnação) vs 5490 (Das Questões e Processos Incidentes)
 Q0598,revisar,4385,,0.52,confianca intermediaria; duvida entre 4385 (Teorias Sociológicas Explicativas da Criminalidade) e 4380 (Teoria Geral da Criminologia)
 Q0599,fora,,,0.01,Matéria de Direito Penal/Processual Penal Militar ausente da taxonomia ativa
-Q0600,revisar,5199,5191,0.20,margem estreita entre 5199 (Teoria da Pena) e 5191 (Punibilidade)
+Q0600,revisar,5199,5191,0.20,ausencia de convergencia minima entre canais; sugestao 5199 (Teoria da Pena) vs 5191 (Punibilidade)
 Q0601,publicar,5539,4701,0.86,
 Q0602,publicar,5466,,0.71,
 Q0603,publicar,5087,,0.92,
 Q0604,publicar,5087,,0.88,
 Q0605,revisar,5530,5539,0.31,margem estreita entre 5530 (Procedimento Ordinário) e 5539 (Procedimento Sumaríssimo)
-Q0606,revisar,5087,,0.52,confianca intermediaria; duvida entre 5087 (Dos Crimes Contra a Administração Pública) e 5199 (Teoria da Pena)
+Q0606,revisar,5087,,0.52,ausencia de convergencia minima entre canais; sugestao 5087 (Dos Crimes Contra a Administração Pública) vs 5199 (Teoria da Pena)
 Q0607,revisar,4368,4374,0.34,margem estreita entre 4368 (Criminologia no Estado Democrático de Direito) e 4374 (Política Criminal)
 Q0608,publicar,5180,,0.94,
 Q0609,publicar,5087,,0.65,
 Q0610,revisar,5498,4700,0.33,margem estreita entre 5498 (Inquérito Policial) e 4700 (Interceptação Telefônica)
 Q0611,publicar,5116,5087,0.58,
-Q0612,revisar,5466,5087,0.41,margem estreita entre 5466 (Ação Penal) e 5087 (Dos Crimes Contra a Administração Pública)
-Q0613,revisar,5079,5087,0.30,margem estreita entre 5079 (Dos Crimes Contra a Administração Judicial) e 5087 (Dos Crimes Contra a Administração Pública)
+Q0612,revisar,5466,5087,0.41,ausencia de convergencia minima entre canais; sugestao 5466 (Ação Penal) vs 5087 (Dos Crimes Contra a Administração Pública)
+Q0613,revisar,5079,5087,0.30,ausencia de convergencia minima entre canais; sugestao 5079 (Dos Crimes Contra a Administração Judicial) vs 5087 (Dos Crimes Contra a Administração Pública)
 Q0614,publicar,5180,,0.67,
 Q0615,revisar,5466,,0.52,margem estreita entre 5466 (Ação Penal) e 5530 (Procedimento Ordinário)
-Q0616,publicar,5180,,0.65,
+Q0616,revisar,5180,,0.65,ausencia de convergencia minima entre canais; sugestao 5180 (Lei Penal no Tempo e no Espaço) vs 5191 (Punibilidade)
 Q0617,publicar,5498,,0.67,
 Q0618,publicar,5218,,0.64,
 Q0619,revisar,5539,4701;5530,0.56,margem estreita entre 5539 (Procedimento Sumaríssimo) e 5530 (Procedimento Ordinário)
 Q0620,publicar,5147,,0.87,
-Q0621,revisar,5185,,0.19,margem estreita entre 5185 (Prescrição) e 5211 (Teoria do Crime: Culpabilidade)
+Q0621,revisar,5185,,0.19,ausencia de convergencia minima entre canais; sugestao 5185 (Prescrição) vs 5211 (Teoria do Crime: Culpabilidade)
 Q0622,publicar,5180,,0.92,
 Q0623,publicar,5543,,0.64,
 Q0624,publicar,4704,6724,0.77,
 Q0625,publicar,5087,,0.83,
-Q0626,revisar,5517,5530,0.43,margem estreita entre 5517 (Prisões em Espécie) e 5530 (Procedimento Ordinário)
+Q0626,revisar,5517,5530,0.43,ausencia de convergencia minima entre canais; sugestao 5517 (Prisões em Espécie) vs 5530 (Procedimento Ordinário)
 Q0627,publicar,5125,,0.88,
 Q0628,publicar,5498,,0.84,
 Q0629,publicar,4371,,0.78,
-Q0630,publicar,5079,,0.74,
+Q0630,revisar,5079,,0.74,ausencia de convergencia minima entre canais; sugestao 5079 (Dos Crimes Contra a Administração Judicial) vs 5157 (Dos Crimes Contra o Patrimônio)
 Q0631,publicar,5087,,0.84,
 Q0632,publicar,5087,,0.94,
 Q0633,revisar,5087,,0.49,margem estreita entre 5087 (Dos Crimes Contra a Administração Pública) e 5157 (Dos Crimes Contra o Patrimônio)
-Q0634,revisar,5487,5539,0.33,margem estreita entre 5487 (Comunicação dos Atos Processuais) e 5539 (Procedimento Sumaríssimo)
+Q0634,revisar,5487,5539,0.33,ausencia de convergencia minima entre canais; sugestao 5487 (Comunicação dos Atos Processuais) vs 5539 (Procedimento Sumaríssimo)
 Q0635,publicar,5211,,0.96,
 Q0636,publicar,5087,,0.62,
 Q0637,publicar,5087,,0.91,
@@ -645,7 +645,7 @@ Q0643,revisar,4374,4385,0.35,margem estreita entre 4374 (Política Criminal) e 4
 Q0644,publicar,5087,,0.77,
 Q0645,publicar,5218,,0.95,
 Q0646,publicar,4374,,0.84,
-Q0647,revisar,5487,,0.57,confianca intermediaria; duvida entre 5487 (Comunicação dos Atos Processuais) e 5530 (Procedimento Ordinário)
+Q0647,revisar,5487,,0.57,ausencia de convergencia minima entre canais; sugestao 5487 (Comunicação dos Atos Processuais) vs 5530 (Procedimento Ordinário)
 Q0648,publicar,5498,5543,0.64,
 Q0649,fora,,,0.04,Matéria de Direito Penal/Processual Penal Militar ausente da taxonomia ativa
 Q0650,fora,,,0.01,Matéria de Direito Penal/Processual Penal Militar ausente da taxonomia ativa
