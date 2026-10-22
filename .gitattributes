@@ -1,2 +1,4 @@
-# Fontes e checkpoints têm hashes congelados: não converter finais de linha.
-* -text
+* text=auto eol=lf
+*.npz binary
+*.zip binary
+*.pdf binary

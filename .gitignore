@@ -1,11 +1,8 @@
 __pycache__/
 *.py[cod]
+*$py.class
 .venv/
-.env
-.env.*
-!.env.example
-codigo/saidas/
-saidas/
-reproducao/
-qa/
-~$*.docx
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db

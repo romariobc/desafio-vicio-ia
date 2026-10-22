@@ -1,0 +1,1666 @@
+{
+  "namespace_outer": "politica-cv-v1:outer:",
+  "namespace_cal": "politica-cv-v1:cal:",
+  "numero_rodada": "0 a 4, sem preenchimento de zeros",
+  "fingerprints": {
+    "Q0002": "d6eeabebc0d5936dc1795a3b2ff782eaaf18ddcf310dd12de805297055f201fd",
+    "Q0003": "75accdd008bfadaa6421bd49239ab7dad47dc18a6cf8b71bc3dc789d0476c14e",
+    "Q0005": "c5c86c7b06da24b7add64ca6f6e6349187d2abed6c97dc18269bbea4714c9b6b",
+    "Q0012": "2dc60e05fba207f47cbc593105b6ff36b1daf364a3c4e8eb0ae2f397ce96fb57",
+    "Q0017": "702ba882d36d4de522e02adf293b4026f9ced3f627765f43b46fd9d07e32ebf1",
+    "Q0018": "f4ee52c39243813a7a8b2ba0688b5ea08f97c50aa481b9c99e0044e3dd269595",
+    "Q0023": "b293a491ddec95dd176c49ab2ad5f73d7f23a90880f7890ae8abaccd519f1b5b",
+    "Q0028": "4a5d344248da9929f65c76a41fe70b05cd779ad2ce37044a21fe244d8966f085",
+    "Q0031": "f98993b51587d1304e9ce4566e3ea65c02caab7c5c20dbbcd0716ef160de8321",
+    "Q0034": "055a01f971bce731a99e26cffd7b9690edcd06b76f68eedfb952ad18e2a5d261",
+    "Q0035": "180019756b153f734e650d914d0666aa09c663c12a3c094dba366da535e65fc5",
+    "Q0039": "ff7e088ab08e6b1c9761fff887bcba7216e3beff46cc5567478dc40f32b56696",
+    "Q0040": "fbc76c47065eb902cb81440bc3f498206350567100e9c0cb983d287d14bc7557",
+    "Q0041": "a8b16faea8f5758cd320cd11b013e78f11f34eb454ab32364ec145f9a5e90f03",
+    "Q0043": "3dd8c2147544b0e1869cde529ca08ee4ee4f98ffb679bf7118d467738e145dd5",
+    "Q0049": "16a808ac5015ad979a8ffe08bc87a942671ee35a0343d4098ddbcd02fc7c4594",
+    "Q0052": "ff0c059ce5412d1caef29e0f9b22f6bbb9c5279c19f15b00bee023f8197a68aa",
+    "Q0057": "985951e3655d8efd12340a739dd01e6179b44ba22a6736b6acf6e2b509bd4ecf",
+    "Q0058": "ade623d5cb957b261f364c8e0c4bc036f98d7f6cc52f56fe7f736fe34037fec2",
+    "Q0060": "5ba188b7a7c8fcf51eab308663d666c469bad7963438e10e0f8efa687c544bcf",
+    "Q0061": "ed1de8e0419c84b99ddd279f5584d6e624b2f31fda56c5a038d65de7d7527808",
+    "Q0066": "754bb2d95013af4ea9983c294415eb51271b1909ba984f2bc15fca8aa349cd39",
+    "Q0067": "984672460222cb13b00254b4c0760893a7e06d22b3dcec3c592fc5c6be28c7ce",
+    "Q0068": "5eba20219b38ac1cd0d714e59cb424f2abb8f849a08329964a36458ee12acccc",
+    "Q0077": "cd5ac5e6b7840449bfeafd4d2c108a302be94d7a2bba409b1c25c0a0d147d2f6",
+    "Q0079": "6f35f41f379467c581df42ac16e7ced9c08dc291ed76014ca08ef1fe95792feb",
+    "Q0080": "b9cf00b8504e9b135d38f169aa5fa24fbde118c1dbed9fa31138ff7239a6391e",
+    "Q0086": "a5a0db1392712568b215644cf60bb4bedac3bc7d48541a7b46a4bbe216a84e89",
+    "Q0087": "294ac45381b4776d17493c2be941160a1898ea19c47685647764a5713856be88",
+    "Q0090": "b6c40e21d58789bd96bee893f35b2a43fb5b7ea635335a886ce64eda09c296fd",
+    "Q0091": "c56a7d047d33bb2ea436b9102c6cffa7b55d05001857d3293b84be0535618d86",
+    "Q0099": "632667a1c604c59ef3c5d0dc7c1e294648500c8c9508a19ffab93d51462cd264",
+    "Q0103": "ba7ffde48d14b812b6b9b9e280fa9a3364d5e060805114854bbf4acaf49a2063",
+    "Q0106": "3f1519da883ad475af59e1f46d10c943487ebd89fe1a420a113e7608c9733783",
+    "Q0110": "06fb7241de8fac9d3e660fb41b7f0528b7e60620343b24a0a000f7324c38c176",
+    "Q0111": "5b4c64d948f2e8d2cf5b4c7e0bec787a3890fad9eebc2bdb07ffcde58c3884f2",
+    "Q0115": "49af0e05895453fdf6c9f26e0c8e70946a7d903782d47f1114dfbb31c718b3f4",
+    "Q0117": "771c53199d5f5fa217d18612ebfeb5b04de36348abbb6aa84444654bee10d412",
+    "Q0124": "59c2755d5ba049febadf3cfff3d3d781044c18be8fb8474dba05ac9a579b300b",
+    "Q0134": "b1ccaf42860a1ddd2da604da32447ee0dd7ebb4fd6e3cd02c0f18fc1fa4a5305",
+    "Q0137": "f84ea74d89ed6e5fc539e31388123ad5d995f3e467e4e2f186de0de67089dd96",
+    "Q0138": "ae06e7006bf5b56f36a0ea25671953f4f3b0d28f8cc0ff2b948e5353526cffb6",
+    "Q0139": "c1cb2141346ab2fe617dd0de1c1c85d6f18778ac9427ad957840db9daf75de97",
+    "Q0144": "cf0c6e54ad74e36deb3d9f896eaed1d1a99ecacfab689d5a2f8e7e470ab5147d",
+    "Q0147": "c19a6c3a140af025f93b239e31f29efbe3d0e086b355f483ffdd35907e26476a",
+    "Q0150": "10e504d9d429219c0bbb78fbdefd261e9d7be6ad2b83c4b245ea26b0891bf189",
+    "Q0160": "8f4c574eb13d156f99494d8b65affffb24976ee935e0f5ef87f8dce16d12d841",
+    "Q0167": "57231c06e68fcda55e6445306fda1b322a0ad4a3f28130a0833e893444f6cf05",
+    "Q0169": "fe635d97df4b628afd80d6588927715ca2fb43134dc6ca14c999ec127c4a49e0",
+    "Q0179": "f76e98efd26879da08fc68977a50bf6a6958c5dd67c77ebbc93051104d5382d9",
+    "Q0186": "f29673429c8561a0d203f4c2e760264e8e65e59c3844daa76938bd60af6a4ad8",
+    "Q0188": "8a6dfb4f4ffe903fae4c06af9605bf0610dabbbffeae9531c463800cc33a99cc",
+    "Q0191": "8a24cbac867f2f9b19aa0f25bf5d1db48a333630b7c7d2d73e394beb1b012bf2",
+    "Q0194": "6495ba2dd903169d4a916b2ad9028be81ac0bad3686c4cdf6c5481bf8d655bc0",
+    "Q0201": "ef4bfcf83fd67e740afd01ca910981a27ae4d9b777f016d7802b52fa6d2b6bff",
+    "Q0202": "a4decd4eb03d8ef1bce115fc31a3e66da4e4f884edad254ef641dc57a75df190",
+    "Q0208": "2a7c659ada9b3bc9feebb867351a1c027a7b433cc8b329c1a7ed0b4840e4ff87",
+    "Q0215": "b72998861f6672fcc1e86f3fd2edc38657974dd2d3a7de345cd88707ac12ccbc",
+    "Q0216": "a45e17892d4d0a918591ce7ab6a73c586c6f4e138be831e77e6752c1c19844ec",
+    "Q0221": "8bcc978e3cb4941067bfeac85f4c9fff508a70b03ce406b180433b3cd3821765",
+    "Q0226": "b4cd4b62677ad8fdd2b166a9c6d14b577d872c1ca706766a079bf43bec2a0cfe",
+    "Q0230": "0bdcdea1851bf33373d11dc288081acbfa38187e6f53a97cee276d6d2930aec2",
+    "Q0231": "05ad4fdb782a90ddb69e6cd35d2e5eaabbe6568b389cb16ccfc8c3485b03c40d",
+    "Q0240": "9e6531ca04de44004428ed77eb003dc6898fe540b2a18d66c8bb361915cdde65",
+    "Q0244": "87347fe2884590a8a8c6fde52ddb1dfe5e17c6dde4f14249e8c0df1b22c6c2d4",
+    "Q0245": "b2048f22c6436f1b7fce67dcc957a2c100f86824799ed384f92101fed1600906",
+    "Q0246": "4e5e23162ae05218630d55f99033d26092250b1e05fc4a22a0a34fb522da23c6",
+    "Q0249": "3d056049b2e9b288ea91b0c69c70f0dd934576bb96798d6c389df3fff6d8eb42",
+    "Q0251": "f2129c9099aa327a625b18e5adc44170fd3c2b6ff2ae20d870b76f881e75aef9",
+    "Q0252": "3fa16c309df518c3ee18ad056082b4bd1659a26e01041767e0b25157e6566430",
+    "Q0253": "48a87ff37177c671f3ea5a7dae486490de1a8cbbfd11ec33ee6da0665e2a9600",
+    "Q0259": "8da8091f19a2e249825d931c2509a96c51002d92bdae975c1995a79a37011d43",
+    "Q0265": "880757eb06e3f5b88bc6d8479c68532368f3b1dffbd26a87be9f8351a622ee54",
+    "Q0274": "bce92075bba533040d97c44404f275737f1bdaa50dbb1ef69ae9ff16af5cada2",
+    "Q0275": "023a27e4633389ce60f2dc4992a34a7a06071310d0e780aadfb597bbe8a8aded",
+    "Q0276": "11188c68bf11aff2302e236f24e6c688ed798e4f1b3490739766df57c0e59825",
+    "Q0277": "d19d3ac493784de233b2d1ae1a84ff89d6a5b9da4b2e9913fb22752d02883089",
+    "Q0279": "6e11da9c8a78b97a9ee4d931d7ba40b2efe31a8b39e1667f2bb082e237290b9d",
+    "Q0286": "2df76f125d2e09738e461098502ad48b4f7303d75387c07eac6e57c3eab83aa2",
+    "Q0290": "91686878b4f80da3537ff2e012451d55acee7618b65e76b398f6c5e5da5090cd",
+    "Q0291": "c2b444da2a9527718f05be9e909e010eaa7d2e1a27cc624e39cdf1d1d88990ca",
+    "Q0303": "a9f9209fbc73a6781ace7584e943521c89d88316b65c08faacf5552825945f1b",
+    "Q0304": "7581405cfa4d577b425a72e138dfafc3e66b732b444e166bdb80e648144160ad",
+    "Q0308": "dd6da4ca469411a5da8a346bfc71cd3c3965d60cebbe14bacada08bc475d15ee",
+    "Q0311": "9f6b101e6b509d460ec9f071d6def7c196066f4395d692c65795fa9bb3094abb",
+    "Q0313": "8e5c07747feff796ff729a4af14e257967d910c1f58efaba764af286485d2535",
+    "Q0314": "f4e355465669d33327aefa986c5f47c216550ba7ef0ed1f3e338fd88f43a7d8e",
+    "Q0315": "3a7da2c99d2b40bc653b3b6dd022c6b56b7c5752494903ecbcd2966ff91a0abe",
+    "Q0316": "21475730ee1960ac249fe2ec721501de66d485fe38a2c4343f79771f645220b2",
+    "Q0319": "a764b939166a9de6b4614a27ce24e2a7c63a1986793382fdd19130c2cdaf29e0",
+    "Q0320": "1cc0069674496f2f2c05bef894b2fef83c8f11dbc7dad89c2ff80d3d0d29fa73",
+    "Q0323": "3fc94135acb8506e0fd80697a7aa0b736a8819ea374b6f974c5bae449dcdfdb7",
+    "Q0324": "d1d241d29562a709bede8333ff2f6cd19e22325fe334c386a8d3742d2e3a61b3",
+    "Q0325": "c1e005ff5a5bb9c9cb7bcf2ea68548108bc30d4e872c3fa4832dd8f96df8293c",
+    "Q0336": "c34f05b7e09ed8f4e7b4f9f9f9b52c1e4dbb40a8ed7b8b2dd06098e2577d9c4b",
+    "Q0338": "181d6bdd6a49a2a1f248142c3f751aa4c81bf0c6267048365104c68e45b0ca81",
+    "Q0339": "b0700cb131f7137e6ac150aa1aac8b4086376734f0072b6d702ac9dc07d00165",
+    "Q0341": "1811a028035838255347893c151ffd90eee2a35e0cd0978457e3de2ea9d1332c",
+    "Q0345": "0210d7dd035d0caa7553d3c4739a45efa474eab343056643d28af723c177c3de",
+    "Q0356": "159d97834bf0fa2d90e1c625cb4c047cc3e35d4c180730cc4d557a98bc30f160"
+  },
+  "grupos_outer_na_ordem": [
+    {
+      "fingerprint": "4e5e23162ae05218630d55f99033d26092250b1e05fc4a22a0a34fb522da23c6",
+      "ids": [
+        "Q0246"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "985951e3655d8efd12340a739dd01e6179b44ba22a6736b6acf6e2b509bd4ecf",
+      "ids": [
+        "Q0057"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "ef4bfcf83fd67e740afd01ca910981a27ae4d9b777f016d7802b52fa6d2b6bff",
+      "ids": [
+        "Q0201"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "8f4c574eb13d156f99494d8b65affffb24976ee935e0f5ef87f8dce16d12d841",
+      "ids": [
+        "Q0160"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "8bcc978e3cb4941067bfeac85f4c9fff508a70b03ce406b180433b3cd3821765",
+      "ids": [
+        "Q0221"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "ff0c059ce5412d1caef29e0f9b22f6bbb9c5279c19f15b00bee023f8197a68aa",
+      "ids": [
+        "Q0052"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "8a24cbac867f2f9b19aa0f25bf5d1db48a333630b7c7d2d73e394beb1b012bf2",
+      "ids": [
+        "Q0191"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "159d97834bf0fa2d90e1c625cb4c047cc3e35d4c180730cc4d557a98bc30f160",
+      "ids": [
+        "Q0356"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "880757eb06e3f5b88bc6d8479c68532368f3b1dffbd26a87be9f8351a622ee54",
+      "ids": [
+        "Q0265"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "b0700cb131f7137e6ac150aa1aac8b4086376734f0072b6d702ac9dc07d00165",
+      "ids": [
+        "Q0339"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "b2048f22c6436f1b7fce67dcc957a2c100f86824799ed384f92101fed1600906",
+      "ids": [
+        "Q0245"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "5eba20219b38ac1cd0d714e59cb424f2abb8f849a08329964a36458ee12acccc",
+      "ids": [
+        "Q0068"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "f4ee52c39243813a7a8b2ba0688b5ea08f97c50aa481b9c99e0044e3dd269595",
+      "ids": [
+        "Q0018"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "181d6bdd6a49a2a1f248142c3f751aa4c81bf0c6267048365104c68e45b0ca81",
+      "ids": [
+        "Q0338"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "1cc0069674496f2f2c05bef894b2fef83c8f11dbc7dad89c2ff80d3d0d29fa73",
+      "ids": [
+        "Q0320"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "c34f05b7e09ed8f4e7b4f9f9f9b52c1e4dbb40a8ed7b8b2dd06098e2577d9c4b",
+      "ids": [
+        "Q0336"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "5b4c64d948f2e8d2cf5b4c7e0bec787a3890fad9eebc2bdb07ffcde58c3884f2",
+      "ids": [
+        "Q0111"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "b9cf00b8504e9b135d38f169aa5fa24fbde118c1dbed9fa31138ff7239a6391e",
+      "ids": [
+        "Q0080"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "57231c06e68fcda55e6445306fda1b322a0ad4a3f28130a0833e893444f6cf05",
+      "ids": [
+        "Q0167"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "d19d3ac493784de233b2d1ae1a84ff89d6a5b9da4b2e9913fb22752d02883089",
+      "ids": [
+        "Q0277"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "06fb7241de8fac9d3e660fb41b7f0528b7e60620343b24a0a000f7324c38c176",
+      "ids": [
+        "Q0110"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "f4e355465669d33327aefa986c5f47c216550ba7ef0ed1f3e338fd88f43a7d8e",
+      "ids": [
+        "Q0314"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "bce92075bba533040d97c44404f275737f1bdaa50dbb1ef69ae9ff16af5cada2",
+      "ids": [
+        "Q0274"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "c19a6c3a140af025f93b239e31f29efbe3d0e086b355f483ffdd35907e26476a",
+      "ids": [
+        "Q0147"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "a8b16faea8f5758cd320cd11b013e78f11f34eb454ab32364ec145f9a5e90f03",
+      "ids": [
+        "Q0041"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "3dd8c2147544b0e1869cde529ca08ee4ee4f98ffb679bf7118d467738e145dd5",
+      "ids": [
+        "Q0043"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "a45e17892d4d0a918591ce7ab6a73c586c6f4e138be831e77e6752c1c19844ec",
+      "ids": [
+        "Q0216"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "10e504d9d429219c0bbb78fbdefd261e9d7be6ad2b83c4b245ea26b0891bf189",
+      "ids": [
+        "Q0150"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "c1cb2141346ab2fe617dd0de1c1c85d6f18778ac9427ad957840db9daf75de97",
+      "ids": [
+        "Q0139"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "a764b939166a9de6b4614a27ce24e2a7c63a1986793382fdd19130c2cdaf29e0",
+      "ids": [
+        "Q0319"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "b293a491ddec95dd176c49ab2ad5f73d7f23a90880f7890ae8abaccd519f1b5b",
+      "ids": [
+        "Q0023"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "6e11da9c8a78b97a9ee4d931d7ba40b2efe31a8b39e1667f2bb082e237290b9d",
+      "ids": [
+        "Q0279"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "3a7da2c99d2b40bc653b3b6dd022c6b56b7c5752494903ecbcd2966ff91a0abe",
+      "ids": [
+        "Q0315"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "8a6dfb4f4ffe903fae4c06af9605bf0610dabbbffeae9531c463800cc33a99cc",
+      "ids": [
+        "Q0188"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "d6eeabebc0d5936dc1795a3b2ff782eaaf18ddcf310dd12de805297055f201fd",
+      "ids": [
+        "Q0002"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "59c2755d5ba049febadf3cfff3d3d781044c18be8fb8474dba05ac9a579b300b",
+      "ids": [
+        "Q0124"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "cd5ac5e6b7840449bfeafd4d2c108a302be94d7a2bba409b1c25c0a0d147d2f6",
+      "ids": [
+        "Q0077"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "a9f9209fbc73a6781ace7584e943521c89d88316b65c08faacf5552825945f1b",
+      "ids": [
+        "Q0303"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "294ac45381b4776d17493c2be941160a1898ea19c47685647764a5713856be88",
+      "ids": [
+        "Q0087"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "87347fe2884590a8a8c6fde52ddb1dfe5e17c6dde4f14249e8c0df1b22c6c2d4",
+      "ids": [
+        "Q0244"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "48a87ff37177c671f3ea5a7dae486490de1a8cbbfd11ec33ee6da0665e2a9600",
+      "ids": [
+        "Q0253"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "ae06e7006bf5b56f36a0ea25671953f4f3b0d28f8cc0ff2b948e5353526cffb6",
+      "ids": [
+        "Q0138"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "5ba188b7a7c8fcf51eab308663d666c469bad7963438e10e0f8efa687c544bcf",
+      "ids": [
+        "Q0060"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "c2b444da2a9527718f05be9e909e010eaa7d2e1a27cc624e39cdf1d1d88990ca",
+      "ids": [
+        "Q0291"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "f2129c9099aa327a625b18e5adc44170fd3c2b6ff2ae20d870b76f881e75aef9",
+      "ids": [
+        "Q0251"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "6f35f41f379467c581df42ac16e7ced9c08dc291ed76014ca08ef1fe95792feb",
+      "ids": [
+        "Q0079"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "cf0c6e54ad74e36deb3d9f896eaed1d1a99ecacfab689d5a2f8e7e470ab5147d",
+      "ids": [
+        "Q0144"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "ade623d5cb957b261f364c8e0c4bc036f98d7f6cc52f56fe7f736fe34037fec2",
+      "ids": [
+        "Q0058"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "c5c86c7b06da24b7add64ca6f6e6349187d2abed6c97dc18269bbea4714c9b6b",
+      "ids": [
+        "Q0005"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "f84ea74d89ed6e5fc539e31388123ad5d995f3e467e4e2f186de0de67089dd96",
+      "ids": [
+        "Q0137"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "771c53199d5f5fa217d18612ebfeb5b04de36348abbb6aa84444654bee10d412",
+      "ids": [
+        "Q0117"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "0210d7dd035d0caa7553d3c4739a45efa474eab343056643d28af723c177c3de",
+      "ids": [
+        "Q0345"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "754bb2d95013af4ea9983c294415eb51271b1909ba984f2bc15fca8aa349cd39",
+      "ids": [
+        "Q0066"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "4a5d344248da9929f65c76a41fe70b05cd779ad2ce37044a21fe244d8966f085",
+      "ids": [
+        "Q0028"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "9e6531ca04de44004428ed77eb003dc6898fe540b2a18d66c8bb361915cdde65",
+      "ids": [
+        "Q0240"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "6495ba2dd903169d4a916b2ad9028be81ac0bad3686c4cdf6c5481bf8d655bc0",
+      "ids": [
+        "Q0194"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "b4cd4b62677ad8fdd2b166a9c6d14b577d872c1ca706766a079bf43bec2a0cfe",
+      "ids": [
+        "Q0226"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "7581405cfa4d577b425a72e138dfafc3e66b732b444e166bdb80e648144160ad",
+      "ids": [
+        "Q0304"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "2dc60e05fba207f47cbc593105b6ff36b1daf364a3c4e8eb0ae2f397ce96fb57",
+      "ids": [
+        "Q0012"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "702ba882d36d4de522e02adf293b4026f9ced3f627765f43b46fd9d07e32ebf1",
+      "ids": [
+        "Q0017"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "3f1519da883ad475af59e1f46d10c943487ebd89fe1a420a113e7608c9733783",
+      "ids": [
+        "Q0106"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "ba7ffde48d14b812b6b9b9e280fa9a3364d5e060805114854bbf4acaf49a2063",
+      "ids": [
+        "Q0103"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "f98993b51587d1304e9ce4566e3ea65c02caab7c5c20dbbcd0716ef160de8321",
+      "ids": [
+        "Q0031"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "c56a7d047d33bb2ea436b9102c6cffa7b55d05001857d3293b84be0535618d86",
+      "ids": [
+        "Q0091"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "8da8091f19a2e249825d931c2509a96c51002d92bdae975c1995a79a37011d43",
+      "ids": [
+        "Q0259"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "3d056049b2e9b288ea91b0c69c70f0dd934576bb96798d6c389df3fff6d8eb42",
+      "ids": [
+        "Q0249"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "180019756b153f734e650d914d0666aa09c663c12a3c094dba366da535e65fc5",
+      "ids": [
+        "Q0035"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "023a27e4633389ce60f2dc4992a34a7a06071310d0e780aadfb597bbe8a8aded",
+      "ids": [
+        "Q0275"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "2a7c659ada9b3bc9feebb867351a1c027a7b433cc8b329c1a7ed0b4840e4ff87",
+      "ids": [
+        "Q0208"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "055a01f971bce731a99e26cffd7b9690edcd06b76f68eedfb952ad18e2a5d261",
+      "ids": [
+        "Q0034"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "f76e98efd26879da08fc68977a50bf6a6958c5dd67c77ebbc93051104d5382d9",
+      "ids": [
+        "Q0179"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "2df76f125d2e09738e461098502ad48b4f7303d75387c07eac6e57c3eab83aa2",
+      "ids": [
+        "Q0286"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "984672460222cb13b00254b4c0760893a7e06d22b3dcec3c592fc5c6be28c7ce",
+      "ids": [
+        "Q0067"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "8e5c07747feff796ff729a4af14e257967d910c1f58efaba764af286485d2535",
+      "ids": [
+        "Q0313"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "91686878b4f80da3537ff2e012451d55acee7618b65e76b398f6c5e5da5090cd",
+      "ids": [
+        "Q0290"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "632667a1c604c59ef3c5d0dc7c1e294648500c8c9508a19ffab93d51462cd264",
+      "ids": [
+        "Q0099"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "49af0e05895453fdf6c9f26e0c8e70946a7d903782d47f1114dfbb31c718b3f4",
+      "ids": [
+        "Q0115"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "fe635d97df4b628afd80d6588927715ca2fb43134dc6ca14c999ec127c4a49e0",
+      "ids": [
+        "Q0169"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "3fa16c309df518c3ee18ad056082b4bd1659a26e01041767e0b25157e6566430",
+      "ids": [
+        "Q0252"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "dd6da4ca469411a5da8a346bfc71cd3c3965d60cebbe14bacada08bc475d15ee",
+      "ids": [
+        "Q0308"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "9f6b101e6b509d460ec9f071d6def7c196066f4395d692c65795fa9bb3094abb",
+      "ids": [
+        "Q0311"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "0bdcdea1851bf33373d11dc288081acbfa38187e6f53a97cee276d6d2930aec2",
+      "ids": [
+        "Q0230"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "ff7e088ab08e6b1c9761fff887bcba7216e3beff46cc5567478dc40f32b56696",
+      "ids": [
+        "Q0039"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "d1d241d29562a709bede8333ff2f6cd19e22325fe334c386a8d3742d2e3a61b3",
+      "ids": [
+        "Q0324"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "f29673429c8561a0d203f4c2e760264e8e65e59c3844daa76938bd60af6a4ad8",
+      "ids": [
+        "Q0186"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "ed1de8e0419c84b99ddd279f5584d6e624b2f31fda56c5a038d65de7d7527808",
+      "ids": [
+        "Q0061"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "fbc76c47065eb902cb81440bc3f498206350567100e9c0cb983d287d14bc7557",
+      "ids": [
+        "Q0040"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "a4decd4eb03d8ef1bce115fc31a3e66da4e4f884edad254ef641dc57a75df190",
+      "ids": [
+        "Q0202"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "11188c68bf11aff2302e236f24e6c688ed798e4f1b3490739766df57c0e59825",
+      "ids": [
+        "Q0276"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "b6c40e21d58789bd96bee893f35b2a43fb5b7ea635335a886ce64eda09c296fd",
+      "ids": [
+        "Q0090"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "16a808ac5015ad979a8ffe08bc87a942671ee35a0343d4098ddbcd02fc7c4594",
+      "ids": [
+        "Q0049"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "05ad4fdb782a90ddb69e6cd35d2e5eaabbe6568b389cb16ccfc8c3485b03c40d",
+      "ids": [
+        "Q0231"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "1811a028035838255347893c151ffd90eee2a35e0cd0978457e3de2ea9d1332c",
+      "ids": [
+        "Q0341"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "c1e005ff5a5bb9c9cb7bcf2ea68548108bc30d4e872c3fa4832dd8f96df8293c",
+      "ids": [
+        "Q0325"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "b72998861f6672fcc1e86f3fd2edc38657974dd2d3a7de345cd88707ac12ccbc",
+      "ids": [
+        "Q0215"
+      ],
+      "externa": 4
+    },
+    {
+      "fingerprint": "b1ccaf42860a1ddd2da604da32447ee0dd7ebb4fd6e3cd02c0f18fc1fa4a5305",
+      "ids": [
+        "Q0134"
+      ],
+      "externa": 0
+    },
+    {
+      "fingerprint": "21475730ee1960ac249fe2ec721501de66d485fe38a2c4343f79771f645220b2",
+      "ids": [
+        "Q0316"
+      ],
+      "externa": 1
+    },
+    {
+      "fingerprint": "75accdd008bfadaa6421bd49239ab7dad47dc18a6cf8b71bc3dc789d0476c14e",
+      "ids": [
+        "Q0003"
+      ],
+      "externa": 2
+    },
+    {
+      "fingerprint": "a5a0db1392712568b215644cf60bb4bedac3bc7d48541a7b46a4bbe216a84e89",
+      "ids": [
+        "Q0086"
+      ],
+      "externa": 3
+    },
+    {
+      "fingerprint": "3fc94135acb8506e0fd80697a7aa0b736a8819ea374b6f974c5bae449dcdfdb7",
+      "ids": [
+        "Q0323"
+      ],
+      "externa": 4
+    }
+  ],
+  "rodadas": [
+    {
+      "rodada": 0,
+      "desenvolvimento": [
+        "Q0208",
+        "Q0252",
+        "Q0086",
+        "Q0028",
+        "Q0226",
+        "Q0035",
+        "Q0316",
+        "Q0274",
+        "Q0057",
+        "Q0167",
+        "Q0002",
+        "Q0137",
+        "Q0279",
+        "Q0244",
+        "Q0338",
+        "Q0003",
+        "Q0080",
+        "Q0231",
+        "Q0090",
+        "Q0251",
+        "Q0303",
+        "Q0277",
+        "Q0066",
+        "Q0034",
+        "Q0319",
+        "Q0138",
+        "Q0077",
+        "Q0216",
+        "Q0215",
+        "Q0103",
+        "Q0091",
+        "Q0291",
+        "Q0139",
+        "Q0325",
+        "Q0191",
+        "Q0012",
+        "Q0067",
+        "Q0230",
+        "Q0041",
+        "Q0315",
+        "Q0115",
+        "Q0308",
+        "Q0202",
+        "Q0345",
+        "Q0040",
+        "Q0144",
+        "Q0147",
+        "Q0150",
+        "Q0017",
+        "Q0259",
+        "Q0286",
+        "Q0031",
+        "Q0169",
+        "Q0324",
+        "Q0039",
+        "Q0356",
+        "Q0201",
+        "Q0265",
+        "Q0323",
+        "Q0276"
+      ],
+      "calibracao": [
+        "Q0058",
+        "Q0018",
+        "Q0313",
+        "Q0221",
+        "Q0111",
+        "Q0005",
+        "Q0186",
+        "Q0188",
+        "Q0314",
+        "Q0320",
+        "Q0087",
+        "Q0290",
+        "Q0240",
+        "Q0068",
+        "Q0339",
+        "Q0275",
+        "Q0160",
+        "Q0304",
+        "Q0060",
+        "Q0341"
+      ],
+      "externa": [
+        "Q0246",
+        "Q0052",
+        "Q0245",
+        "Q0336",
+        "Q0110",
+        "Q0043",
+        "Q0023",
+        "Q0124",
+        "Q0253",
+        "Q0079",
+        "Q0117",
+        "Q0194",
+        "Q0106",
+        "Q0249",
+        "Q0179",
+        "Q0099",
+        "Q0311",
+        "Q0061",
+        "Q0049",
+        "Q0134"
+      ],
+      "dobras_internas": {
+        "Q0208": 0,
+        "Q0252": 2,
+        "Q0086": 1,
+        "Q0028": 2,
+        "Q0226": 0,
+        "Q0035": 4,
+        "Q0316": 1,
+        "Q0274": 4,
+        "Q0057": 4,
+        "Q0167": 2,
+        "Q0002": 3,
+        "Q0137": 3,
+        "Q0279": 2,
+        "Q0244": 0,
+        "Q0338": 3,
+        "Q0003": 3,
+        "Q0080": 4,
+        "Q0231": 0,
+        "Q0090": 4,
+        "Q0251": 3,
+        "Q0303": 4,
+        "Q0277": 2,
+        "Q0066": 0,
+        "Q0034": 3,
+        "Q0319": 1,
+        "Q0138": 1,
+        "Q0077": 0,
+        "Q0216": 4,
+        "Q0215": 1,
+        "Q0103": 1,
+        "Q0091": 3,
+        "Q0291": 4,
+        "Q0139": 3,
+        "Q0325": 2,
+        "Q0191": 3,
+        "Q0012": 1,
+        "Q0067": 0,
+        "Q0230": 4,
+        "Q0041": 0,
+        "Q0315": 4,
+        "Q0115": 1,
+        "Q0308": 2,
+        "Q0202": 1,
+        "Q0345": 4,
+        "Q0040": 2,
+        "Q0144": 2,
+        "Q0147": 3,
+        "Q0150": 0,
+        "Q0017": 3,
+        "Q0259": 2,
+        "Q0286": 3,
+        "Q0031": 4,
+        "Q0169": 2,
+        "Q0324": 1,
+        "Q0039": 2,
+        "Q0356": 1,
+        "Q0201": 0,
+        "Q0265": 0,
+        "Q0323": 1,
+        "Q0276": 0
+      }
+    },
+    {
+      "rodada": 1,
+      "desenvolvimento": [
+        "Q0339",
+        "Q0249",
+        "Q0169",
+        "Q0274",
+        "Q0018",
+        "Q0259",
+        "Q0304",
+        "Q0005",
+        "Q0117",
+        "Q0067",
+        "Q0017",
+        "Q0179",
+        "Q0188",
+        "Q0066",
+        "Q0049",
+        "Q0034",
+        "Q0160",
+        "Q0251",
+        "Q0303",
+        "Q0023",
+        "Q0043",
+        "Q0315",
+        "Q0150",
+        "Q0086",
+        "Q0079",
+        "Q0253",
+        "Q0124",
+        "Q0167",
+        "Q0137",
+        "Q0319",
+        "Q0311",
+        "Q0087",
+        "Q0110",
+        "Q0215",
+        "Q0308",
+        "Q0245",
+        "Q0291",
+        "Q0240",
+        "Q0080",
+        "Q0324",
+        "Q0208",
+        "Q0338",
+        "Q0058",
+        "Q0325",
+        "Q0290",
+        "Q0041",
+        "Q0277",
+        "Q0313",
+        "Q0341",
+        "Q0003",
+        "Q0012",
+        "Q0052",
+        "Q0090",
+        "Q0275",
+        "Q0060",
+        "Q0356",
+        "Q0276",
+        "Q0147",
+        "Q0139",
+        "Q0244"
+      ],
+      "calibracao": [
+        "Q0246",
+        "Q0252",
+        "Q0134",
+        "Q0265",
+        "Q0336",
+        "Q0031",
+        "Q0002",
+        "Q0323",
+        "Q0320",
+        "Q0099",
+        "Q0194",
+        "Q0039",
+        "Q0221",
+        "Q0201",
+        "Q0202",
+        "Q0028",
+        "Q0061",
+        "Q0091",
+        "Q0186",
+        "Q0106"
+      ],
+      "externa": [
+        "Q0057",
+        "Q0191",
+        "Q0068",
+        "Q0111",
+        "Q0314",
+        "Q0216",
+        "Q0279",
+        "Q0077",
+        "Q0138",
+        "Q0144",
+        "Q0345",
+        "Q0226",
+        "Q0103",
+        "Q0035",
+        "Q0286",
+        "Q0115",
+        "Q0230",
+        "Q0040",
+        "Q0231",
+        "Q0316"
+      ],
+      "dobras_internas": {
+        "Q0339": 3,
+        "Q0249": 2,
+        "Q0169": 3,
+        "Q0274": 0,
+        "Q0018": 2,
+        "Q0259": 2,
+        "Q0304": 4,
+        "Q0005": 0,
+        "Q0117": 0,
+        "Q0067": 1,
+        "Q0017": 4,
+        "Q0179": 3,
+        "Q0188": 1,
+        "Q0066": 2,
+        "Q0049": 2,
+        "Q0034": 3,
+        "Q0160": 4,
+        "Q0251": 1,
+        "Q0303": 3,
+        "Q0023": 4,
+        "Q0043": 0,
+        "Q0315": 1,
+        "Q0150": 1,
+        "Q0086": 2,
+        "Q0079": 3,
+        "Q0253": 2,
+        "Q0124": 0,
+        "Q0167": 4,
+        "Q0137": 1,
+        "Q0319": 0,
+        "Q0311": 1,
+        "Q0087": 1,
+        "Q0110": 1,
+        "Q0215": 4,
+        "Q0308": 0,
+        "Q0245": 2,
+        "Q0291": 2,
+        "Q0240": 0,
+        "Q0080": 0,
+        "Q0324": 3,
+        "Q0208": 1,
+        "Q0338": 3,
+        "Q0058": 3,
+        "Q0325": 3,
+        "Q0290": 4,
+        "Q0041": 0,
+        "Q0277": 4,
+        "Q0313": 0,
+        "Q0341": 4,
+        "Q0003": 3,
+        "Q0012": 2,
+        "Q0052": 4,
+        "Q0090": 1,
+        "Q0275": 3,
+        "Q0060": 0,
+        "Q0356": 2,
+        "Q0276": 2,
+        "Q0147": 1,
+        "Q0139": 4,
+        "Q0244": 4
+      }
+    },
+    {
+      "rodada": 2,
+      "desenvolvimento": [
+        "Q0221",
+        "Q0034",
+        "Q0103",
+        "Q0208",
+        "Q0160",
+        "Q0167",
+        "Q0276",
+        "Q0090",
+        "Q0057",
+        "Q0286",
+        "Q0041",
+        "Q0279",
+        "Q0186",
+        "Q0079",
+        "Q0316",
+        "Q0324",
+        "Q0005",
+        "Q0002",
+        "Q0240",
+        "Q0339",
+        "Q0124",
+        "Q0320",
+        "Q0325",
+        "Q0028",
+        "Q0226",
+        "Q0061",
+        "Q0338",
+        "Q0277",
+        "Q0147",
+        "Q0313",
+        "Q0017",
+        "Q0246",
+        "Q0111",
+        "Q0265",
+        "Q0231",
+        "Q0043",
+        "Q0345",
+        "Q0091",
+        "Q0251",
+        "Q0244",
+        "Q0179",
+        "Q0139",
+        "Q0144",
+        "Q0134",
+        "Q0138",
+        "Q0110",
+        "Q0117",
+        "Q0259",
+        "Q0035",
+        "Q0216",
+        "Q0336",
+        "Q0040",
+        "Q0319",
+        "Q0314",
+        "Q0290",
+        "Q0087",
+        "Q0086",
+        "Q0249",
+        "Q0253",
+        "Q0099"
+      ],
+      "calibracao": [
+        "Q0049",
+        "Q0068",
+        "Q0311",
+        "Q0230",
+        "Q0194",
+        "Q0323",
+        "Q0191",
+        "Q0245",
+        "Q0188",
+        "Q0215",
+        "Q0077",
+        "Q0308",
+        "Q0023",
+        "Q0115",
+        "Q0291",
+        "Q0012",
+        "Q0052",
+        "Q0137",
+        "Q0252",
+        "Q0106"
+      ],
+      "externa": [
+        "Q0201",
+        "Q0356",
+        "Q0018",
+        "Q0080",
+        "Q0274",
+        "Q0150",
+        "Q0315",
+        "Q0303",
+        "Q0060",
+        "Q0058",
+        "Q0066",
+        "Q0304",
+        "Q0031",
+        "Q0275",
+        "Q0067",
+        "Q0169",
+        "Q0039",
+        "Q0202",
+        "Q0341",
+        "Q0003"
+      ],
+      "dobras_internas": {
+        "Q0221": 0,
+        "Q0034": 1,
+        "Q0103": 1,
+        "Q0208": 3,
+        "Q0160": 1,
+        "Q0167": 2,
+        "Q0276": 4,
+        "Q0090": 3,
+        "Q0057": 1,
+        "Q0286": 2,
+        "Q0041": 3,
+        "Q0279": 0,
+        "Q0186": 0,
+        "Q0079": 3,
+        "Q0316": 3,
+        "Q0324": 0,
+        "Q0005": 2,
+        "Q0002": 4,
+        "Q0240": 1,
+        "Q0339": 2,
+        "Q0124": 3,
+        "Q0320": 2,
+        "Q0325": 2,
+        "Q0028": 3,
+        "Q0226": 0,
+        "Q0061": 0,
+        "Q0338": 4,
+        "Q0277": 1,
+        "Q0147": 1,
+        "Q0313": 0,
+        "Q0017": 2,
+        "Q0246": 2,
+        "Q0111": 0,
+        "Q0265": 4,
+        "Q0231": 3,
+        "Q0043": 0,
+        "Q0345": 2,
+        "Q0091": 1,
+        "Q0251": 0,
+        "Q0244": 3,
+        "Q0179": 4,
+        "Q0139": 4,
+        "Q0144": 1,
+        "Q0134": 1,
+        "Q0138": 2,
+        "Q0110": 1,
+        "Q0117": 3,
+        "Q0259": 3,
+        "Q0035": 3,
+        "Q0216": 1,
+        "Q0336": 2,
+        "Q0040": 4,
+        "Q0319": 4,
+        "Q0314": 2,
+        "Q0290": 0,
+        "Q0087": 4,
+        "Q0086": 4,
+        "Q0249": 4,
+        "Q0253": 0,
+        "Q0099": 4
+      }
+    },
+    {
+      "rodada": 3,
+      "desenvolvimento": [
+        "Q0279",
+        "Q0226",
+        "Q0246",
+        "Q0274",
+        "Q0215",
+        "Q0244",
+        "Q0245",
+        "Q0216",
+        "Q0201",
+        "Q0345",
+        "Q0040",
+        "Q0137",
+        "Q0110",
+        "Q0035",
+        "Q0003",
+        "Q0144",
+        "Q0023",
+        "Q0017",
+        "Q0251",
+        "Q0002",
+        "Q0341",
+        "Q0311",
+        "Q0231",
+        "Q0034",
+        "Q0018",
+        "Q0308",
+        "Q0134",
+        "Q0061",
+        "Q0230",
+        "Q0194",
+        "Q0179",
+        "Q0031",
+        "Q0303",
+        "Q0039",
+        "Q0124",
+        "Q0221",
+        "Q0169",
+        "Q0323",
+        "Q0080",
+        "Q0090",
+        "Q0066",
+        "Q0314",
+        "Q0186",
+        "Q0115",
+        "Q0320",
+        "Q0191",
+        "Q0150",
+        "Q0356",
+        "Q0043",
+        "Q0117",
+        "Q0316",
+        "Q0277",
+        "Q0138",
+        "Q0049",
+        "Q0111",
+        "Q0106",
+        "Q0339",
+        "Q0253",
+        "Q0249",
+        "Q0290"
+      ],
+      "calibracao": [
+        "Q0058",
+        "Q0067",
+        "Q0099",
+        "Q0240",
+        "Q0202",
+        "Q0319",
+        "Q0259",
+        "Q0057",
+        "Q0077",
+        "Q0068",
+        "Q0286",
+        "Q0079",
+        "Q0304",
+        "Q0315",
+        "Q0041",
+        "Q0052",
+        "Q0275",
+        "Q0336",
+        "Q0060",
+        "Q0103"
+      ],
+      "externa": [
+        "Q0160",
+        "Q0265",
+        "Q0338",
+        "Q0167",
+        "Q0147",
+        "Q0139",
+        "Q0188",
+        "Q0087",
+        "Q0291",
+        "Q0005",
+        "Q0028",
+        "Q0012",
+        "Q0091",
+        "Q0208",
+        "Q0313",
+        "Q0252",
+        "Q0324",
+        "Q0276",
+        "Q0325",
+        "Q0086"
+      ],
+      "dobras_internas": {
+        "Q0279": 0,
+        "Q0226": 0,
+        "Q0246": 0,
+        "Q0274": 1,
+        "Q0215": 0,
+        "Q0244": 3,
+        "Q0245": 2,
+        "Q0216": 1,
+        "Q0201": 0,
+        "Q0345": 2,
+        "Q0040": 1,
+        "Q0137": 3,
+        "Q0110": 4,
+        "Q0035": 2,
+        "Q0003": 0,
+        "Q0144": 4,
+        "Q0023": 1,
+        "Q0017": 0,
+        "Q0251": 4,
+        "Q0002": 3,
+        "Q0341": 0,
+        "Q0311": 2,
+        "Q0231": 4,
+        "Q0034": 1,
+        "Q0018": 2,
+        "Q0308": 2,
+        "Q0134": 1,
+        "Q0061": 3,
+        "Q0230": 3,
+        "Q0194": 3,
+        "Q0179": 4,
+        "Q0031": 4,
+        "Q0303": 4,
+        "Q0039": 3,
+        "Q0124": 1,
+        "Q0221": 0,
+        "Q0169": 4,
+        "Q0323": 0,
+        "Q0080": 2,
+        "Q0090": 3,
+        "Q0066": 4,
+        "Q0314": 3,
+        "Q0186": 1,
+        "Q0115": 1,
+        "Q0320": 2,
+        "Q0191": 4,
+        "Q0150": 1,
+        "Q0356": 3,
+        "Q0043": 2,
+        "Q0117": 2,
+        "Q0316": 2,
+        "Q0277": 2,
+        "Q0138": 1,
+        "Q0049": 4,
+        "Q0111": 1,
+        "Q0106": 0,
+        "Q0339": 3,
+        "Q0253": 3,
+        "Q0249": 4,
+        "Q0290": 0
+      }
+    },
+    {
+      "rodada": 4,
+      "desenvolvimento": [
+        "Q0057",
+        "Q0245",
+        "Q0231",
+        "Q0275",
+        "Q0138",
+        "Q0167",
+        "Q0103",
+        "Q0079",
+        "Q0068",
+        "Q0060",
+        "Q0253",
+        "Q0099",
+        "Q0052",
+        "Q0117",
+        "Q0124",
+        "Q0018",
+        "Q0249",
+        "Q0115",
+        "Q0080",
+        "Q0208",
+        "Q0066",
+        "Q0252",
+        "Q0313",
+        "Q0144",
+        "Q0230",
+        "Q0087",
+        "Q0028",
+        "Q0274",
+        "Q0304",
+        "Q0160",
+        "Q0077",
+        "Q0246",
+        "Q0338",
+        "Q0188",
+        "Q0265",
+        "Q0091",
+        "Q0325",
+        "Q0061",
+        "Q0003",
+        "Q0201",
+        "Q0194",
+        "Q0276",
+        "Q0134",
+        "Q0191",
+        "Q0147",
+        "Q0040",
+        "Q0291",
+        "Q0005",
+        "Q0303",
+        "Q0202",
+        "Q0023",
+        "Q0106",
+        "Q0179",
+        "Q0012",
+        "Q0336",
+        "Q0226",
+        "Q0216",
+        "Q0086",
+        "Q0031",
+        "Q0150"
+      ],
+      "calibracao": [
+        "Q0043",
+        "Q0324",
+        "Q0035",
+        "Q0169",
+        "Q0067",
+        "Q0049",
+        "Q0314",
+        "Q0279",
+        "Q0139",
+        "Q0110",
+        "Q0311",
+        "Q0341",
+        "Q0356",
+        "Q0039",
+        "Q0286",
+        "Q0111",
+        "Q0058",
+        "Q0345",
+        "Q0316",
+        "Q0315"
+      ],
+      "externa": [
+        "Q0221",
+        "Q0339",
+        "Q0320",
+        "Q0277",
+        "Q0041",
+        "Q0319",
+        "Q0002",
+        "Q0244",
+        "Q0251",
+        "Q0137",
+        "Q0240",
+        "Q0017",
+        "Q0259",
+        "Q0034",
+        "Q0290",
+        "Q0308",
+        "Q0186",
+        "Q0090",
+        "Q0215",
+        "Q0323"
+      ],
+      "dobras_internas": {
+        "Q0057": 3,
+        "Q0245": 1,
+        "Q0231": 4,
+        "Q0275": 4,
+        "Q0138": 0,
+        "Q0167": 2,
+        "Q0103": 1,
+        "Q0079": 0,
+        "Q0068": 2,
+        "Q0060": 2,
+        "Q0253": 0,
+        "Q0099": 1,
+        "Q0052": 4,
+        "Q0117": 3,
+        "Q0124": 0,
+        "Q0018": 1,
+        "Q0249": 0,
+        "Q0115": 1,
+        "Q0080": 1,
+        "Q0208": 2,
+        "Q0066": 4,
+        "Q0252": 2,
+        "Q0313": 0,
+        "Q0144": 4,
+        "Q0230": 2,
+        "Q0087": 4,
+        "Q0028": 2,
+        "Q0274": 4,
+        "Q0304": 4,
+        "Q0160": 2,
+        "Q0077": 0,
+        "Q0246": 2,
+        "Q0338": 3,
+        "Q0188": 1,
+        "Q0265": 4,
+        "Q0091": 2,
+        "Q0325": 2,
+        "Q0061": 1,
+        "Q0003": 1,
+        "Q0201": 4,
+        "Q0194": 3,
+        "Q0276": 3,
+        "Q0134": 1,
+        "Q0191": 3,
+        "Q0147": 2,
+        "Q0040": 0,
+        "Q0291": 3,
+        "Q0005": 3,
+        "Q0303": 3,
+        "Q0202": 0,
+        "Q0023": 0,
+        "Q0106": 3,
+        "Q0179": 4,
+        "Q0012": 1,
+        "Q0336": 3,
+        "Q0226": 0,
+        "Q0216": 3,
+        "Q0086": 1,
+        "Q0031": 4,
+        "Q0150": 0
+      }
+    }
+  ]
+}

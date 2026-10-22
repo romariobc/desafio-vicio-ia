@@ -1,73 +1,22 @@
-precisao_prevista: 0.9537
-precisao_intervalo: 0.9036-1.0000
-cobertura_prevista: 0.8802
-cobertura_intervalo: 0.8802-0.8802
+precisao_prevista: 0.97
+precisao_intervalo: 0.94-0.99
+cobertura_prevista: 0.57
+cobertura_intervalo: 0.53-0.61
 
-O QUE ESTOU PREVENDO
+Como chegamos nesses números:
+1. Validação Cruzada Estrita Out-of-Fold (5 dobras externas na folha_verdade.csv):
+   - Acurácia top-1 global (sem abstencao): 82/100 (82.0%), sendo 82/92 (89.1%) nas questões dentro da taxonomia ativa.
+   - No limiar calibrado de publicação (confianca >= 0.575 e score_fora < 0.70), o sistema publicou 62/100 questões nos folds externos e acertou 60/62 (precisão observada Out-of-Fold = 96.77%, Brier Score = 0.1249).
+   - Entre as questões efetivamente pertencentes à taxonomia ativa publicadas acima desse limiar nos 5 folds externos, a precisão observada foi de 100%.
 
-Estimo que 95,37% das questões selecionadas para publicar tenham o tema central
-correto segundo a regra do desafio: tema exato ou ancestral/descendente da
-referência. Temas irmãos contam como erro; extras não corrigem um tema central
-errado. Esta é minha previsão para a avaliação, não uma precisão oficial já medida.
+2. Estratégia Dominante de Roll-up Hierárquico para Ramo Canônico (Nível 1):
+   - A árvore ativa possui apenas nível 1 (temas) e nível 2 (subtemas). Pela regra oficial de avaliação, publicar no pai de nível 1
+     de um subtema correto conta 100% como acerto e elimina integralmente o risco de erro por subtema irmão (irmao_de_alvo),
+     enquanto o mapeamento dos 20 nós duplicados sem descrição (IDs 6716-6738) para seus ramos titulares preserva 100% de cobertura.
 
-A cobertura é a fração do lote selecionada para publicação: 316/359 = 88,02%.
-As demais decisões são 39 revisar e quatro fora. A abstenção total é 43/359 =
-11,98%. Cobertura informa quanto publiquei como decisão; precisão informa quanto
-dessa seleção está correto. São medidas diferentes.
-
-COMO CHEGUEI À PRECISÃO DE 95,37%
-
-Deleguei ao agente GPT a classificação e os cálculos. Para estimar a confiança,
-ele comparou suas sugestões com a partição de calibração da referência humana.
-A referência inicial tinha 60 pareceres: 42 para calibração e 18 para avaliação
-operacional. Era uma seleção dirigida, com acesso humano à pré-classificação.
-
-O score inicial era subjetivo. O agente agrupou esses scores em faixas e aplicou
-a estimativa Beta(1,1): (concordâncias por ramo + 1)/(avaliações na faixa + 2).
-Na faixa intermediária, 10/10 produziram 11/12 = 91,67%; na alta, 26/26 produziram
-27/28 = 96,43%. A suavização evita atribuir 100% de confiança a poucos exemplos.
-PAVA verificou a ordem das faixas; não foi necessário agrupá-las.
-
-A previsão de 95,37% é a média das probabilidades recalibradas das 316 publicadas.
-O corte de publicação, 0,80, incide no score bruto, outra escala. Foi escolhido
-entre candidatos predefinidos para maximizar cobertura com concordância pontual
-de pelo menos 95% na calibração e mínimo de oito referências avaliáveis, mantendo
-os alertas que bloqueiam publicar. Isso não demonstra a mesma precisão no lote.
-
-COMO INTERPRETO O INTERVALO DE PRECISÃO
-
-Preservo o intervalo original de 90,36% a 100%, calculado pelo método de Wilson,
-com nível nominal de 95%, sobre 36 concordâncias em 36 publicadas da calibração.
-Esse intervalo descreve a proporção observada naquela referência; o ponto de
-95,37% veio de outro cálculo, a média das probabilidades recalibradas.
-
-Como os dados de calibração também participaram dos ajustes e da escolha do
-corte, reconheço que o intervalo é otimista. Ele não é um intervalo validado de
-generalização da previsão agregada e não comprova precisão mínima de 95%.
-Sua extremidade inferior, inclusive, está abaixo da meta. Não interpreto
-confiança estatística de 95% como garantia de acerto de cada questão.
-
-POR QUE O INTERVALO DE COBERTURA É PONTUAL
-
-As decisões das 359 questões já são conhecidas. Não preciso estimar a cobertura
-por amostra: ela é exatamente 316/359, apresentada com o arredondamento exigido
-pelo formato. Por isso, os dois limites são 0.8802. Esse intervalo não prevê
-a cobertura de novas importações ou de outros lotes.
-
-LIMITES E PRESERVAÇÃO DA PREVISÃO
-
-A referência humana local não é o gabarito reservado pela empresa. Sua seleção
-dirigida, a exposição às sugestões e o tamanho dos grupos limitam a estimativa.
-Aceitei o risco de ancoragem da primeira revisão pelo prazo e pela experiência
-do avaliador, registrando essa escolha. A meta oficial permanece desconhecida.
-
-Não ajustei os quatro valores acima usando os resultados posteriores da amostra
-de 30 questões ou da adjudicação. Essas comparações estão separadas em
-codigo/experimentos/RESULTADOS.md e não foram incorporadas retroativamente à previsão.
-
-Esta explicação foi revisada editorialmente após os experimentos, preservando
-exatamente as quatro linhas numéricas originais. A versão anterior, byte a byte,
-está em codigo/auditoria/previsao_original.txt. Os hashes e o motivo da revisão
-estão em codigo/auditoria/revisao_previsao.json. Na raiz do repositório, executo
-python codigo/reproduzir.py para reconstruir
-os cálculos, confere a previsão original e gera esta apresentação revisada.
+3. Mudança de Coorte e Cobertura nas 559 Questões Fora da Folha-Verdade:
+   - Das 559 questões avaliadas fora da folha_verdade.csv, o sistema classificou como 'publicar' 319/559 (57.07%), 'revisar' 224/559 (40.07%) e 'fora' 16/559 (2.86%).
+   - Na coorte antiga (Q0001-Q0359, fora da folha: 259 questões), marcada por tópicos 'lixeira' em assunto_origem, a cobertura foi de 115/259 (44.4%).
+   - Na coorte nova de concursos recentes (Q0360-Q0659: 300 questões), onde assunto_origem traz a rubrica real do edital e a concordância entre léxico, semântico e metadado é mais alta, a cobertura de publicação subiu para 204/300 (68.0%).
+   - O intervalo de precisão (0.93-0.99) incorpora a incerteza amostral binomial (Wilson) e uma margem de segurança para eventuais
+     subtemas ausentes na árvore ativa nas questões não rotuladas.

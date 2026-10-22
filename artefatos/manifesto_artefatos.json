@@ -1,0 +1,18 @@
+{
+  "versao": "etapa2-hibrido-v1",
+  "modelo_embedding": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "licenca_modelo": "Apache-2.0",
+  "fastembed_versao": "0.7.3",
+  "dimensoes": 384,
+  "contagens": {
+    "questoes": 659,
+    "temas_candidatos": 371,
+    "ramos_canonicos": 88,
+    "referencias": 100
+  },
+  "sha256": {
+    "anexos_zip": "fbb5c0374cdf495abdbd328735e9f184bf9a67e7619941dedf4fbabb46636fe1",
+    "catalogo_temas_json": "e2637b5d46b8fb4e999e2477a50c829515f6cd1497ba0514c85d29153ef3de22",
+    "embeddings_cache_npz": "6ab8d882503109f267b504ba3bf08279cdbb7aa372b2345af0148413f3c1d838"
+  }
+}
