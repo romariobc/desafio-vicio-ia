@@ -17,24 +17,30 @@ from __future__ import annotations
 import ast
 import csv
 import json
+import sys
 import unittest
 from pathlib import Path
 
+PASTA_TESTES = Path(__file__).resolve().parent
+PASTA_CODIGO = PASTA_TESTES.parent
+PASTA_SISTEMA = PASTA_CODIGO / "sistema"
+PASTA_ETAPA2 = PASTA_CODIGO.parent
+if str(PASTA_SISTEMA) not in sys.path:
+    sys.path.insert(0, str(PASTA_SISTEMA))
+
 from modelo_sistema import ClassificadorTopicosJuridicos
 from processamento import carregar_anexos, extrair_foco_e_corpo, limpar_html
-
-PASTA_ETAPA2 = Path(__file__).resolve().parent.parent
 
 
 class TestSistemaClassificacaoTopicos(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.questoes, cls.tax, cls.refs, cls.leia_me = carregar_anexos(
-            PASTA_ETAPA2 / "anexos"
+            PASTA_CODIGO / "dados" / "anexos"
         )
         cls.caminho_pub = PASTA_ETAPA2 / "publicacao.csv"
         cls.caminho_prev = PASTA_ETAPA2 / "previsao.txt"
-        cls.caminho_metricas = PASTA_ETAPA2 / "artefatos" / "metricas_validacao.json"
+        cls.caminho_metricas = PASTA_CODIGO / "artefatos" / "metricas_validacao.json"
 
     def test_01_preservacao_negacoes_e_extracao_foco(self) -> None:
         """Garante que limpar_html preserva operadores de negação e extrai comando embutido."""
@@ -165,9 +171,9 @@ class TestSistemaClassificacaoTopicos(unittest.TestCase):
             "aiohttp",
         }
         arquivos_runtime = [
-            PASTA_ETAPA2 / "codigo" / "processamento.py",
-            PASTA_ETAPA2 / "codigo" / "modelo_sistema.py",
-            PASTA_ETAPA2 / "codigo" / "reproduzir.py",
+            PASTA_SISTEMA / "processamento.py",
+            PASTA_SISTEMA / "modelo_sistema.py",
+            PASTA_CODIGO / "reproduzir.py",
         ]
         for arq in arquivos_runtime:
             arvore = ast.parse(arq.read_text(encoding="utf-8"), filename=str(arq))
@@ -190,11 +196,11 @@ class TestSistemaClassificacaoTopicos(unittest.TestCase):
 
     def test_07_preparar_artefatos_autocontido(self) -> None:
         """Verifica que preparar_artefatos.py não referencia pastas externas ao repositório."""
-        arq_prep = PASTA_ETAPA2 / "codigo" / "preparar_artefatos.py"
+        arq_prep = PASTA_SISTEMA / "preparar_artefatos.py"
         conteudo = arq_prep.read_text(encoding="utf-8")
-        self.assertNotIn("parent.parent", conteudo)
+        self.assertNotIn("parent.parent.parent", conteudo)
         self.assertNotIn("experimentos", conteudo)
-        self.assertTrue((PASTA_ETAPA2 / "artefatos" / "insumos_base_temas.json").exists())
+        self.assertTrue((PASTA_CODIGO / "artefatos" / "insumos_base_temas.json").exists())
 
     def test_08_complexidade_memoria_knn_e_sincronia_docs(self) -> None:
         """Garante que a matriz kNN é O(N * M_ref) = (659, 100) e que os números da doc batem com o JSON."""
@@ -210,6 +216,23 @@ class TestSistemaClassificacaoTopicos(unittest.TestCase):
         readme_txt = (PASTA_ETAPA2 / "README.md").read_text(encoding="utf-8")
         self.assertIn(brier_str.replace(".", ","), relatorio_txt)
         self.assertIn(f"{n_pub_559}/559", readme_txt)
+        # Garante que na raiz só existem os arquivos de entrega + codigo/
+        itens_raiz = {
+            p.name
+            for p in PASTA_ETAPA2.iterdir()
+            if not p.name.startswith(".")
+        }
+        self.assertEqual(
+            itens_raiz,
+            {
+                "publicacao.csv",
+                "previsao.txt",
+                "RELATORIO.md",
+                "MEMO_PROFESSOR.md",
+                "README.md",
+                "codigo",
+            },
+        )
 
 
 if __name__ == "__main__":

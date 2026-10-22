@@ -19,8 +19,8 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
       - name: Instalar dependencias cientificas locais
-        run: pip install -r requirements.txt
+        run: pip install -r codigo/requirements.txt
       - name: Reconstruir publicacao.csv e previsao.txt sem chamadas a LLM
         run: python -X utf8 codigo/reproduzir.py
       - name: Executar suite de testes e auditoria contratual
-        run: python -X utf8 codigo/test_sistema.py
+        run: python -X utf8 codigo/testes/test_sistema.py

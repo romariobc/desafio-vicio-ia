@@ -16,10 +16,13 @@ from pathlib import Path
 
 import numpy as np
 
-PASTA_CODIGO = Path(__file__).resolve().parent
+PASTA_SISTEMA = Path(__file__).resolve().parent
+PASTA_CODIGO = PASTA_SISTEMA.parent
 PASTA_ETAPA2 = PASTA_CODIGO.parent
-PASTA_ARTEFATOS = PASTA_ETAPA2 / "artefatos"
-sys.path.insert(0, str(PASTA_CODIGO))
+PASTA_DADOS = PASTA_CODIGO / "dados"
+PASTA_ARTEFATOS = PASTA_CODIGO / "artefatos"
+if str(PASTA_SISTEMA) not in sys.path:
+    sys.path.insert(0, str(PASTA_SISTEMA))
 
 from processamento import MAPA_CONVENCAO_RAMO, MAPA_DUPLICADOS_6700, carregar_anexos, normalizar
 
@@ -455,7 +458,7 @@ def sha256_arquivo(caminho: Path) -> str:
 
 def main() -> None:
     PASTA_ARTEFATOS.mkdir(parents=True, exist_ok=True)
-    qs, tax, refs, _ = carregar_anexos(PASTA_ETAPA2 / "anexos")
+    qs, tax, refs, _ = carregar_anexos(PASTA_DADOS / "anexos")
 
     # 1. Carrega insumos textuais versionados no próprio repositório (autocontido)
     insumos_path = PASTA_ARTEFATOS / "insumos_base_temas.json"
@@ -613,7 +616,7 @@ def main() -> None:
             "referencias": len(refs),
         },
         "sha256": {
-            "anexos_zip": sha256_arquivo(PASTA_ETAPA2 / "anexos-case-ia.zip"),
+            "anexos_zip": sha256_arquivo(PASTA_DADOS / "anexos-case-ia.zip"),
             "insumos_base_temas_json": sha256_arquivo(insumos_path),
             "catalogo_temas_json": sha256_arquivo(caminho_catalogo),
             "embeddings_cache_npz": sha256_arquivo(caminho_npz),

@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import math
+import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -19,6 +20,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline, make_pipeline
 from sklearn.preprocessing import StandardScaler
+
+_PASTA_SISTEMA = Path(__file__).resolve().parent
+if str(_PASTA_SISTEMA) not in sys.path:
+    sys.path.insert(0, str(_PASTA_SISTEMA))
 
 from processamento import (
     EXTRAS_GEMELARES,
@@ -105,10 +110,25 @@ class ClassificadorTopicosJuridicos:
     4. Calibração de probabilidade Out-of-Fold e Política de Decisão com meta >= 95% de precisão.
     """
 
-    def __init__(self, pasta_etapa2: Path):
+    def __init__(self, pasta_etapa2: Optional[Path] = None):
+        if pasta_etapa2 is None:
+            pasta_etapa2 = Path(__file__).resolve().parent.parent.parent
         self.pasta_etapa2 = Path(pasta_etapa2)
-        self.pasta_anexos = self.pasta_etapa2 / "anexos"
-        self.pasta_artefatos = self.pasta_etapa2 / "artefatos"
+        pasta_codigo = (
+            self.pasta_etapa2 / "codigo"
+            if (self.pasta_etapa2 / "codigo").is_dir()
+            else self.pasta_etapa2
+        )
+        self.pasta_anexos = (
+            pasta_codigo / "dados" / "anexos"
+            if (pasta_codigo / "dados" / "anexos").is_dir()
+            else self.pasta_etapa2 / "anexos"
+        )
+        self.pasta_artefatos = (
+            pasta_codigo / "artefatos"
+            if (pasta_codigo / "artefatos").is_dir()
+            else self.pasta_etapa2 / "artefatos"
+        )
 
         self.questoes, self.tax, self.referencias, self.leia_me = carregar_anexos(
             self.pasta_anexos

@@ -11,12 +11,18 @@ from __future__ import annotations
 
 import csv
 import json
+import sys
 import time
 from pathlib import Path
 
+PASTA_CODIGO = Path(__file__).resolve().parent
+PASTA_SISTEMA = PASTA_CODIGO / "sistema"
+PASTA_ETAPA2 = PASTA_CODIGO.parent
+if str(PASTA_SISTEMA) not in sys.path:
+    sys.path.insert(0, str(PASTA_SISTEMA))
+
 from modelo_sistema import ClassificadorTopicosJuridicos, intervalo_wilson
 
-PASTA_ETAPA2 = Path(__file__).resolve().parent.parent
 LIMIAR_PUBLICAR = 0.575
 LIMIAR_FORA = 0.70
 DESCONTO_OTIMISMO_SELECAO = 0.015
@@ -123,7 +129,7 @@ def main() -> None:
     texto_prev = gerar_texto_previsao(relatorio_cv, simulacao_coorte, stats_559)
     caminho_prev.write_text(texto_prev, encoding="utf-8")
 
-    caminho_metricas = PASTA_ETAPA2 / "artefatos" / "metricas_validacao.json"
+    caminho_metricas = PASTA_CODIGO / "artefatos" / "metricas_validacao.json"
     resumo_completo = {
         "tempo_execucao_segundos": round(time.perf_counter() - t0, 3),
         "tempo_inferencia_659_segundos": round(time.perf_counter() - t_antes_inf, 3),

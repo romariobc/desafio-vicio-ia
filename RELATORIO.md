@@ -33,14 +33,14 @@ flowchart LR
     E --> F["publicacao.csv + previsao.txt"]
 ```
 
-### 1. Extração de Foco Decisório e Higienização (`codigo/processamento.py`)
+### 1. Extração de Foco Decisório e Higienização (`codigo/sistema/processamento.py`)
 - Remove tags HTML preservando operadores de negação (`não`, `exceto`, `incorreta`, `salvo`, `vedado`, `independe`).
 - Quando `comando` está vazio (coorte nova), extrai o período final interrogativo/imperativo de `enunciado_html` e o combina com as alternativas para compor o **foco decisório** (`foco`), reduzindo a contaminação de narrativas longas cujo comando cobra outro instituto (ex.: narrativa de crime sexual ou homicídio cujo comando cobra *Erro de Tipo*, art. 20 do CP, como em `Q0202` e `Q0316`).
 
-### 2. Ranqueamento Híbrido Multi-Canal com Complexidade $O(N \cdot M_{\text{ref}})$ (`codigo/modelo_sistema.py`)
+### 2. Ranqueamento Híbrido Multi-Canal com Complexidade $O(N \cdot M_{\text{ref}})$ (`codigo/sistema/modelo_sistema.py`)
 Cada questão $i$ é comparada aos 371 nós ativos combinando oito sinais normalizados por linha:
 - **Léxico Próprio ($0,24$), Léxico Família ($0,14$) e Léxico de Foco Decisório ($0,18$):** TF-IDF de palavras (`1–2` gramas, `sublinear_tf`) e caracteres (`char_wb` `3–5` gramas).
-- **Semântico Original ($0,15$) e Semântico Enriquecido ($0,15$):** cosseno sobre vetores `384d` (`paraphrase-multilingual-MiniLM-L12-v2`) pré-computados em `artefatos/embeddings_cache.npz`.
+- **Semântico Original ($0,15$) e Semântico Enriquecido ($0,15$):** cosseno sobre vetores `384d` (`paraphrase-multilingual-MiniLM-L12-v2`) pré-computados em `codigo/artefatos/embeddings_cache.npz`.
 - **Âncoras Normativas e Doutrinárias Curadas ($0,22$):** casamento de expressões multi-vocabulares e artigos legais (`art. 20 CP`, `art. 329 CP`, `lei 9.099`, autores de Criminologia) em `ENRIQUECIMENTO_COMPLEMENTAR`.
 - **Suporte de Vizinhança kNN ($0,14$) em Memória $O(N \cdot M_{\text{ref}})$:** em vez de construir uma matriz $N \times N$ entre todas as questões, calcula apenas a similaridade $N \times M_{\text{ref}}$ (`659 x 100`) contra as referências rotuladas, com exclusão estrita da própria questão e de duplicatas de texto via hash SHA-1.
 - **Metadado com Gate Anti-Lixeira ($0,10 \times g_i$):** similaridade de `assunto_origem` com títulos da árvore, reduzindo $g_i$ de $1,0$ para $0,12$ quando `origem_eh_lixeira` detecta rótulo contaminado sem corroboração lexical.
