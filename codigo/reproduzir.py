@@ -67,11 +67,11 @@ def gerar_texto_previsao(
         f"   - No limiar de publicação (confianca >= {LIMIAR_PUBLICAR:.3f}, score_fora < {LIMIAR_FORA:.2f} e regra de convergência mínima entre canais), "
         f"o sistema publicou {relatorio_cv['publicadas_oof']}/100 questões nos folds externos e acertou {relatorio_cv['acertos_publicadas_oof']}/{relatorio_cv['publicadas_oof']} "
         f"(precisão observada OOF = {prec_oof:.2%}, margem pontual de +{(prec_oof - 0.95)*100:.2f} p.p. sobre 95%, Brier Score = {relatorio_cv['brier_score_oof']:.4f}).",
-        f"   - O intervalo `precisao_intervalo: {ic_prec_lo:.2f}-{ic_prec_hi:.2f}` é o intervalo binomial de Wilson de 95% exato para {relatorio_cv['acertos_publicadas_oof']}/{relatorio_cv['publicadas_oof']} "
-        f"({relatorio_cv['precisao_ic95_wilson'][0]:.4f} a {relatorio_cv['precisao_ic95_wilson'][1]:.4f}), sem truncamentos ou somas artificiais. "
-        "Com n=62 publicações, mesmo 62/62 acertos teria limite inferior de Wilson 95% de 94.17%; logo, a amplitude inferior decorre do tamanho amostral finito da folha_verdade.",
-        f"   - A previsão pontual (`{prec_prevista:.2f}`) aplica um desconto conservador de {DESCONTO_OTIMISMO_SELECAO*100:.1f} p.p. sobre os {prec_oof:.2%} observados "
-        "para absorver o otimismo de seleção pós-hoc (pesos, âncoras e limiar foram ajustados analisando erros nas 100 referências).",
+        f"   - O intervalo `precisao_intervalo: {ic_prec_lo:.2f}-{ic_prec_hi:.2f}` corresponde ao intervalo binomial de Wilson de 95% calculado sobre a amostra interna ({relatorio_cv['acertos_publicadas_oof']}/{relatorio_cv['publicadas_oof']}: "
+        f"{relatorio_cv['precisao_ic95_wilson'][0]:.4f} a {relatorio_cv['precisao_ic95_wilson'][1]:.4f}). Ele quantifica apenas a incerteza amostral binomial de n=62 (onde mesmo 62/62 teria limite inferior de 94.17%), "
+        "não incorporando automaticamente o viés de seleção do sistema nem a mudança de coorte.",
+        f"   - Adotamos uma previsão prudencial de `{prec_prevista:.2f}`. O desconto de {DESCONTO_OTIMISMO_SELECAO*100:.1f} p.p. sobre os {prec_oof:.2%} observados é uma hipótese de julgamento "
+        "(sem comprovação empírica de que compense exatamente o otimismo de seleção pós-hoc pelo ajuste de pesos, âncoras e limiar nas 100 referências).",
         "",
         "2. Cobertura Realizada nas 559 Questões Avaliadas e Diferença entre Coortes:",
         f"   - Nas 559 questões fora da folha_verdade.csv, a cobertura realizada em `publicacao.csv` é conhecida exatamente: "

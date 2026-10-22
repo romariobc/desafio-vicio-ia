@@ -1,6 +1,6 @@
 {
-  "tempo_execucao_segundos": 14.496,
-  "tempo_inferencia_659_segundos": 2.609,
+  "tempo_execucao_segundos": 14.107,
+  "tempo_inferencia_659_segundos": 2.025,
   "validacao_cruzada_100_refs": {
     "n_referencias": 100,
     "n_em_taxonomia": 92,
@@ -216,8 +216,8 @@
     "n_alvo_semanal": 50000,
     "m_temas_ativos": 371,
     "m_referencias_knn": 100,
-    "tempo_decisao_medido_659_s": 12.48,
-    "tempo_decisao_extrapolado_linear_50k_s": 946.9,
+    "tempo_decisao_medido_659_s": 12.529,
+    "tempo_decisao_extrapolado_linear_50k_s": 950.6,
     "memoria_matrizes_densas_659_mb": 8.68,
     "memoria_matriz_knn_50k_x_100_mb": 19.07,
     "memoria_todas_matrizes_50k_sem_batching_mb": 658.4,
